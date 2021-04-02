@@ -1,0 +1,5 @@
+include: package:lint/analysis_options.yaml
+linter:
+  rules:
+    # Always await, intentionally not await
+    unawaited_futures: true
