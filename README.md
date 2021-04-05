@@ -14,9 +14,9 @@ and companies.
 
 Rather than a constant integer value, each color is represented by a named
 constructor of its corresponding "brand" class that implements the property
-"color". For instance, Instagram.red().color retrieves the Instagram's red
-color(#FD1D1D); Instagram.blue().color, Instagram's blue (#5B51D8);
-Instagram.orange().color, Instagram's orange(#F77737); and so on.
+"color". For instance, ```Instagram.red().color``` retrieves the Instagram's red
+color(#FD1D1D); ```Instagram.blue().color```, Instagram's blue (#5B51D8);
+```Instagram.orange().color```, Instagram's orange(#F77737); and so on.
 
 ## Example:
 ```dart
@@ -40,3 +40,8 @@ class InstagramIsh extends StatelessWidget {
 - [brand colors](https://brandcolors.net/)
 - [design pieces](https://www.designpieces.com/)
 - [flutter](https://api.flutter.dev/index.html/)
+
+### Implemented Color Palettes (A-Z):
+- #### Instagram
+  - royal blue, blue, purple, dark pink, purple-red, red, dark orange, orange, yellow, light yellow.
+
