@@ -1,6 +1,7 @@
 name: flutter_brand_palettes
 description: The color palettes of popular brands and companies.
 version: 0.0.1
+homepage: https://github.com/rafamizes/flutter_brand_palettes
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
