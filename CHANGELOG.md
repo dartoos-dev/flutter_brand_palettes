@@ -6,10 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
-- Google color palette.
 - Facebook color palette.
 - Whatsapp color palette.
 - Flutter greyish color palette.
+
+## [0.0.2] - 2021-04-05
+### Added
+- Google color palette. [#2](https://github.com/rafamizes/flutter_brand_palettes/issues/2)
 
 ## [0.0.1+1] - 2021-04-05
 ### Changed
