@@ -12,29 +12,30 @@ and companies.
 
 ## Getting Started
 
-Rather than a constant, each color is represented by a named constructor of its
-corresponding "brand" class that implements the property "color". For instance,
-Google.red().color retrieves the Google's red color(#DB4437);
-Apple.silver().color, Apple's silver (#A3AAAE); Instagram.orange().color,
-Instagram's orange(#fbad50); and so on.
+Rather than a constant integer value, each color is represented by a named
+constructor of its corresponding "brand" class that implements the property
+"color". For instance, Instagram.red().color retrieves the Instagram's red
+color(#FD1D1D); Instagram.blue().color, Instagram's blue (#5B51D8);
+Instagram.orange().color, Instagram's orange(#F77737); and so on.
 
 ## Example:
 ```dart
 import 'package:brand_colors/flutter_brand_colors.dart';
 import 'package:flutter/material.dart';
 
-class FacebookIsh extends StatelessWidget {
-  const FacebookIsh({Key key}) : super(key: key);
+class InstagramIsh extends StatelessWidget {
+  const InstagramIsh({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Facebook.blue().color,
+      color: Instagram.blue().color,
     );
   }
 }
 ```
-### Hex colors code references:
+### Hex color values references:
+- [us brand colors](https://usbrandcolors.com/)
 - [brand palettes](https://brandpalettes.com/)
 - [brand colors](https://brandcolors.net/)
 - [design pieces](https://www.designpieces.com/)

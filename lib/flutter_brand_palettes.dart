@@ -1,3 +1,3 @@
-library flutter_brand_palettes;
-
 export 'src/instagram.dart';
+export 'src/palette.dart';
+export 'src/palette_rgb.dart';

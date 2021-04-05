@@ -1,10 +1,9 @@
 import 'dart:ui';
 
-/// Represents a colors palette.
+/// Represents a color palette.
 abstract class Palette {
-  /// The color specified by a named constructor.
-  Color get color;
+  /// Palette current color.
 
-  /// Convenience overloading; forwards to [color].
-  Color call() => color;
+  /// Normally specified by a subclass named constructor.
+  Color get color;
 }
