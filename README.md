@@ -17,7 +17,7 @@ constructor of its corresponding "brand" class that implements the property
 "color", which leads to a more readable and object-oriented source code. For
 instance, ```Instagram.red().color``` retrieves the Instagram's red color
 #FD1D1D; ```Google.red().color```, Google's red #DB4437;
-Facebook.blue().color```, Facebook's blue #4267B2; and so on.
+```Facebook.blue().color```, Facebook's blue #4267B2; and so on.
 
 ## Example:
 ```dart
