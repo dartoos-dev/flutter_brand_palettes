@@ -46,6 +46,8 @@ class FacebookIsh extends StatelessWidget {
 ### Implemented Color Palettes (A-Z):
 - #### Facebook
   - blue, grey, black, white.
+- #### Flutter
+  - dark blue, blue, light blue, dark grey, grey light grey, white.
 - #### Google
   - blue, red, yellow, green.
 - #### Instagram
