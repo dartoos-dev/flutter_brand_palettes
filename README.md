@@ -16,22 +16,22 @@ Rather than a constant integer value, each color is represented by a named
 constructor of its corresponding "brand" class that implements the property
 "color", which leads to a more readable and object-oriented source code. For
 instance, ```Instagram.red().color``` retrieves the Instagram's red color
-#FD1D1D; ```Instagram.blue().color```, Instagram's blue #5B51D8;
-```Google.red().color```, Google's red #DB4437; ```Google.green().color```,
-Googles's green #0F9D58; and so on.
+#FD1D1D; ```Google.red().color```, Google's red #DB4437;
+Facebook.blue().color```, Facebook's blue #4267B2; and so on.
 
 ## Example:
 ```dart
 import 'package:brand_colors/flutter_brand_colors.dart';
 import 'package:flutter/material.dart';
 
-class InstagramIsh extends StatelessWidget {
-  const InstagramIsh({Key key}) : super(key: key);
+class FacebookIsh extends StatelessWidget {
+
+  FacebookIsh({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Instagram.blue().color,
+      color: Facebook.blue().color,
     );
   }
 }
@@ -44,6 +44,8 @@ class InstagramIsh extends StatelessWidget {
 - [flutter](https://api.flutter.dev/index.html/)
 
 ### Implemented Color Palettes (A-Z):
+- #### Facebook
+  - blue, grey, black, white.
 - #### Google
   - blue, red, yellow, green.
 - #### Instagram

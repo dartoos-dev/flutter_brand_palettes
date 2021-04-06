@@ -1,3 +1,4 @@
+export 'src/facebook.dart';
 export 'src/google.dart';
 export 'src/instagram.dart';
 export 'src/palette.dart';
