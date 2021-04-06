@@ -6,8 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
-- Whatsapp color palette.
+- Twitter color palette.
 - Flutter color palette.
+
+## [0.0.4] - 2021-04-06
+### Added
+- Whatsapp color palette. [#4](https://github.com/rafamizes/flutter_brand_palettes/issues/4)
 
 ## [0.0.3] - 2021-04-06
 ### Added
@@ -19,7 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.0.1+1] - 2021-04-05
 ### Changed
--  Improve doc comments.
+- Improve doc comments.
 
 ### Fixed
 - Follow Dart file conventions.
