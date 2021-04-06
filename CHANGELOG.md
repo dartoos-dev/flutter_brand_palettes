@@ -6,8 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
-- Twitter color palette.
 - Flutter color palette.
+
+## [0.0.5] - 2021-04-06
+### Added
+- Twitter color palette. [#5](https://github.com/rafamizes/flutter_brand_palettes/issues/5)
 
 ## [0.0.4] - 2021-04-06
 ### Added

@@ -50,5 +50,7 @@ class FacebookIsh extends StatelessWidget {
   - blue, red, yellow, green.
 - #### Instagram
   - royal blue, blue, purple, dark pink, purple-red, red, dark orange, orange, yellow, light yellow.
+- #### Twitter
+  - blue, black, dark grey, light grey, extra light grey, extra extra light grey, white.
 - #### Whatsapp
   - teal green dark, teal green, light green, blue, white chocolate, white.
