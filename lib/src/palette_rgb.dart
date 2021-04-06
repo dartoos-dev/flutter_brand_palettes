@@ -32,7 +32,7 @@ abstract class PaletteRGB implements Palette {
   // Encapsulated transformation.
   final ToColorHex _toColorHex;
 
-  /// Color from transformation function.
+  /// Picked color.
   @override
   Color get color => Color(_toColorHex());
 

@@ -10,7 +10,7 @@ import 'palette_rgb.dart';
 /// - Extra Extra Light Grey;
 /// - White.
 ///
-/// See also: - [reference](https://usbrandcolors.com/twitter-colors/)
+/// See also: - [twitter colors](https://usbrandcolors.com/twitter-colors/)
 class Twitter extends PaletteRGB {
   /// Blue #1DA1F2.
   Twitter.blue() : super.opaque(0x1DA1F2);

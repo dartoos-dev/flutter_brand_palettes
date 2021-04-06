@@ -12,7 +12,7 @@ class Facebook extends PaletteRGB {
   /// Blue #4267B2.
   Facebook.blue() : super.opaque(0x4267B2);
 
-  /// Red #898F9C.
+  /// Grey #898F9C.
   Facebook.grey() : super.opaque(0x898F9C);
 
   /// Black #000000.

@@ -11,7 +11,7 @@ import 'palette_rgb.dart';
 /// - White.
 ///
 /// See also:
-/// - [reference](https://flutter.dev/brand)
+/// - [flutter brand](https://flutter.dev/brand)
 /// - [flutter dart assets](https://drive.google.com/drive/folders/1KXNtO9My2AMpDOF9A9Y_4aj4_BcgmDDT)
 class Flutter extends PaletteRGB {
   /// Primary Blue #0175C2.
