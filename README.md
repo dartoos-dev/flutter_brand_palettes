@@ -41,6 +41,8 @@ class FacebookIsh extends StatelessWidget {
 - [brand colors](https://brandcolors.net/)
 
 ### Color Palettes (A-Z):
+- #### Amazon
+  - black, orange.
 - #### Android
   - green.
 - #### Apple

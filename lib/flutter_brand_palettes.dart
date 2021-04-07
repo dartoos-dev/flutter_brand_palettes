@@ -1,3 +1,4 @@
+export 'src/amazon.dart';
 export 'src/android.dart';
 export 'src/apple.dart';
 export 'src/facebook.dart';
