@@ -10,6 +10,7 @@ export 'src/iphone7.dart';
 export 'src/iphone8.dart';
 export 'src/iphone_xr.dart';
 export 'src/iphone_xs.dart';
+export 'src/microsoft.dart';
 export 'src/palette.dart';
 export 'src/palette_rgb.dart';
 export 'src/twitter.dart';
