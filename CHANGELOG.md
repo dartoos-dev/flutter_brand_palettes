@@ -6,6 +6,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.7] - 2021-04-07
+### Added
+- Color palettes: [#7](https://github.com/rafamizes/flutter_brand_palettes/issues/7)
+  - Android;
+  - Apple;
+  - Iphone11;
+  - Iphone11Pro;
+  - Iphone7;
+  - Iphone8;
+  - IphoneXR;
+  - IphoneXS.
+
 ## [0.0.6] - 2021-04-06
 ### Added
 - Flutter color palette. [#6](https://github.com/rafamizes/flutter_brand_palettes/issues/6)

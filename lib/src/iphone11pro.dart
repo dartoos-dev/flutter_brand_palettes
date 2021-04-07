@@ -1,0 +1,25 @@
+import 'palette_rgb.dart';
+
+/// Iphone11Pro's official brand colors:
+///
+/// - Midnight Green;
+/// - Silver;
+/// - Space Grey;
+/// - Rose Gold;
+///
+/// See also:
+/// - [iphone colors](https://brandpalettes.com/apple-iphone-colors/)
+/// - [iphone compare](https://www.apple.com/iphone/compare/)
+class Iphone11Pro extends PaletteRGB {
+  /// Midnight Green #4E5851.
+  Iphone11Pro.midnightGreen() : super.opaque(0x4E5851);
+
+  /// Silver #EBEBE3.
+  Iphone11Pro.silver() : super.opaque(0xEBEBE3);
+
+  /// Space Grey #535150.
+  Iphone11Pro.spaceGrey() : super.opaque(0x535150);
+
+  /// Rose Gold #FAD7BD
+  Iphone11Pro.roseGold() : super.opaque(0xFAD7BD);
+}
