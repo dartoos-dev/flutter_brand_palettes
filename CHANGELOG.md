@@ -6,6 +6,46 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.10] - 2021-04-08 [#10](https://github.com/rafamizes/flutter_brand_palettes/issues/10)
+### Added
+- Brown class (alias for Flutter's brown swatch)
+  - Brown() ≡ (default) Colors.brown.shade500;
+  - Brown.ultraLight() ≡ Colors.brown.shade50;
+  - Brown.veryLight() ≡ Colors.brown.shade100;
+  - Brown.light() ≡ Colors.brown.shade200;
+  - Brown.lighter() ≡ Colors.brown.shade300;
+  - Brown.bitLighter() ≡ Colors.brown.shade400;
+  - Brown.bitDarker() ≡ Colors.brown.shade600;
+  - Brown.darker() ≡ Colors.brown.shade700;
+  - Brown.dark() ≡ Colors.brown.shade800;
+  - Brown.veryDark() ≡ Colors.brown.shade900.
+
+- BlueGrey class (alias for Flutter's blueGrey swatch)
+  - BlueGrey() ≡ (default) Colors.blueGrey.shade500;
+  - BlueGrey.ultraLight() ≡ Colors.blueGrey.shade50;
+  - BlueGrey.veryLight() ≡ Colors.blueGrey.shade100;
+  - BlueGrey.light() ≡ Colors.blueGrey.shade200;
+  - BlueGrey.lighter() ≡ Colors.blueGrey.shade300;
+  - BlueGrey.bitLighter() ≡ Colors.blueGrey.shade400;
+  - BlueGrey.bitDarker() ≡ Colors.blueGrey.shade600;
+  - BlueGrey.darker() ≡ Colors.blueGrey.shade700;
+  - BlueGrey.dark() ≡ Colors.blueGrey.shade800;
+  - BlueGrey.veryDark() ≡ Colors.blueGrey.shade900.
+
+- Grey class (alias for Flutter's grey swatch)
+  - Grey() ≡ (default) Colors.grey.shade500;
+  - Grey.ultraLight() ≡ Colors.grey.shade50;
+  - Grey.veryLight() ≡ Colors.grey.shade100;
+  - Grey.light() ≡ Colors.grey.shade200;
+  - Grey.lighter() ≡ Colors.grey.shade300;
+  - Grey.pressedLight() ≡ Colors.grey[350];
+  - Grey.bitLighter() ≡ Colors.grey.shade400;
+  - Grey.bitDarker() ≡ Colors.grey.shade600;
+  - Grey.darker() ≡ Colors.grey.shade700;
+  - Grey.dark() ≡ Colors.grey.shade800;
+  - Grey.bgDark() ≡ Colors.grey[850];
+  - Grey.veryDark() ≡ Colors.grey.shade900.
+
 ## [0.0.9] - 2021-04-07
 ### Added
 - Amazon color palette. [#9](https://github.com/rafamizes/flutter_brand_palettes/issues/9)

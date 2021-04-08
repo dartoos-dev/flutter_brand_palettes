@@ -4,10 +4,12 @@
 
 # Flutter Brand Palettes
 
-Stop searching the internet for brand colors hex codes!
+Stop searching the internet for brand colors hex codes!  Stop wondering whether
+```Grey.colors[200]``` command represents a light, medium or dark shade of grey.
 
-This is an object-oriented package of color palettes of popular brands,
-companies, flutter sdk, etc.
+This is an object-oriented package of official color palettes of popular brands
+and companies. It is also a package of high-level "aliases-like" classes for the
+flutter's swatch colors codes.
 
 ## Getting Started
 
@@ -18,7 +20,14 @@ becomes more object-oriented, readable and maintainable. For instance,
 ```Google.red().color```, Google's red #DB4437; ```Facebook.blue().color```,
 Facebook's blue #4267B2; and so on.
 
-## Example:
+### About flutter swatch colors aliases
+These are color named classes like "Grey" which implement named constructors for
+the Flutter's constants swatch color shades. E.g: ```Grey().color``` is the
+default grey color shade equivalent to ```Colors.grey.shade500```;
+```Grey.light().color```, ```Colors.grey.shade200```; ```Grey.veryDark()```,
+```Colors.grey.shade900```; and so on.
+
+## Usage example:
 ```dart
 import 'package:brand_colors/flutter_brand_colors.dart';
 import 'package:flutter/material.dart';
@@ -67,9 +76,12 @@ class FacebookIsh extends StatelessWidget {
   - black, blue, coral, red, white, yellow.
 - #### IphoneXS
   - black, gold, silver.
+- #### Material Colors Aliases (convenient classes for constant swatch shades)
+  - Blue-Grey, Brown, Grey.
 - #### Microsoft
   - blue, green, grey, orange-red, yellow.
 - #### Twitter
   - black, blue, dark grey, extra extra light grey, extra light grey, light grey, white.
 - #### Whatsapp
   - blue, light green, teal green, teal green dark, white, white chocolate.
+

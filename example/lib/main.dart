@@ -47,11 +47,14 @@ class InstagramPalettePage extends StatelessWidget {
     _royalBlue,
   ]);
 
+  // Application's bar backgroud color.
+  static final _greyish = Grey.veryLight();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.grey[100],
+        backgroundColor: _greyish(), // could have been '_greyish.color'
         elevation: 2.0,
         title: GradientTitle(_title, _gradient),
       ),
