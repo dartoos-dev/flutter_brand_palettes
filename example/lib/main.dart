@@ -17,38 +17,27 @@ class MyApp extends StatelessWidget {
 }
 
 class InstagramPalettePage extends StatelessWidget {
-  /// Ctor.
   const InstagramPalettePage({Key? key, required String title})
       : _title = title,
         super(key: key);
 
   final String _title;
-  static final _royalBlue = Instagram.royalBlue().color;
-  static final _blue = Instagram.blue().color;
-  static final _purple = Instagram.purple().color;
-  static final _darkPink = Instagram.darkPink().color;
-  static final _purpleRed = Instagram.purpleRed().color;
-  static final _red = Instagram.red().color;
-  static final _darkOrange = Instagram.darkOrange().color;
-  static final _orange = Instagram.orange().color;
-  static final _yellow = Instagram.yellow().color;
-  static final _lightYellow = Instagram.lightYellow().color;
 
   static final List<Color> _gradient = List.unmodifiable([
-    _lightYellow,
-    _yellow,
-    _orange,
-    _darkOrange,
-    _red,
-    _purpleRed,
-    _darkPink,
-    _purple,
-    _blue,
-    _royalBlue,
+    const Instagram.lightYellow().color,
+    const Instagram.yellow().color,
+    const Instagram.orange().color,
+    const Instagram.darkOrange().color,
+    const Instagram.red().color,
+    const Instagram.purpleRed().color,
+    const Instagram.darkPink().color,
+    const Instagram.purple().color,
+    const Instagram.blue().color,
+    const Instagram.royalBlue().color,
   ]);
 
   // Application's bar backgroud color.
-  static final _greyish = Grey.veryLight();
+  static const _greyish = Grey.veryLight();
 
   @override
   Widget build(BuildContext context) {
@@ -62,16 +51,16 @@ class InstagramPalettePage extends StatelessWidget {
         padding: const EdgeInsets.all(12),
         children: [
           _ColorItem.gradient('Gradient', colors: _gradient),
-          _ColorItem('Light Yellow', _lightYellow),
-          _ColorItem('Yellow', _yellow),
-          _ColorItem('Orange', _orange),
-          _ColorItem('Dark Orange', _darkOrange),
-          _ColorItem('Red', _red),
-          _ColorItem('Purple-Red', _purpleRed),
-          _ColorItem('Dark Pink', _darkPink),
-          _ColorItem('Purple', _purple),
-          _ColorItem('Blue', _blue),
-          _ColorItem('Royal Blue', _royalBlue),
+          _ColorItem('Light Yellow', _gradient[0]),
+          _ColorItem('Yellow', _gradient[1]),
+          _ColorItem('Orange', _gradient[2]),
+          _ColorItem('Dark Orange', _gradient[3]),
+          _ColorItem('Red', _gradient[4]),
+          _ColorItem('Purple-Red', _gradient[5]),
+          _ColorItem('Dark Pink', _gradient[6]),
+          _ColorItem('Purple', _gradient[7]),
+          _ColorItem('Blue', _gradient[8]),
+          _ColorItem('Royal Blue', _gradient[9]),
         ],
       ),
     );

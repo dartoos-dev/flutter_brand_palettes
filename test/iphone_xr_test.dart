@@ -7,25 +7,25 @@ import 'package:flutter_test/flutter_test.dart';
 void main() {
   group('IphoneXR Palette', () {
     test('black', () {
-      expect(IphoneXR.black().color, const Color(0xFF1F2020));
+      expect(const IphoneXR.black().color, const Color(0xFF1F2020));
     });
     test('blue', () {
-      expect(IphoneXR.blue().color, const Color(0xFF5EB0E5));
+      expect(const IphoneXR.blue().color, const Color(0xFF5EB0E5));
     });
     test('coral', () {
-      expect(IphoneXR.coral().color, const Color(0xFFEE7762));
+      expect(const IphoneXR.coral().color, const Color(0xFFEE7762));
     });
     test('red', () {
-      expect(IphoneXR.red().color, const Color(0xFFA5282C));
+      expect(const IphoneXR.red().color, const Color(0xFFA5282C));
     });
     test('white', () {
-      expect(IphoneXR.white().color, const Color(0xFFF9F6EF));
+      expect(const IphoneXR.white().color, const Color(0xFFF9F6EF));
     });
     test('yellow', () {
-      expect(IphoneXR.yellow().color, const Color(0xFFF3D060));
+      expect(const IphoneXR.yellow().color, const Color(0xFFF3D060));
     });
     test('call method', () {
-      final iphone = IphoneXR.yellow();
+      const iphone = IphoneXR.yellow();
       expect(iphone(), iphone.color);
     });
   });

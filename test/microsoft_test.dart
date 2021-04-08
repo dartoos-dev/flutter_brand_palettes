@@ -7,22 +7,22 @@ import 'package:flutter_test/flutter_test.dart';
 void main() {
   group('Microsoft Palette', () {
     test('blue', () {
-      expect(Microsoft.blue().color, const Color(0xFF00A4EF));
+      expect(const Microsoft.blue().color, const Color(0xFF00A4EF));
     });
     test('green', () {
-      expect(Microsoft.green().color, const Color(0xFF7FBA00));
+      expect(const Microsoft.green().color, const Color(0xFF7FBA00));
     });
     test('grey', () {
-      expect(Microsoft.grey().color, const Color(0xFF737373));
+      expect(const Microsoft.grey().color, const Color(0xFF737373));
     });
     test('orange-red', () {
-      expect(Microsoft.orangeRed().color, const Color(0xFFF25022));
+      expect(const Microsoft.orangeRed().color, const Color(0xFFF25022));
     });
     test('yellow', () {
-      expect(Microsoft.yellow().color, const Color(0xFFFFB900));
+      expect(const Microsoft.yellow().color, const Color(0xFFFFB900));
     });
     test('call method', () {
-      final microsoft = Microsoft.yellow();
+      const microsoft = Microsoft.yellow();
       expect(microsoft(), microsoft.color);
     });
   });

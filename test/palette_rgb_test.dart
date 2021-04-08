@@ -6,29 +6,28 @@ import 'package:flutter_test/flutter_test.dart';
 
 /// Testing purposes Palette subclass.
 class AnyBrand extends PaletteRGB {
-  AnyBrand.black() : super.opaque(0x000000);
-  AnyBrand.white() : super.opaque(0xFFFFFF);
+  const AnyBrand.black() : super.opaque(0x000000);
+  const AnyBrand.white() : super.opaque(0xFFFFFF);
 
   /// Custom opacity.
-  AnyBrand.black87() : super(() => Colors.black87.value);
+  const AnyBrand.black87() : super(alpha: 0xDD, rgb: 0x000000);
 
   /// Funny hex value.
-  AnyBrand.funnyHex() : super(() => funny);
-  static const funny = 0xCAFEBABE;
+  const AnyBrand.funnyHex() : super(alpha: 0xCA, rgb: 0XFEBABE);
 }
 
 void main() {
   group('PaletteRGB base class', () {
     test('fully opaque', () {
-      expect(AnyBrand.black().color, Colors.black);
-      expect(AnyBrand.white().color, Colors.white);
+      expect(const AnyBrand.black().color, Colors.black);
+      expect(const AnyBrand.white().color, Colors.white);
     });
     test('custom opacity', () {
-      expect(AnyBrand.black87().color, Colors.black87);
+      expect(const AnyBrand.black87().color, Colors.black87);
     });
     test('function call operator', () {
-      final colorAsFunction = AnyBrand.funnyHex();
-      expect(colorAsFunction(), const Color(AnyBrand.funny));
+      const colorAsFunction = AnyBrand.funnyHex();
+      expect(colorAsFunction(), const Color(0xCAFEBABE));
     });
   });
 }

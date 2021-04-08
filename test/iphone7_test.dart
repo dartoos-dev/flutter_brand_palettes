@@ -7,19 +7,19 @@ import 'package:flutter_test/flutter_test.dart';
 void main() {
   group('Iphone7 Palette', () {
     test('black', () {
-      expect(Iphone7.black().color, const Color(0xFF1F2020));
+      expect(const Iphone7.black().color, const Color(0xFF1F2020));
     });
     test('gold', () {
-      expect(Iphone7.gold().color, const Color(0xFFDFCCB7));
+      expect(const Iphone7.gold().color, const Color(0xFFDFCCB7));
     });
     test('rose-gold', () {
-      expect(Iphone7.roseGold().color, const Color(0xFFE6C7C2));
+      expect(const Iphone7.roseGold().color, const Color(0xFFE6C7C2));
     });
     test('silver', () {
-      expect(Iphone7.silver().color, const Color(0xFFE4E4E2));
+      expect(const Iphone7.silver().color, const Color(0xFFE4E4E2));
     });
     test('call method', () {
-      final iphone = Iphone7.silver();
+      const iphone = Iphone7.silver();
       expect(iphone(), iphone.color);
     });
   });

@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.11] - 2021-04-08
+### Changed
+- All constructors became const. [#12](https://github.com/rafamizes/flutter_brand_palettes/issues/12)
+
 ## [0.0.10] - 2021-04-08 [#10](https://github.com/rafamizes/flutter_brand_palettes/issues/10)
 ### Added
 - Brown class (alias for Flutter's brown swatch)

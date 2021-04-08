@@ -2,41 +2,41 @@ import 'package:flutter/material.dart';
 import 'package:flutter_brand_palettes/flutter_brand_palettes.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-/// [blue-grey constant](https://api.flutter.dev/flutter/material/Colors/blueGrey-constant.html)
+/// [blue-grey](https://api.flutter.dev/flutter/material/Colors/blueGrey-constant.html)
 void main() {
   group('BlueGrey Shades Palette', () {
     test('default', () {
-      expect(BlueGrey().color, Colors.blueGrey.shade500);
+      expect(const BlueGrey().color, Colors.blueGrey.shade500);
     });
     test('ultra light', () {
-      expect(BlueGrey.ultraLight().color, Colors.blueGrey.shade50);
+      expect(const BlueGrey.ultraLight().color, Colors.blueGrey.shade50);
     });
     test('very light', () {
-      expect(BlueGrey.veryLight().color, Colors.blueGrey.shade100);
+      expect(const BlueGrey.veryLight().color, Colors.blueGrey.shade100);
     });
     test('light', () {
-      expect(BlueGrey.light().color, Colors.blueGrey.shade200);
+      expect(const BlueGrey.light().color, Colors.blueGrey.shade200);
     });
     test('lighter', () {
-      expect(BlueGrey.lighter().color, Colors.blueGrey.shade300);
+      expect(const BlueGrey.lighter().color, Colors.blueGrey.shade300);
     });
     test('bit lighter', () {
-      expect(BlueGrey.bitLighter().color, Colors.blueGrey.shade400);
+      expect(const BlueGrey.bitLighter().color, Colors.blueGrey.shade400);
     });
     test('bit darker', () {
-      expect(BlueGrey.bitDarker().color, Colors.blueGrey.shade600);
+      expect(const BlueGrey.bitDarker().color, Colors.blueGrey.shade600);
     });
     test('darker', () {
-      expect(BlueGrey.darker().color, Colors.blueGrey.shade700);
+      expect(const BlueGrey.darker().color, Colors.blueGrey.shade700);
     });
     test('dark', () {
-      expect(BlueGrey.dark().color, Colors.blueGrey.shade800);
+      expect(const BlueGrey.dark().color, Colors.blueGrey.shade800);
     });
     test('very dark', () {
-      expect(BlueGrey.veryDark().color, Colors.blueGrey.shade900);
+      expect(const BlueGrey.veryDark().color, Colors.blueGrey.shade900);
     });
     test('call method', () {
-      final blueGrey = BlueGrey();
+      const blueGrey = BlueGrey();
       expect(blueGrey(), blueGrey.color);
     });
   });

@@ -1,6 +1,6 @@
 name: flutter_brand_palettes
 description: Fully unit tested, object-oriented set of small classes that represent the color palettes of popular brands and companies.
-version: 0.0.10
+version: 0.0.11
 homepage: https://github.com/rafamizes/flutter_brand_palettes
 
 environment:

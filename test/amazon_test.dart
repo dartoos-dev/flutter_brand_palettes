@@ -7,13 +7,13 @@ import 'package:flutter_test/flutter_test.dart';
 void main() {
   group('Amazon Palette', () {
     test('black', () {
-      expect(Amazon.black().color, const Color(0xFF000000));
+      expect(const Amazon.black().color, const Color(0xFF000000));
     });
     test('orange', () {
-      expect(Amazon.orange().color, const Color(0xFFFF9900));
+      expect(const Amazon.orange().color, const Color(0xFFFF9900));
     });
     test('call method', () {
-      final amazon = Amazon.orange();
+      const amazon = Amazon.orange();
       expect(amazon(), amazon.color);
     });
   });

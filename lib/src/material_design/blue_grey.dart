@@ -20,50 +20,50 @@ class BlueGrey extends PaletteRGB {
   /// The default (primary) shade.
   ///
   /// #607D8B ≡ Colors.blueGrey[500].
-  BlueGrey() : super.opaque(0x607D8B);
+  const BlueGrey() : super.opaque(0x607D8B);
 
   /// Almost unnoticeable shade.
   ///
   /// #ECEFF1 ≡ Colors.blueGrey[50].
-  BlueGrey.ultraLight() : super.opaque(0xECEFF1);
+  const BlueGrey.ultraLight() : super.opaque(0xECEFF1);
 
   /// Very light shade.
   ///
   /// #CFD8DC ≡ Colors.blueGrey[100].
-  BlueGrey.veryLight() : super.opaque(0xCFD8DC);
+  const BlueGrey.veryLight() : super.opaque(0xCFD8DC);
 
   /// Definitely a light shade.
   ///
   /// #B0BEC5 ≡ Colors.blueGrey[200].
-  BlueGrey.light() : super.opaque(0xB0BEC5);
+  const BlueGrey.light() : super.opaque(0xB0BEC5);
 
   /// Noticeably lighter than default shade.
   ///
   /// #90A4AE ≡ Colors.blueGrey[300].
-  BlueGrey.lighter() : super.opaque(0x90A4AE);
+  const BlueGrey.lighter() : super.opaque(0x90A4AE);
 
   /// A bit lighter than default shade.
   ///
   /// #78909C ≡ Colors.blueGrey[400].
-  BlueGrey.bitLighter() : super.opaque(0x78909C);
+  const BlueGrey.bitLighter() : super.opaque(0x78909C);
 
   /// A bit darker than default shade.
   ///
   /// #546E7A ≡ Colors.blueGrey[600].
-  BlueGrey.bitDarker() : super.opaque(0x546E7A);
+  const BlueGrey.bitDarker() : super.opaque(0x546E7A);
 
   /// Noticeably darker than default shade.
   ///
   /// #455A64 ≡ Colors.blueGrey[700].
-  BlueGrey.darker() : super.opaque(0x455A64);
+  const BlueGrey.darker() : super.opaque(0x455A64);
 
   /// Definitely a dark shade.
   ///
   /// #37474F ≡ Colors.blueGrey[800].
-  BlueGrey.dark() : super.opaque(0x37474F);
+  const BlueGrey.dark() : super.opaque(0x37474F);
 
   /// Very dark shade.
   ///
   /// #263238 ≡ Colors.blueGrey[900].
-  BlueGrey.veryDark() : super.opaque(0x263238);
+  const BlueGrey.veryDark() : super.opaque(0x263238);
 }

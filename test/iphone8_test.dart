@@ -7,16 +7,16 @@ import 'package:flutter_test/flutter_test.dart';
 void main() {
   group('Iphone8 Palette', () {
     test('gold', () {
-      expect(Iphone8.gold().color, const Color(0xFFF5DDC5));
+      expect(const Iphone8.gold().color, const Color(0xFFF5DDC5));
     });
     test('silver', () {
-      expect(Iphone8.silver().color, const Color(0xFFE4E4E2));
+      expect(const Iphone8.silver().color, const Color(0xFFE4E4E2));
     });
     test('space grey', () {
-      expect(Iphone8.spaceGrey().color, const Color(0xFF25282A));
+      expect(const Iphone8.spaceGrey().color, const Color(0xFF25282A));
     });
     test('call method', () {
-      final iphone = Iphone8.spaceGrey();
+      const iphone = Iphone8.spaceGrey();
       expect(iphone(), iphone.color);
     });
   });

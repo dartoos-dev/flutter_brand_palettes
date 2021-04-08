@@ -7,25 +7,25 @@ import 'package:flutter_test/flutter_test.dart';
 void main() {
   group('Iphone11 Palette', () {
     test('light purple', () {
-      expect(Iphone11.lightPurple().color, const Color(0xFFD1CDDA));
+      expect(const Iphone11.lightPurple().color, const Color(0xFFD1CDDA));
     });
     test('light yellow', () {
-      expect(Iphone11.lightYellow().color, const Color(0xFFFFE681));
+      expect(const Iphone11.lightYellow().color, const Color(0xFFFFE681));
     });
     test('light green', () {
-      expect(Iphone11.lightGreen().color, const Color(0xFFAEE1CD));
+      expect(const Iphone11.lightGreen().color, const Color(0xFFAEE1CD));
     });
     test('black', () {
-      expect(Iphone11.black().color, const Color(0xFF1F2020));
+      expect(const Iphone11.black().color, const Color(0xFF1F2020));
     });
     test('white', () {
-      expect(Iphone11.white().color, const Color(0xFFF9F6EF));
+      expect(const Iphone11.white().color, const Color(0xFFF9F6EF));
     });
     test('red', () {
-      expect(Iphone11.red().color, const Color(0xFFBA0C2E));
+      expect(const Iphone11.red().color, const Color(0xFFBA0C2E));
     });
     test('call method', () {
-      final iphone = Iphone11.red();
+      const iphone = Iphone11.red();
       expect(iphone(), iphone.color);
     });
   });

@@ -9,8 +9,8 @@ import 'palette_rgb.dart';
 /// - [amazon colors](https://usbrandcolors.com/amazon-colors/)
 class Amazon extends PaletteRGB {
   /// Amazon Orange #FF9900.
-  Amazon.orange() : super.opaque(0xFF9900);
+  const Amazon.orange() : super.opaque(0xFF9900);
 
   /// Black #000000.
-  Amazon.black() : super.opaque(0x000000);
+  const Amazon.black() : super.opaque(0x000000);
 }

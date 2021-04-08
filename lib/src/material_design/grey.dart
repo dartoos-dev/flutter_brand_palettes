@@ -22,60 +22,60 @@ class Grey extends PaletteRGB {
   /// The default (primary) shade.
   ///
   /// #9E9E9E ≡ Colors.grey[500].
-  Grey() : super.opaque(0x9E9E9E);
+  const Grey() : super.opaque(0x9E9E9E);
 
   /// Almost unnoticeable shade.
   ///
   /// #FAFAFA ≡ Colors.grey[50].
-  Grey.ultraLight() : super.opaque(0xFAFAFA);
+  const Grey.ultraLight() : super.opaque(0xFAFAFA);
 
   /// Very light shade.
   ///
   /// #F5F5F5 ≡ Colors.grey[100].
-  Grey.veryLight() : super.opaque(0xF5F5F5);
+  const Grey.veryLight() : super.opaque(0xF5F5F5);
 
   /// Definitely a light shade.
   ///
   /// #EEEEEE ≡ Colors.grey[200].
-  Grey.light() : super.opaque(0xEEEEEE);
+  const Grey.light() : super.opaque(0xEEEEEE);
 
   /// Noticeably lighter than default shade.
   ///
   /// #E0E0E0 ≡ Colors.grey[300].
-  Grey.lighter() : super.opaque(0xE0E0E0);
+  const Grey.lighter() : super.opaque(0xE0E0E0);
 
   /// Only for raised button while pressed in light theme.
   ///
   /// #D6D6D6 ≡ Colors.grey[350].
-  Grey.pressedLight() : super.opaque(0xD6D6D6);
+  const Grey.pressedLight() : super.opaque(0xD6D6D6);
 
   /// A bit lighter than default shade.
   ///
   /// #BDBDBD ≡ Colors.grey[400].
-  Grey.bitLighter() : super.opaque(0xBDBDBD);
+  const Grey.bitLighter() : super.opaque(0xBDBDBD);
 
   /// A bit darker than default shade.
   ///
   /// #757575 ≡ Colors.grey[600].
-  Grey.bitDarker() : super.opaque(0x757575);
+  const Grey.bitDarker() : super.opaque(0x757575);
 
   /// Noticeably darker than default shade.
   ///
   /// #616161 ≡ Colors.grey[700].
-  Grey.darker() : super.opaque(0x616161);
+  const Grey.darker() : super.opaque(0x616161);
 
   /// Definitely a dark shade.
   ///
   /// #424242 ≡ Colors.grey[800].
-  Grey.dark() : super.opaque(0x424242);
+  const Grey.dark() : super.opaque(0x424242);
 
   /// Only for background color in dark theme.
   ///
   /// #303030 ≡ Colors.grey[850].
-  Grey.bgDark() : super.opaque(0x303030);
+  const Grey.bgDark() : super.opaque(0x303030);
 
   /// Very dark shade.
   ///
   /// #212121 ≡ Colors.grey[900].
-  Grey.veryDark() : super.opaque(0x212121);
+  const Grey.veryDark() : super.opaque(0x212121);
 }
