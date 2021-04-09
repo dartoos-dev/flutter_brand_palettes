@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.13] - 2021-04-09
+### Added
+- Slack color palette. [#14](https://github.com/rafamizes/flutter_brand_palettes/issues/14)
+
 ## [0.0.12] - 2021-04-09
 ### Added
 - Youtube color palette. [#13](https://github.com/rafamizes/flutter_brand_palettes/issues/13)

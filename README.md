@@ -80,6 +80,8 @@ class FacebookIsh extends StatelessWidget {
   - Blue-Grey, Brown, Grey.
 - #### Microsoft
   - blue, green, grey, orange-red, yellow.
+- #### Slack
+  - albergine (eggplant), black, blue, green, red, yellow.
 - #### Twitter
   - black, blue, dark grey, extra extra light grey, extra light grey, light grey, white.
 - #### Whatsapp

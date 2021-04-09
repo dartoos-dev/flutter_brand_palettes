@@ -17,6 +17,7 @@ export 'src/material_design/grey.dart';
 export 'src/microsoft.dart';
 export 'src/palette.dart';
 export 'src/palette_rgb.dart';
+export 'src/slack.dart';
 export 'src/twitter.dart';
 export 'src/whatsapp.dart';
 export 'src/youtube.dart';
