@@ -19,3 +19,4 @@ export 'src/palette.dart';
 export 'src/palette_rgb.dart';
 export 'src/twitter.dart';
 export 'src/whatsapp.dart';
+export 'src/youtube.dart';

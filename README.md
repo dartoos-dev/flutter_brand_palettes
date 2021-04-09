@@ -84,4 +84,5 @@ class FacebookIsh extends StatelessWidget {
   - black, blue, dark grey, extra extra light grey, extra light grey, light grey, white.
 - #### Whatsapp
   - blue, light green, teal green, teal green dark, white, white chocolate.
-
+- #### Youtube
+  - almost black, red, white.
