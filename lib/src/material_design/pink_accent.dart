@@ -18,16 +18,16 @@ class PinkAccent extends PaletteRGB {
 
   /// Definitely a light shade.
   ///
-  /// #FF80AB ≡ Colors.pink_accent[100].
+  /// #FF80AB ≡ Colors.pinkAccent[100].
   const PinkAccent.light() : super.opaque(0xFF80AB);
 
   /// Noticeably darker than default shade.
   ///
-  /// #F50057 ≡ Colors.pink_accent[400].
+  /// #F50057 ≡ Colors.pinkAccent[400].
   const PinkAccent.darker() : super.opaque(0xF50057);
 
   /// Definitely a dark shade.
   ///
-  /// #C51162 ≡ Colors.pink_accent[700].
+  /// #C51162 ≡ Colors.pinkAccent[700].
   const PinkAccent.dark() : super.opaque(0xC51162);
 }

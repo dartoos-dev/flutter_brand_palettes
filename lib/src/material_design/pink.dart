@@ -15,7 +15,7 @@ import '../palette_rgb.dart';
 /// - Pink.veryDark() ≡ Colors.pink.shade900.
 ///
 /// See also:
-/// - [pink constant](https://api.flutter.dev/flutter/material/Colors/pink-constant.html)
+/// - [pink](https://api.flutter.dev/flutter/material/Colors/pink-constant.html)
 class Pink extends PaletteRGB {
   /// The default (primary) shade.
   ///
