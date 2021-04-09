@@ -77,7 +77,7 @@ class FacebookIsh extends StatelessWidget {
 - #### IphoneXS
   - black, gold, silver.
 - #### Material Design Swatch Color Aliases (convenient classes for Flutter's swatches)
-  - Blue-Grey, Brown, Grey.
+  - Blue-Grey, Brown, Grey, Pink, Pink Accent.
 - #### Microsoft
   - blue, green, grey, orange-red, yellow.
 - #### Slack

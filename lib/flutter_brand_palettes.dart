@@ -14,6 +14,8 @@ export 'src/iphone_xs.dart';
 export 'src/material_design/blue_grey.dart';
 export 'src/material_design/brown.dart';
 export 'src/material_design/grey.dart';
+export 'src/material_design/pink.dart';
+export 'src/material_design/pink_accent.dart';
 export 'src/microsoft.dart';
 export 'src/palette.dart';
 export 'src/palette_rgb.dart';
