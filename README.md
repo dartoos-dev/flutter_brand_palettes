@@ -8,7 +8,7 @@ Stop searching the internet for brand colors hex codes!  Stop wondering whether
 ```Grey.colors[200]``` command represents a light, medium or dark shade of grey.
 
 This is an object-oriented package of official color palettes of popular brands
-and companies. It is also a package of high-level "aliases-like" classes for the
+and companies. It is also a package of high-level "aliases" classes for the
 flutter's swatch colors codes.
 
 ## Getting Started
@@ -22,10 +22,10 @@ Facebook's blue #4267B2; and so on.
 
 ### About flutter swatch colors aliases
 These are color named classes like "Grey" which implement named constructors for
-the Flutter's constants swatch color shades. E.g: ```Grey().color``` is the
-default grey color shade equivalent to ```Colors.grey.shade500```;
-```Grey.light().color```, ```Colors.grey.shade200```; ```Grey.veryDark()```,
-```Colors.grey.shade900```; and so on.
+the Flutter's swatch color shades. E.g: ```Grey().color``` is the default grey
+color shade equivalent to ```Colors.grey.shade500```; ```Grey.light().color```:
+```Colors.grey.shade200```; ```Grey.veryDark()```: ```Colors.grey.shade900```;
+and so on.
 
 ## Usage example:
 ```dart
@@ -34,7 +34,7 @@ import 'package:flutter/material.dart';
 
 class FacebookIsh extends StatelessWidget {
 
-  FacebookIsh({Key key}) : super(key: key);
+  FacebookIsh({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
