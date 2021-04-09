@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.14] - 2021-04-09
+### Added
+- Spotify color palette. [#15](https://github.com/rafamizes/flutter_brand_palettes/issues/15)
+
 ## [0.0.13] - 2021-04-09
 ### Added
 - Slack color palette. [#14](https://github.com/rafamizes/flutter_brand_palettes/issues/14)
