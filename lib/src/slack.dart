@@ -2,7 +2,7 @@ import 'palette_rgb.dart';
 
 /// Slack's official brand colors:
 ///
-/// - Albergine (Eggplant);
+/// - Aubergine (Eggplant);
 /// - Black;
 /// - Blue;
 /// - Green;
@@ -12,8 +12,8 @@ import 'palette_rgb.dart';
 /// See also:
 /// - [slack colors](https://brandpalettes.com/slack-logo-color-codes/)
 class Slack extends PaletteRGB {
-  /// Albergine (Eggplant) #4A154B.
-  const Slack.albergine() : super.opaque(0x4A154B);
+  /// Aubergine (Eggplant) #4A154B.
+  const Slack.aubergine() : super.opaque(0x4A154B);
 
   /// Black #000000.
   const Slack.black() : super.opaque(0x000000);

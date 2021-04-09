@@ -7,7 +7,7 @@ import 'package:flutter_test/flutter_test.dart';
 void main() {
   group('Slack Palette', () {
     test('albergine', () {
-      expect(const Slack.albergine().color, const Color(0xFF4A154B));
+      expect(const Slack.aubergine().color, const Color(0xFF4A154B));
     });
     test('black', () {
       expect(const Slack.black().color, const Color(0xFF000000));

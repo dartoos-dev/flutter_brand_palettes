@@ -81,7 +81,7 @@ class FacebookIsh extends StatelessWidget {
 - #### Microsoft
   - blue, green, grey, orange-red, yellow.
 - #### Slack
-  - albergine (eggplant), black, blue, green, red, yellow.
+  - aubergine (eggplant), black, blue, green, red, yellow.
 - #### Spotify
   - black, green, white.
 - #### Twitter

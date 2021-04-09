@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0] - 2021-04-09
+### Changed (Breaking)
+- Rename Slack class' constructor from "albergine" to "aubergine".
+
 ## [0.0.15] - 2021-04-09
 ### Added [#16](https://github.com/rafamizes/flutter_brand_palettes/issues/16)
 - Material Design's Pink color palette.
