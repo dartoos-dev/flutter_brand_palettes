@@ -1,6 +1,7 @@
 ![pub](https://img.shields.io/pub/v/flutter_brand_palettes)
 [![license](https://img.shields.io/badge/license-mit-green.svg)](https://github.com/rafamizes/flutter_brand_palettes/blob/main/LICENSE)
 [![style: lint](https://img.shields.io/badge/style-lint-4BC0F5.svg)](https://pub.dev/packages/lint)
+[![Build Status](https://api.travis-ci.com/rafamizes/flutter_brand_palettes.svg?branch=main)](https://travis-ci.com/azu/travis-badge)
 [![Coverage Status](https://coveralls.io/repos/github/rafamizes/flutter_brand_palettes/badge.svg?branch=main)](https://coveralls.io/github/rafamizes/flutter_brand_palettes?branch=main)
 [![Hits-of-Code](https://hitsofcode.com/github/rafamizes/flutter_brand_palettes?branch=main)](https://hitsofcode.com/github/rafamizes/flutter_brand_palettes/view?branch=main)
 [![EO principles respected here](https://www.elegantobjects.org/badge.svg)](https://www.elegantobjects.org)
