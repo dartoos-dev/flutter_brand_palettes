@@ -8,11 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.1.1] - 2021-04-10
 ### Added [#17](https://github.com/rafamizes/flutter_brand_palettes/issues/17)
-- Material design's green color palette.
-- Material design's green color palette.
-- Material design's blue color palette.
-- Material design's blue accent color palette.
-- Material design's red color palette.
+- Material design's green color palette;
+- Material design's green accent color palette;
+- Material design's blue color palette;
+- Material design's blue accent color palette;
+- Material design's red color palette;
 - Material design's red accent color palette.
 
 ## [0.1.0] - 2021-04-09
@@ -21,7 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.0.15] - 2021-04-09
 ### Added [#16](https://github.com/rafamizes/flutter_brand_palettes/issues/16)
-- Material Design's Pink color palette.
+- Material Design's Pink color palette;
 - Material Design's Pink Accent color palette.
 
 ### Fixed
