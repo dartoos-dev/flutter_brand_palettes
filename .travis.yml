@@ -1,0 +1,7 @@
+language: dart
+dart:
+- beta
+dart_task:
+- test
+- dartanalyzer: --fatal-warnings
+- dartfmt
