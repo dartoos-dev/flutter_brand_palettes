@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Color Grey.
+/// Alias for Material Design's shades of grey.
 ///
 /// Constructors/shades:
 /// - Grey() ≡ (default) Colors.grey.shade500;

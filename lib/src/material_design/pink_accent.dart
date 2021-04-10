@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Color PinkAccent.
+/// Alias for Material Design's shades of pink accent.
 ///
 /// Constructors/shades:
 /// - PinkAccent() ≡ (default/primary) Colors.pinkAccent;

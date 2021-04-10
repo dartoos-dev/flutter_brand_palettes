@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Color Blue-Grey.
+/// Alias for Material Design's shades of blue-grey.
 ///
 /// Constructors/shades:
 /// - BlueGrey() ≡ (default) Colors.blueGrey.shade500;

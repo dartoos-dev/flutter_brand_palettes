@@ -52,9 +52,10 @@ class FacebookIsh extends StatelessWidget {
 }
 ```
 
-### Material Design Colors Aliases
+### Material Design Color Palettes/Shades
 
-- Blue-Grey, Brown, Grey, Pink, Pink Accent.
+- Blue, BlueAccent, BlueGrey, Brown, Green, GreenAccent, Grey, Pink,
+- PinkAccent, Red, RedAccent.
 
 ### Brand Color Palettes (A-Z)
 

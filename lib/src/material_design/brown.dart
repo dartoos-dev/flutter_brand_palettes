@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Color Brown.
+/// Alias for Material Design's shades of brown.
 ///
 /// Constructors/shades:
 /// - Brown() ≡ (default) Colors.brown.shade500;
