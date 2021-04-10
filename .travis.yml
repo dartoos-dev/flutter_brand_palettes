@@ -1,6 +1,6 @@
 language: dart
 dart:
-- beta
+- "2.12.0" # specific stable release.
 dart_task:
 - dartanalyzer: --fatal-warnings
 - dartfmt
@@ -9,7 +9,7 @@ addons:
     packages: # so that flutter doctor won't complain.
       - lib32stdc++6
 install:
-  - git clone https://github.com/flutter/flutter.git -b beta
+  - git clone https://github.com/flutter/flutter.git -b stable
   - ./flutter/bin/flutter doctor
   - gem install coveralls-lcov
 script:
