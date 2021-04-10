@@ -2,6 +2,17 @@ language: dart
 dart:
 - beta
 dart_task:
-- test
 - dartanalyzer: --fatal-warnings
 - dartfmt
+addons:
+  apt:
+    packages: # so that flutter doctor won't complain.
+      - lib32stdc++6
+install:
+  - git clone https://github.com/flutter/flutter.git -b beta
+  - ./flutter/bin/flutter doctor
+script:
+  - ./flutter/bin/flutter test
+cache:
+  directories:
+    - $HOME/.pub-cache
