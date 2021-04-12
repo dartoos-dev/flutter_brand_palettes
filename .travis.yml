@@ -1,32 +1,31 @@
 language: dart
 dart:
 # min. specific stable release with Null Safety feature.
-- "2.12.0"
-dart_task:
-# analyzer task commented out because flutter will perform the code analyzes.
-# - dartanalyzer: --fatal-warnings
-
-# Dart formatter verifies whether all files are correctly formatted.
-- dartfmt -n lib/ test/ example/
-# The matrix option on Travis lets us set up multiple test runs that will perform in parallel.t
-matrix:
-  include:
-    - name: Test
-      env: COMMAND=test --coverage
-    - name: Analyze
-      env: COMMAND=analyze
+- stable
+os:
+  - linux
+sudo: false
 addons:
   apt:
-    packages: 
-      - lib32stdc++6 # so that flutter doctor won't complain.
-      - fonts-droid-fallback
+    sources:
+      - ubuntu-toolchain-r-test # you need this source to get the right version of libstdc++6
+    packages:
+      - libstdc++6
 install:
-  - git clone https://github.com/flutter/flutter.git -b stable
-  - ./flutter/bin/flutter doctor
+  - echo 'Avoid default Travis CI install step' # this is to avoid an error with pub in Travis
   - gem install coveralls-lcov
+before_script:
+  - cd ..
+  - git clone https://github.com/flutter/flutter.git -b stable
+  - export PATH=`pwd`/flutter/bin:`pwd`/flutter/bin/cache/dart-sdk/bin:$PATH
+  - flutter doctor
 script:
-  - cd app
-  - ./flutter/bin/flutter $COMMAND
+  - cd $TRAVIS_BUILD_DIR
+  - dartfmt -n lib test example 
+  - flutter packages get
+  - flutter analyze --no-pub --no-current-package lib test example
+  - flutter test --coverage
+  - flutter packages pub publish --dry-run
 after_success:
   - coveralls-lcov coverage/lcov.info
 cache:
