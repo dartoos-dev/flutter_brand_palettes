@@ -13,9 +13,9 @@ an obscure command like `Grey.colors[200]`(why 200 and not, say, 130 or 440?!)
 represents a light, medium or dark shade of grey. (actually it means
 `Grey.light()`, in declarative programming).
 
-This is a declarative and object-oriented package of official color palettes of
-popular brands and companies. It is also a package of "aliases" classes for the
-Material design's [color palette](https://material.io/design/color/).
+This is a declarative and object-oriented package for the official color
+palettes of [Material Design](https://material.io/design/color/) and of popular
+brands and companies.
 
 ## Getting Started
 
@@ -52,10 +52,11 @@ class FacebookIsh extends StatelessWidget {
 }
 ```
 
-### Material Design Color Palettes/Shades
+### Material Design Color Palettes
 
-- Blue, BlueAccent, BlueGrey, Brown, Green, GreenAccent, Grey, Pink,
-- PinkAccent, Red, RedAccent.
+- Amber, AmberAccent, Blue, BlueAccent, BlueGrey, Brown, DeepOrange,
+    DeepOrangeAccent, Green, GreenAccent, Grey, Orange, OrangeAccent, Pink,
+    PinkAccent, Red, RedAccent, Yellow, YellowAccent.
 
 ### Brand Color Palettes (A-Z)
 
