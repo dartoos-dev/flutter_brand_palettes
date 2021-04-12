@@ -1,4 +1,4 @@
-import 'palette_rgb.dart';
+import '../../palette_rgb.dart';
 
 /// IphoneXR's official brand colors:
 ///

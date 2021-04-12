@@ -1,4 +1,4 @@
-import 'palette_rgb.dart';
+import '../../palette_rgb.dart';
 
 /// Iphone8's official brand colors:
 ///

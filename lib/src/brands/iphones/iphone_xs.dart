@@ -1,4 +1,4 @@
-import 'palette_rgb.dart';
+import '../../palette_rgb.dart';
 
 /// IphoneXS's official brand colors:
 ///

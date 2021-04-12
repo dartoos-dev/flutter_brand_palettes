@@ -21,7 +21,6 @@ abstract class PaletteRGB implements Palette {
   /// color's 32 bits integer value.
   final int _value;
 
-  /// Picked color.
   @override
   Color get color => Color(_value);
 
