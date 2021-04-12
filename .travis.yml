@@ -1,19 +1,32 @@
 language: dart
 dart:
-- "2.12.0" # specific stable release.
+# min. specific stable release with Null Safety feature.
+- "2.12.0"
 dart_task:
-- dartanalyzer: --fatal-warnings
-- dartfmt
+# analyzer task commented out because flutter will perform the code analyzes.
+# - dartanalyzer: --fatal-warnings
+
+# Dart formatter verifies whether all files are correctly formatted.
+- dartfmt -n lib/ test/ example/
+# The matrix option on Travis lets us set up multiple test runs that will perform in parallel.t
+matrix:
+  include:
+    - name: Test
+      env: COMMAND=test --coverage
+    - name: Analyze
+      env: COMMAND=analyze
 addons:
   apt:
-    packages: # so that flutter doctor won't complain.
-      - lib32stdc++6
+    packages: 
+      - lib32stdc++6 # so that flutter doctor won't complain.
+      - fonts-droid-fallback
 install:
   - git clone https://github.com/flutter/flutter.git -b stable
   - ./flutter/bin/flutter doctor
   - gem install coveralls-lcov
 script:
-  - ./flutter/bin/flutter test --coverage
+  - cd app
+  - ./flutter/bin/flutter $COMMAND
 after_success:
   - coveralls-lcov coverage/lcov.info
 cache:
