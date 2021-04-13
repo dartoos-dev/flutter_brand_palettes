@@ -90,6 +90,8 @@ class FacebookIsh extends StatelessWidget {
   - black, blue, coral, red, white, yellow.
 - **IphoneXS**
   - black, gold, silver.
+- **Kotlin**
+  - blue, orange, purple, violet.
 - **Microsoft**
   - blue, green, grey, orange-red, yellow.
 - **Slack**

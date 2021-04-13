@@ -7,6 +7,7 @@ export 'flutter.dart';
 export 'google.dart';
 export 'instagram.dart';
 export 'iphones/devices.dart';
+export 'kotlin.dart';
 export 'microsoft.dart';
 export 'slack.dart';
 export 'spotify.dart';
