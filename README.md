@@ -17,6 +17,7 @@ This is a declarative and object-oriented package for the official color
 palettes of [Material Design](https://material.io/design/color/) and of popular
 brands and companies.
 
+
 ## Getting Started
 
 Instead of a constant integer value, each color is represented by a named
@@ -41,8 +42,6 @@ import 'package:flutter/material.dart';
 
 class FacebookIsh extends StatelessWidget {
 
-  FacebookIsh({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -51,6 +50,12 @@ class FacebookIsh extends StatelessWidget {
   }
 }
 ```
+
+### Do you need a brand that has not yet been implemented?
+
+Just open an [issue](https://github.com/rafamizes/flutter_brand_palettes/issues)
+and enter the brand name and a reference link for the (hexadecimal) values of
+the colors.
 
 ### Material Design Color Palettes
 
@@ -63,6 +68,8 @@ class FacebookIsh extends StatelessWidget {
 
 - **Amazon**
   - black, orange.
+- **American Express**
+  - bright blue, deep blue, neutral 1 (light grey), neutral 2 (dark grey).
 - **Android**
   - green.
 - **Apple**
@@ -94,8 +101,12 @@ class FacebookIsh extends StatelessWidget {
   - blue, orange, purple, violet.
 - **Linkedin**
   - blue, white.
+- **Mastercard**
+  - black, orange, red, yellow.
 - **Microsoft**
   - blue, green, grey, orange-red, yellow.
+- **PayPal**
+  - black, pal blue, pay blue, white.
 - **Slack**
   - aubergine (eggplant), black, blue, green, red, yellow.
 - **Spotify**
@@ -107,6 +118,8 @@ class FacebookIsh extends StatelessWidget {
 - **Twitter**
   - black, blue, dark grey, extra extra light grey, extra light grey, light,
     grey, white.
+- **Visa**
+  - blue, gold.
 - **Whatsapp**
   - blue, light green, teal green, teal green dark, white, white chocolate.
 - **Youtube**

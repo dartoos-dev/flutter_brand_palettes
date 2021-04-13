@@ -6,9 +6,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 - The remaining of Material Design color palettes;
-- Much More brand color palettes;
-- Color palettes' gradient color array;
+- More brand color palettes;
+- List of colors representing the brand's gradients.
 - The brands' official logos and icons downloaded from their official web sites.
+
+## [0.1.7] - 2021-04-13
+### Added [#24](https://github.com/rafamizes/flutter_brand_palettes/issues/24)
+- American Express' color palette;
+- Mastercard's color palette;
+- PayPal's color palette;
+- Visa's color palette.
 
 ## [0.1.6] - 2021-04-13
 ### Added [#23](https://github.com/rafamizes/flutter_brand_palettes/issues/23)
