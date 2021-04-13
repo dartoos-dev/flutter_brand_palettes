@@ -55,8 +55,9 @@ class FacebookIsh extends StatelessWidget {
 ### Material Design Color Palettes
 
 - Amber, AmberAccent, Blue, BlueAccent, BlueGrey, Brown, DeepOrange,
-    DeepOrangeAccent, Green, GreenAccent, Grey, Orange, OrangeAccent, Pink,
-    PinkAccent, Red, RedAccent, Yellow, YellowAccent.
+    DeepOrangeAccent, Green, GreenAccent, Grey, LightGreen, LightGreenAccent,
+    Lime, LimeAccent, Orange, OrangeAccent, Pink, PinkAccent, Red, RedAccent,
+    Teal, TealAccent, Yellow, YellowAccent.
 
 ### Brand Color Palettes (A-Z)
 
@@ -74,7 +75,7 @@ class FacebookIsh extends StatelessWidget {
   - blue, green, red, yellow.
 - **Instagram**
   - blue, dark orange, dark pink, light yellow, orange, purple, purple-red, red,
-  - royal blue, yellow.
+    royal blue, yellow.
 - **Iphone11**
   - black, light green, light purple, light yellow, red, white.
 - **Iphone11Pro**
