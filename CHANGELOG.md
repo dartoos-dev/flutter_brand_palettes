@@ -10,6 +10,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Color palettes' gradient color array;
 - The brands' official logos and icons downloaded from their official web sites.
 
+### Added
+- Bitcoin color palette [#21](https://github.com/rafamizes/flutter_brand_palettes/issues/21);
+
 ## [0.1.3] - 2021-04-13
 ### Added [#19](https://github.com/rafamizes/flutter_brand_palettes/issues/19)
 - Material design's light green color palette;

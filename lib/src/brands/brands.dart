@@ -1,6 +1,7 @@
 export 'amazon.dart';
 export 'android.dart';
 export 'apple.dart';
+export 'bitcoin.dart';
 export 'facebook.dart';
 export 'flutter.dart';
 export 'google.dart';

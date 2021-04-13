@@ -67,6 +67,8 @@ class FacebookIsh extends StatelessWidget {
   - green.
 - **Apple**
   - black, silver, white.
+- **Bitcoin**
+  - grey, orange, white.
 - **Facebook**
   - black, blue, grey, white.
 - **Flutter**
@@ -95,8 +97,8 @@ class FacebookIsh extends StatelessWidget {
 - **Spotify**
   - black, green, white.
 - **Twitter**
-  - black, blue, dark grey, extra extra light grey, extra light grey, light
-  - grey, white.
+  - black, blue, dark grey, extra extra light grey, extra light grey, light,
+    grey, white.
 - **Whatsapp**
   - blue, light green, teal green, teal green dark, white, white chocolate.
 - **Youtube**
