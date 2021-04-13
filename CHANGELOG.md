@@ -10,13 +10,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Color palettes' gradient color array;
 - The brands' official logos and icons downloaded from their official web sites.
 
+## [0.1.6] - 2021-04-13
+### Added [#23](https://github.com/rafamizes/flutter_brand_palettes/issues/23)
+- Linkedin's color palette;
+- TikTok's color palette;
+- Tinder's color palette.
+
 ## [0.1.5] - 2021-04-13
 ### Added [#22](https://github.com/rafamizes/flutter_brand_palettes/issues/22)
-- Kotlin's color palette
+- Kotlin's color palette.
 
 ## [0.1.4] - 2021-04-13
 ### Added [#21](https://github.com/rafamizes/flutter_brand_palettes/issues/21)
-- Bitcoin's color palette
+- Bitcoin's color palette.
 
 ## [0.1.3] - 2021-04-13
 ### Added [#19](https://github.com/rafamizes/flutter_brand_palettes/issues/19)

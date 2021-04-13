@@ -92,12 +92,18 @@ class FacebookIsh extends StatelessWidget {
   - black, gold, silver.
 - **Kotlin**
   - blue, orange, purple, violet.
+- **Linkedin**
+  - blue, white.
 - **Microsoft**
   - blue, green, grey, orange-red, yellow.
 - **Slack**
   - aubergine (eggplant), black, blue, green, red, yellow.
 - **Spotify**
   - black, green, white.
+- **TikTok**
+  - black, red, turqoise, white.
+- **Tinder**
+  - grey, pink.
 - **Twitter**
   - black, blue, dark grey, extra extra light grey, extra light grey, light,
     grey, white.
