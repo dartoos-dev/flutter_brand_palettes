@@ -1,7 +1,6 @@
 language: dart
 dart:
-# min. specific stable release with Null Safety feature.
-- stable
+- "2.12.0" # min. specific stable release with Null Safety feature.
 os:
   - linux
 sudo: false
