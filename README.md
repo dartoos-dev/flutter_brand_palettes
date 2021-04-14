@@ -71,7 +71,8 @@ brand colors will be implemented as soon as possible.
 - Orange, OrangeAccent, DeepOrange, DeepOrangeAccent;
 - Pink, PinkAccent, Red, RedAccent.
 
-[material design's color system](https://material.io/archive/guidelines/style/color.html#color-color-system)
+See also: [material design's color
+palette](https://material.io/archive/guidelines/style/color.html#color-color-palette).
 
 ### Brand Palettes Classes (A-Z)
 
