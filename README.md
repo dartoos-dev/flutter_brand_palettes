@@ -26,12 +26,18 @@ becomes more object-oriented, readable and maintainable. For instance,
 `Google.red().color`, Google's red #DB4437; `Facebook.blue().color`, Facebook's
 blue #4267B2; and so on.
 
+For more details, check the [api
+reference](https://pub.dev/documentation/flutter_brand_palettes/latest/flutter_brand_palettes/flutter_brand_palettes-library.html).
+
 ### Material Design color classes
 
 These are classes whose names are the colors they represent, like "Grey".  E.g:
 `Grey()` represents the primary grey color, equivalent to the cryptic
 `Colors.grey.shade500`; `Grey.light()` ≡ `Colors.grey.shade200`;
 `Grey.veryDark()` ≡ `Colors.grey.shade900`; and so on.
+
+For more details, check the [api
+reference](https://pub.dev/documentation/flutter_brand_palettes/latest/flutter_brand_palettes/flutter_brand_palettes-library.html).
 
 ## Usage example
 
@@ -59,14 +65,14 @@ brand colors will be implemented as soon as possible.
 
 ### Material Design Color Classes
 
-- Amber, AmberAccent, Yellow, YellowAccent
+- Amber, AmberAccent, Yellow, YellowAccent;
 - Blue, BlueAccent, BlueGrey, LightBlue, LightBlueAccent, Cyan, CyanAccent,
-  Indigo, IndigoAccent
-- Brown
-- Green, GreenAccent, LightGreen, LightGreenAccent, Lime, LimeAccent, Teal, TealAccent
-- Grey
-- Orange, OrangeAccent, DeepOrange, DeepOrangeAccent
-- Pink, PinkAccent, Red, RedAccent
+  Indigo, IndigoAccent;
+- Brown;
+- Green, GreenAccent, LightGreen, LightGreenAccent, Lime, LimeAccent, Teal, TealAccent;
+- Grey;
+- Orange, OrangeAccent, DeepOrange, DeepOrangeAccent;
+- Pink, PinkAccent, Red, RedAccent.
 
 ### Brand Palettes Classes (A-Z)
 
