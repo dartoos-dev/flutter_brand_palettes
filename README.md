@@ -69,7 +69,7 @@ brand colors will be implemented as soon as possible.
 - Green, GreenAccent, LightGreen, LightGreenAccent, Lime, LimeAccent, Teal, TealAccent;
 - Grey;
 - Orange, OrangeAccent, DeepOrange, DeepOrangeAccent;
-- Pink, PinkAccent,
+- Pink, PinkAccent;
 - Purple, PurpleAccent, DeepPurple, DeepPurpleAccent;
 - Red, RedAccent;
 - Yellow, YellowAccent.
