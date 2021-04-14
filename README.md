@@ -59,14 +59,14 @@ brand colors will be implemented as soon as possible.
 
 ### Material Design Color Classes
 
-- Amber, AmberAccent, Yellow, YellowAccent;
+- Amber, AmberAccent, Yellow, YellowAccent
 - Blue, BlueAccent, BlueGrey, LightBlue, LightBlueAccent, Cyan, CyanAccent,
-  Indigo, IndigoAccent;
-- Brown;
-- Green, GreenAccent, LightGreen, LightGreenAccent, Lime, LimeAccent, Teal, TealAccent;
-- Grey;
-- Orange, OrangeAccent, DeepOrange, DeepOrangeAccent;
-- Pink, PinkAccent, Red, RedAccent;
+  Indigo, IndigoAccent
+- Brown
+- Green, GreenAccent, LightGreen, LightGreenAccent, Lime, LimeAccent, Teal, TealAccent
+- Grey
+- Orange, OrangeAccent, DeepOrange, DeepOrangeAccent
+- Pink, PinkAccent, Red, RedAccent
 
 ### Brand Palettes Classes (A-Z)
 
