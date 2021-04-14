@@ -17,7 +17,6 @@ This is a declarative and object-oriented package for the official color
 palettes of [Material Design](https://material.io/design/color/) and of popular
 brands and companies.
 
-
 ## Getting Started
 
 Instead of a constant integer value, each color is represented by a named
@@ -27,7 +26,7 @@ becomes more object-oriented, readable and maintainable. For instance,
 `Google.red().color`, Google's red #DB4437; `Facebook.blue().color`, Facebook's
 blue #4267B2; and so on.
 
-### About Material Design colors aliases
+### Material Design color classes
 
 These are classes whose names are the colors they represent, like "Grey".  E.g:
 `Grey()` represents the primary grey color, equivalent to the cryptic
@@ -51,20 +50,25 @@ class FacebookIsh extends StatelessWidget {
 }
 ```
 
-### Do you need a brand that has not yet been implemented?
+### Do you need any brand that has not yet been implemented?
 
-Just open an [issue](https://github.com/rafamizes/flutter_brand_palettes/issues)
-and enter the brand name and a reference link for the (hexadecimal) values of
-the colors.
+Just open an
+[issue](https://github.com/rafamizes/flutter_brand_palettes/issues), enter the
+brand name and a reference link for the (hexadecimal) values of the colors.  The
+brand colors will be implemented as soon as possible.
 
-### Material Design Color Palettes
+### Material Design Color Classes
 
-- Amber, AmberAccent, Blue, BlueAccent, BlueGrey, Brown, DeepOrange,
-    DeepOrangeAccent, Green, GreenAccent, Grey, LightGreen, LightGreenAccent,
-    Lime, LimeAccent, Orange, OrangeAccent, Pink, PinkAccent, Red, RedAccent,
-    Teal, TealAccent, Yellow, YellowAccent.
+- Amber, AmberAccent, Yellow, YellowAccent;
+- Blue, BlueAccent, BlueGrey, LightBlue, LightBlueAccent, Cyan, CyanAccent,
+  Indigo, IndigoAccent;
+- Brown;
+- Green, GreenAccent, LightGreen, LightGreenAccent, Lime, LimeAccent, Teal, TealAccent;
+- Grey;
+- Orange, OrangeAccent, DeepOrange, DeepOrangeAccent;
+- Pink, PinkAccent, Red, RedAccent;
 
-### Brand Color Palettes (A-Z)
+### Brand Palettes Classes (A-Z)
 
 - **Amazon**
   - black, orange.

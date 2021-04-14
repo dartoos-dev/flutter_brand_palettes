@@ -10,6 +10,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - List of colors representing the brand's gradients.
 - The brands' official logos and icons downloaded from their official web sites.
 
+## [0.1.8] - 2021-04-14
+### Added [#20](https://github.com/rafamizes/flutter_brand_palettes/issues/20)
+- Material design's cyan accent color palette;
+- Material design's cyan color palette;
+- Material design's indigo accent color palette;
+- Material design's indigo color palette;
+- Material design's light blue accent color palette;
+- Material design's light blue color palette.
+
 ## [0.1.7] - 2021-04-13
 ### Added [#24](https://github.com/rafamizes/flutter_brand_palettes/issues/24)
 - American Express' color palette;
