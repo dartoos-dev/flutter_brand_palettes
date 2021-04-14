@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Design's shades of lime.
+/// Material Design's lime.
 ///
 /// Constructors/shades:
 /// - Lime() ≡ (default/primary) Colors.lime.shade500;

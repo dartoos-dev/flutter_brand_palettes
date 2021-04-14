@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Design's shades of green accent.
+/// Material Design's green accent.
 ///
 /// Constructors/shades:
 /// - GreenAccent() ≡ (default/primary) Colors.greenAccent;
@@ -9,7 +9,7 @@ import '../palette_rgb.dart';
 /// - GreenAccent.dark() ≡ Colors.greenAccent.shade700;
 ///
 /// See also:
-/// - [greenAccent](https://api.flutter.dev/flutter/material/Colors/greenAccent-constant.html)
+/// - [green accent](https://api.flutter.dev/flutter/material/Colors/greenAccent-constant.html)
 class GreenAccent extends PaletteRGB {
   /// The default (primary) shade.
   ///

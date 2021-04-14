@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Design's shades of yellow accent.
+/// Material Design's yellow accent.
 ///
 /// Constructors/shades:
 /// - YellowAccent() ≡ (default/primary) Colors.yellowAccent;
@@ -9,7 +9,7 @@ import '../palette_rgb.dart';
 /// - YellowAccent.dark() ≡ Colors.yellowAccent.shade700;
 ///
 /// See also:
-/// - [yellowAccent](https://api.flutter.dev/flutter/material/Colors/yellowAccent-constant.html)
+/// - [yellow accent](https://api.flutter.dev/flutter/material/Colors/yellowAccent-constant.html)
 class YellowAccent extends PaletteRGB {
   /// The default (primary) shade.
   ///

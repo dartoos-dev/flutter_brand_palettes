@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Design's shades of brown.
+/// Material Design's brown.
 ///
 /// Constructors/shades:
 /// - Brown() ≡ (default) Colors.brown.shade500;
@@ -15,7 +15,7 @@ import '../palette_rgb.dart';
 /// - Brown.veryDark() ≡ Colors.brown.shade900.
 ///
 /// See also:
-/// - [brown constant](https://api.flutter.dev/flutter/material/Colors/brown-constant.html)
+/// - [brown](https://api.flutter.dev/flutter/material/Colors/brown-constant.html)
 class Brown extends PaletteRGB {
   /// The default (primary) shade.
   ///

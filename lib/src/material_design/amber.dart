@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Design's shades of amber.
+/// Material Design's amber.
 ///
 /// Constructors/shades:
 /// - Amber() ≡ (default/primary) Colors.amber.shade500;

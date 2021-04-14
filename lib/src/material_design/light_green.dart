@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Design's shades of LightGreen.
+/// Material Design's light green.
 ///
 /// Constructors/shades:
 /// - LightGreen() ≡ (default/primary) Colors.lightGreen.shade500;
@@ -15,7 +15,7 @@ import '../palette_rgb.dart';
 /// - LightGreen.veryDark() ≡ Colors.lightGreen.shade900.
 ///
 /// See also:
-/// - [LightGreen](https://api.flutter.dev/flutter/material/Colors/lightGreen-constant.html)
+/// - [light green](https://api.flutter.dev/flutter/material/Colors/lightGreen-constant.html)
 class LightGreen extends PaletteRGB {
   /// The default (primary) shade.
   ///

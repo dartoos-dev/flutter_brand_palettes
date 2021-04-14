@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Design's shades of teal.
+/// Material Design's teal.
 ///
 /// Constructors/shades:
 /// - Teal() ≡ (default/primary) Colors.teal.shade500;

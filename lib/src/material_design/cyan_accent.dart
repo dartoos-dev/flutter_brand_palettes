@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Design's shades of cyan accent.
+/// Material Design's cyan accent.
 ///
 /// Constructors/shades:
 /// - CyanAccent() ≡ (default/primary) Colors.cyanAccent;
@@ -9,7 +9,7 @@ import '../palette_rgb.dart';
 /// - CyanAccent.dark() ≡ Colors.cyanAccent.shade700;
 ///
 /// See also:
-/// - [cyanAccent](https://api.flutter.dev/flutter/material/Colors/cyanAccent-constant.html)
+/// - [cyan accent](https://api.flutter.dev/flutter/material/Colors/cyanAccent-constant.html)
 class CyanAccent extends PaletteRGB {
   /// The default (primary) shade.
   ///

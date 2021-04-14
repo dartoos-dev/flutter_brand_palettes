@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Design's shades of yellow.
+/// Material Design's yellow.
 ///
 /// Constructors/shades:
 /// - Yellow() ≡ (default/primary) Colors.yellow.shade500;

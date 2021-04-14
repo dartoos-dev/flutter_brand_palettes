@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Design's shades of blue accent.
+/// Material Design's blue accent.
 ///
 /// Constructors/shades:
 /// - BlueAccent() ≡ (default/primary) Colors.blueAccent;

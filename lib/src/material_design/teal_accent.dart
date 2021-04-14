@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Design's shades of teal accent.
+/// Material Design's teal accent.
 ///
 /// Constructors/shades:
 /// - TealAccent() ≡ (default/primary) Colors.tealAccent;
@@ -9,7 +9,7 @@ import '../palette_rgb.dart';
 /// - TealAccent.dark() ≡ Colors.tealAccent.shade700;
 ///
 /// See also:
-/// - [tealAccent](https://api.flutter.dev/flutter/material/Colors/tealAccent-constant.html)
+/// - [teal accent](https://api.flutter.dev/flutter/material/Colors/tealAccent-constant.html)
 class TealAccent extends PaletteRGB {
   /// The default (primary) shade.
   ///

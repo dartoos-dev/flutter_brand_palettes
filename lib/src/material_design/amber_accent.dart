@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Design's shades of amber accent.
+/// Material Design's amber accent.
 ///
 /// Constructors/shades:
 /// - AmberAccent() ≡ (default/primary) Colors.amberAccent;

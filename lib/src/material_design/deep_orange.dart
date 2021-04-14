@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Design's shades of deepOrange.
+/// Material Design's deep orange.
 ///
 /// Constructors/shades:
 /// - DeepOrange() ≡ (default/primary) Colors.deepOrange.shade500;
@@ -15,7 +15,7 @@ import '../palette_rgb.dart';
 /// - DeepOrange.veryDark() ≡ Colors.deepOrange.shade900.
 ///
 /// See also:
-/// - [deepOrange](https://api.flutter.dev/flutter/material/Colors/deepOrange-constant.html)
+/// - [deep orange](https://api.flutter.dev/flutter/material/Colors/deepOrange-constant.html)
 class DeepOrange extends PaletteRGB {
   /// The default (primary) shade.
   ///

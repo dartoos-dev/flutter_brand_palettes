@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Design's shades of Light Green accent.
+/// Material Design's green accent.
 ///
 /// Constructors/shades:
 /// - LightGreenAccent() ≡ (default/primary) Colors.lightGreenAccent;
@@ -9,7 +9,7 @@ import '../palette_rgb.dart';
 /// - LightGreenAccent.dark() ≡ Colors.lightGreenAccent.shade700;
 ///
 /// See also:
-/// - [lightGreenAccent](https://api.flutter.dev/flutter/material/Colors/lightGreenAccent-constant.html)
+/// - [light green accent](https://api.flutter.dev/flutter/material/Colors/lightGreenAccent-constant.html)
 class LightGreenAccent extends PaletteRGB {
   /// The default (primary) shade.
   ///

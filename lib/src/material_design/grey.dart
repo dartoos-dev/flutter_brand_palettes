@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Design's shades of grey.
+/// Material Design's grey.
 ///
 /// Constructors/shades:
 /// - Grey() ≡ (default) Colors.grey.shade500;
@@ -17,7 +17,7 @@ import '../palette_rgb.dart';
 /// - Grey.veryDark() ≡ Colors.grey.shade900.
 ///
 /// See also:
-/// - [grey constant](https://api.flutter.dev/flutter/material/Colors/grey-constant.html)
+/// - [grey](https://api.flutter.dev/flutter/material/Colors/grey-constant.html)
 class Grey extends PaletteRGB {
   /// The default (primary) shade.
   ///

@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Design's light blue accent.
+/// Material Design's light blue accent.
 ///
 /// Constructors/shades:
 /// - LightBlueAccent() ≡ (default/primary) Colors.lightBlueAccent;
@@ -9,7 +9,7 @@ import '../palette_rgb.dart';
 /// - LightBlueAccent.dark() ≡ Colors.lightBlueAccent.shade700;
 ///
 /// See also:
-/// - [lightBlueAccent](https://api.flutter.dev/flutter/material/Colors/lightBlueAccent-constant.html)
+/// - [light blue accent](https://api.flutter.dev/flutter/material/Colors/lightBlueAccent-constant.html)
 class LightBlueAccent extends PaletteRGB {
   /// The default (primary) shade.
   ///

@@ -9,7 +9,7 @@ import '../palette_rgb.dart';
 /// - IndigoAccent.dark() ≡ Colors.indigoAccent.shade700;
 ///
 /// See also:
-/// - [indigoAccent](https://api.flutter.dev/flutter/material/Colors/indigoAccent-constant.html)
+/// - [indigo accent](https://api.flutter.dev/flutter/material/Colors/indigoAccent-constant.html)
 class IndigoAccent extends PaletteRGB {
   /// The default (primary) shade.
   ///

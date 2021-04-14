@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Design's shades of lime accent.
+/// Material Design's lime accent.
 ///
 /// Constructors/shades:
 /// - LimeAccent() ≡ (default/primary) Colors.limeAccent;
@@ -9,7 +9,7 @@ import '../palette_rgb.dart';
 /// - LimeAccent.dark() ≡ Colors.limeAccent.shade700;
 ///
 /// See also:
-/// - [limeAccent](https://api.flutter.dev/flutter/material/Colors/limeAccent-constant.html)
+/// - [lime accent](https://api.flutter.dev/flutter/material/Colors/limeAccent-constant.html)
 class LimeAccent extends PaletteRGB {
   /// The default (primary) shade.
   ///

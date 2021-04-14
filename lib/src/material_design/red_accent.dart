@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Design's shades of red accent.
+/// Material Design's red accent.
 ///
 /// Constructors/shades:
 /// - RedAccent() ≡ (default/primary) Colors.redAccent;
@@ -9,7 +9,7 @@ import '../palette_rgb.dart';
 /// - RedAccent.dark() ≡ Colors.redAccent.shade700;
 ///
 /// See also:
-/// - [redAccent](https://api.flutter.dev/flutter/material/Colors/redAccent-constant.html)
+/// - [red accent](https://api.flutter.dev/flutter/material/Colors/redAccent-constant.html)
 class RedAccent extends PaletteRGB {
   /// The default (primary) shade.
   ///

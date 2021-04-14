@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Design's shades of deepOrange accent.
+/// Material Design's deep orange accent.
 ///
 /// Constructors/shades:
 /// - DeepOrangeAccent() ≡ (default/primary) Colors.deepOrangeAccent;
@@ -9,7 +9,7 @@ import '../palette_rgb.dart';
 /// - DeepOrangeAccent.dark() ≡ Colors.deepOrangeAccent.shade700;
 ///
 /// See also:
-/// - [deepOrangeAccent](https://api.flutter.dev/flutter/material/Colors/deepOrangeAccent-constant.html)
+/// - [deep orange accent](https://api.flutter.dev/flutter/material/Colors/deepOrangeAccent-constant.html)
 class DeepOrangeAccent extends PaletteRGB {
   /// The default (primary) shade.
   ///

@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Design's shades of indigo.
+/// Material Design's indigo.
 ///
 /// Constructors/shades:
 /// - Indigo() ≡ (default/primary) Colors.indigo.shade500;

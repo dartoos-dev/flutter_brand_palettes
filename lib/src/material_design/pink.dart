@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Design's shades of pink.
+/// Material Design's pink.
 ///
 /// Constructors/shades:
 /// - Pink() ≡ (default/primary) Colors.pink.shade500;

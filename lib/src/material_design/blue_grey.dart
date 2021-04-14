@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Design's shades of blue-grey.
+/// Material Design's blue-grey.
 ///
 /// Constructors/shades:
 /// - BlueGrey() ≡ (default) Colors.blueGrey.shade500;
@@ -15,7 +15,7 @@ import '../palette_rgb.dart';
 /// - BlueGrey.veryDark() ≡ Colors.blueGrey.shade900.
 ///
 /// See also:
-/// - [blueGrey constant](https://api.flutter.dev/flutter/material/Colors/blueGrey-constant.html)
+/// - [blueGrey](https://api.flutter.dev/flutter/material/Colors/blueGrey-constant.html)
 class BlueGrey extends PaletteRGB {
   /// The default (primary) shade.
   ///

@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Design's shades of green.
+/// Material Design's green.
 ///
 /// Constructors/shades:
 /// - Green() ≡ (default/primary) Colors.green.shade500;

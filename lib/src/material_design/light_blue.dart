@@ -15,7 +15,7 @@ import '../palette_rgb.dart';
 /// - LightBlue.veryDark() ≡ Colors.lightBlue.shade900.
 ///
 /// See also:
-/// - [lightBlue](https://api.flutter.dev/flutter/material/Colors/lightBlue-constant.html)
+/// - [light blue](https://api.flutter.dev/flutter/material/Colors/lightBlue-constant.html)
 class LightBlue extends PaletteRGB {
   /// The default (primary) shade.
   ///

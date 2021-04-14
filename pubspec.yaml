@@ -1,5 +1,5 @@
 name: flutter_brand_palettes
-description: Set of declarative classes for the official color palettes of popular brands and companies. In addition, this package provides classes for the Material Design's color palettes, such as "Grey", "BlueGrey", "Green", "GreenAccent", and so on.
+description: Set of declarative classes for the official color palettes of popular brands and companies, and of the Material Design standard.
 version: 0.1.8
 homepage: https://github.com/rafamizes/flutter_brand_palettes
 

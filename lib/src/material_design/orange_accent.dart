@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Design's shades of green accent.
+/// Material Design's orange accent.
 ///
 /// Constructors/shades:
 /// - OrangeAccent() ≡ (default/primary) Colors.orangeAccent;
@@ -9,7 +9,7 @@ import '../palette_rgb.dart';
 /// - OrangeAccent.dark() ≡ Colors.orangeAccent.shade700;
 ///
 /// See also:
-/// - [orangeAccent](https://api.flutter.dev/flutter/material/Colors/orangeAccent-constant.html)
+/// - [orange accent](https://api.flutter.dev/flutter/material/Colors/orangeAccent-constant.html)
 class OrangeAccent extends PaletteRGB {
   /// The default (primary) shade.
   ///

@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Design's shades of pink accent.
+/// Material Design's pink accent.
 ///
 /// Constructors/shades:
 /// - PinkAccent() ≡ (default/primary) Colors.pinkAccent;
@@ -9,7 +9,7 @@ import '../palette_rgb.dart';
 /// - PinkAccent.dark() ≡ Colors.pinkAccent.shade700;
 ///
 /// See also:
-/// - [pinkAccent](https://api.flutter.dev/flutter/material/Colors/pinkAccent-constant.html)
+/// - [pink accent](https://api.flutter.dev/flutter/material/Colors/pinkAccent-constant.html)
 class PinkAccent extends PaletteRGB {
   /// The default (primary) shade.
   ///

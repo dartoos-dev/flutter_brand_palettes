@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Design's shades of orange.
+/// Material Design's orange.
 ///
 /// Constructors/shades:
 /// - Orange() ≡ (default/primary) Colors.orange.shade500;

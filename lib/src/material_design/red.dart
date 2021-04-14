@@ -1,6 +1,6 @@
 import '../palette_rgb.dart';
 
-/// Alias for Material Design's shades of red.
+/// Material Design's red.
 ///
 /// Constructors/shades:
 /// - Red() ≡ (default/primary) Colors.red.shade500;
