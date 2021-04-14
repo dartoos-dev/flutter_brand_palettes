@@ -14,8 +14,8 @@ represents a light, medium or dark shade of grey. (actually it means
 `Grey.light()`, in declarative programming).
 
 This is a declarative and object-oriented package for the official color
-palettes of [Material Design](https://material.io/design/color/) and of popular
-brands and companies.
+palettes of popular brands and companies and of the [Material
+Design](https://material.io/design/color/) standard.
 
 ## Getting Started
 
@@ -29,11 +29,11 @@ blue #4267B2; and so on.
 ### Material Design color classes
 
 These are classes whose names are the colors they represent, like "Grey".  E.g:
-`Grey()` represents the primary grey color, equivalent to the cryptic
+`Grey()` represents the primary grey color, equivalent to the Flutter's cryptic
 `Colors.grey.shade500`; `Grey.light()` ≡ `Colors.grey.shade200`;
 `Grey.veryDark()` ≡ `Colors.grey.shade900`; and so on.
 
-For more details, check the [api
+For more details: [api
 reference](https://pub.dev/documentation/flutter_brand_palettes/latest/flutter_brand_palettes/flutter_brand_palettes-library.html).
 
 ## Usage example
