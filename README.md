@@ -26,9 +26,6 @@ becomes more object-oriented, readable and maintainable. For instance,
 `Google.red().color`, Google's red #DB4437; `Facebook.blue().color`, Facebook's
 blue #4267B2; and so on.
 
-For more details, check the [api
-reference](https://pub.dev/documentation/flutter_brand_palettes/latest/flutter_brand_palettes/flutter_brand_palettes-library.html).
-
 ### Material Design color classes
 
 These are classes whose names are the colors they represent, like "Grey".  E.g:
