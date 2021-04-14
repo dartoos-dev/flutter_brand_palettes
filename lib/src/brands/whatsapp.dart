@@ -9,7 +9,9 @@ import '../palette_rgb.dart';
 /// - White Chocolate;
 /// - White.
 ///
-/// See also: - [whatsapp colors](https://usbrandcolors.com/whatsapp-colors/)
+/// See also:
+/// - [whatsapp's tea green](https://www.schemecolor.com/whatsapp-2.php)
+/// - [whatsapp's other colors](https://usbrandcolors.com/whatsapp-colors/)
 class Whatsapp extends PaletteRGB {
   /// Teal Green Dark #075E54.
   const Whatsapp.tealGreenDark() : super.opaque(0x075E54);

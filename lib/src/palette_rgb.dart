@@ -10,8 +10,10 @@ import 'palette.dart';
 /// Bits 0-7 are the blue value.
 abstract class PaletteRGB implements Palette {
   /// Custom [alpha] and [rgb] values.
-  const PaletteRGB({required int alpha, required int rgb})
-      : _value = alpha << 24 | rgb;
+  const PaletteRGB({
+    required int alpha,
+    required int rgb,
+  }) : _value = alpha << 24 | rgb;
 
   /// Fully opaque color.
   ///
