@@ -7,8 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 - The remaining of Material Design color palettes;
 - More brand color palettes;
-- List of colors representing the brand's gradients.
+- List of colors representing the brand's gradients;
 - The brands' official logos and icons downloaded from their official web sites.
+
+## [0.1.9] - 2021-04-14
+### Added [#25](https://github.com/rafamizes/flutter_brand_palettes/issues/25)
+- Material Design's deep purple accent color palette;
+- Material Design's deep purple color palette;
+- Material Design's purple accent color palette;
+- Material Design's purple color palette.
 
 ## [0.1.8+1] - 2021-04-14
 ### Fixed

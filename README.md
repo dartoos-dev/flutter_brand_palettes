@@ -62,14 +62,17 @@ brand colors will be implemented as soon as possible.
 
 ### Material Design Color Classes
 
-- Amber, AmberAccent, Yellow, YellowAccent;
+- Amber, AmberAccent;
 - Blue, BlueAccent, BlueGrey, LightBlue, LightBlueAccent, Cyan, CyanAccent,
   Indigo, IndigoAccent;
 - Brown;
 - Green, GreenAccent, LightGreen, LightGreenAccent, Lime, LimeAccent, Teal, TealAccent;
 - Grey;
 - Orange, OrangeAccent, DeepOrange, DeepOrangeAccent;
-- Pink, PinkAccent, Red, RedAccent.
+- Pink, PinkAccent,
+- Purple, PurpleAccent, DeepPurple, DeepPurpleAccent;
+- Red, RedAccent;
+- Yellow, YellowAccent.
 
 See also: [material design's color
 palette](https://material.io/archive/guidelines/style/color.html#color-color-palette).
