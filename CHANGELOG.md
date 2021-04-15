@@ -5,10 +5,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-- The remaining of Material Design color palettes;
 - More brand color palettes;
 - List of colors representing the brand's gradients;
 - The brands' official logos and icons downloaded from their official web sites.
+
+## [0.1.10] - 2021-04-15
+### Added [#26](https://github.com/rafamizes/flutter_brand_palettes/issues/26)
+- Material Design's black color palette;
+- Material Design's white color palette;
+- Transparent.
 
 ## [0.1.9+1] - 2021-04-14
 ### Added [#27](https://github.com/rafamizes/flutter_brand_palettes/issues/27)

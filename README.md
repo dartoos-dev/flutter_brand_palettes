@@ -63,6 +63,8 @@ brand colors will be implemented as soon as possible.
 ### Material Design Color Classes
 
 - Amber, AmberAccent;
+- Black, Black.opacity87, Black.opacity54, Black.opacity45, Black.opacity38,
+  Black.opacity26, Black.opacity12;
 - Blue, BlueAccent, BlueGrey, LightBlue, LightBlueAccent, Cyan, CyanAccent,
   Indigo, IndigoAccent;
 - Brown;
@@ -72,6 +74,9 @@ brand colors will be implemented as soon as possible.
 - Pink, PinkAccent;
 - Purple, PurpleAccent, DeepPurple, DeepPurpleAccent;
 - Red, RedAccent;
+- Transparent;
+- White, White.opacity70, White.opacity60, White.opacity54, White.opacity38,
+  White.opacity30, White.opacity24, White.opacity12, White.opacity10;
 - Yellow, YellowAccent.
 
 See also: [material design's color

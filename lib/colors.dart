@@ -1,5 +1,6 @@
 export 'src/material_design/amber.dart';
 export 'src/material_design/amber_accent.dart';
+export 'src/material_design/black.dart';
 export 'src/material_design/blue.dart';
 export 'src/material_design/blue_accent.dart';
 export 'src/material_design/blue_grey.dart';
@@ -31,5 +32,7 @@ export 'src/material_design/red.dart';
 export 'src/material_design/red_accent.dart';
 export 'src/material_design/teal.dart';
 export 'src/material_design/teal_accent.dart';
+export 'src/material_design/transparent.dart';
+export 'src/material_design/white.dart';
 export 'src/material_design/yellow.dart';
 export 'src/material_design/yellow_accent.dart';
