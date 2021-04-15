@@ -5,14 +5,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-- More brand color palettes;
-- List of colors representing the brand's gradients;
+- More brand color palettes.
+- List of colors representing the brand's gradients.
 - The brands' official logos and icons downloaded from their official web sites.
 
 ## [0.1.10] - 2021-04-15
 ### Added [#26](https://github.com/rafamizes/flutter_brand_palettes/issues/26)
-- Material Design's black color palette;
-- Material Design's white color palette;
+- Material Design's black color palette.
+- Material Design's white color palette.
 - Transparent.
 
 ## [0.1.9+1] - 2021-04-14
@@ -21,9 +21,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.1.9] - 2021-04-14
 ### Added [#25](https://github.com/rafamizes/flutter_brand_palettes/issues/25)
-- Material Design's deep purple accent color palette;
-- Material Design's deep purple color palette;
-- Material Design's purple accent color palette;
+- Material Design's deep purple accent color palette.
+- Material Design's deep purple color palette.
+- Material Design's purple accent color palette.
 - Material Design's purple color palette.
 
 ## [0.1.8+1] - 2021-04-14
@@ -35,24 +35,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.1.8] - 2021-04-14
 ### Added [#20](https://github.com/rafamizes/flutter_brand_palettes/issues/20)
-- Material design's cyan accent color palette;
-- Material design's cyan color palette;
-- Material design's indigo accent color palette;
-- Material design's indigo color palette;
-- Material design's light blue accent color palette;
+- Material design's cyan accent color palette.
+- Material design's cyan color palette.
+- Material design's indigo accent color palette.
+- Material design's indigo color palette.
+- Material design's light blue accent color palette.
 - Material design's light blue color palette.
 
 ## [0.1.7] - 2021-04-13
 ### Added [#24](https://github.com/rafamizes/flutter_brand_palettes/issues/24)
-- American Express' color palette;
-- Mastercard's color palette;
-- PayPal's color palette;
+- American Express' color palette.
+- Mastercard's color palette.
+- PayPal's color palette.
 - Visa's color palette.
 
 ## [0.1.6] - 2021-04-13
 ### Added [#23](https://github.com/rafamizes/flutter_brand_palettes/issues/23)
-- Linkedin's color palette;
-- TikTok's color palette;
+- Linkedin's color palette.
+- TikTok's color palette.
 - Tinder's color palette.
 
 ## [0.1.5] - 2021-04-13
@@ -65,31 +65,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.1.3] - 2021-04-13
 ### Added [#19](https://github.com/rafamizes/flutter_brand_palettes/issues/19)
-- Material design's light green color palette;
-- Material design's light green accent color palette;
-- Material design's lime color palette;
-- Material design's lime accent color palette;
-- Material design's teal color palette;
+- Material design's light green color palette.
+- Material design's light green accent color palette.
+- Material design's lime color palette.
+- Material design's lime accent color palette.
+- Material design's teal color palette.
 - Material design's teal accent color palette.
 
 ## [0.1.2] - 2021-04-12
 ### Added [#18](https://github.com/rafamizes/flutter_brand_palettes/issues/18)
-- Material design's amber color palette;
-- Material design's amber accent color palette;
-- Material design's orange color palette;
-- Material design's orange accent color palette;
-- Material design's deep orange color palette;
-- Material design's deep orange accent color palette;
-- Material design's yellow color palette;
+- Material design's amber color palette.
+- Material design's amber accent color palette.
+- Material design's orange color palette.
+- Material design's orange accent color palette.
+- Material design's deep orange color palette.
+- Material design's deep orange accent color palette.
+- Material design's yellow color palette.
 - Material design's yellow accent color palette.
 
 ## [0.1.1] - 2021-04-10
 ### Added [#17](https://github.com/rafamizes/flutter_brand_palettes/issues/17)
-- Material design's green color palette;
-- Material design's green accent color palette;
-- Material design's blue color palette;
-- Material design's blue accent color palette;
-- Material design's red color palette;
+- Material design's green color palette.
+- Material design's green accent color palette.
+- Material design's blue color palette.
+- Material design's blue accent color palette.
+- Material design's red color palette.
 - Material design's red accent color palette.
 
 ## [0.1.0] - 2021-04-09
@@ -98,7 +98,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.0.15] - 2021-04-09
 ### Added [#16](https://github.com/rafamizes/flutter_brand_palettes/issues/16)
-- Material Design's Pink color palette;
+- Material Design's Pink color palette.
 - Material Design's Pink Accent color palette.
 
 ### Fixed
@@ -123,41 +123,41 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.10] - 2021-04-08 [#10](https://github.com/rafamizes/flutter_brand_palettes/issues/10)
 ### Added
 - Brown class (alias for Flutter's brown swatch)
-  - Brown() ≡ (default) Colors.brown.shade500;
-  - Brown.ultraLight() ≡ Colors.brown.shade50;
-  - Brown.veryLight() ≡ Colors.brown.shade100;
-  - Brown.light() ≡ Colors.brown.shade200;
-  - Brown.lighter() ≡ Colors.brown.shade300;
-  - Brown.bitLighter() ≡ Colors.brown.shade400;
-  - Brown.bitDarker() ≡ Colors.brown.shade600;
-  - Brown.darker() ≡ Colors.brown.shade700;
-  - Brown.dark() ≡ Colors.brown.shade800;
+  - Brown() ≡ (default) Colors.brown.shade500.
+  - Brown.ultraLight() ≡ Colors.brown.shade50.
+  - Brown.veryLight() ≡ Colors.brown.shade100.
+  - Brown.light() ≡ Colors.brown.shade200.
+  - Brown.lighter() ≡ Colors.brown.shade300.
+  - Brown.bitLighter() ≡ Colors.brown.shade400.
+  - Brown.bitDarker() ≡ Colors.brown.shade600.
+  - Brown.darker() ≡ Colors.brown.shade700.
+  - Brown.dark() ≡ Colors.brown.shade800.
   - Brown.veryDark() ≡ Colors.brown.shade900.
 
 - BlueGrey class (alias for Flutter's blueGrey swatch)
-  - BlueGrey() ≡ (default) Colors.blueGrey.shade500;
-  - BlueGrey.ultraLight() ≡ Colors.blueGrey.shade50;
-  - BlueGrey.veryLight() ≡ Colors.blueGrey.shade100;
-  - BlueGrey.light() ≡ Colors.blueGrey.shade200;
-  - BlueGrey.lighter() ≡ Colors.blueGrey.shade300;
-  - BlueGrey.bitLighter() ≡ Colors.blueGrey.shade400;
-  - BlueGrey.bitDarker() ≡ Colors.blueGrey.shade600;
-  - BlueGrey.darker() ≡ Colors.blueGrey.shade700;
-  - BlueGrey.dark() ≡ Colors.blueGrey.shade800;
+  - BlueGrey() ≡ (default) Colors.blueGrey.shade500.
+  - BlueGrey.ultraLight() ≡ Colors.blueGrey.shade50.
+  - BlueGrey.veryLight() ≡ Colors.blueGrey.shade100.
+  - BlueGrey.light() ≡ Colors.blueGrey.shade200.
+  - BlueGrey.lighter() ≡ Colors.blueGrey.shade300.
+  - BlueGrey.bitLighter() ≡ Colors.blueGrey.shade400.
+  - BlueGrey.bitDarker() ≡ Colors.blueGrey.shade600.
+  - BlueGrey.darker() ≡ Colors.blueGrey.shade700.
+  - BlueGrey.dark() ≡ Colors.blueGrey.shade800.
   - BlueGrey.veryDark() ≡ Colors.blueGrey.shade900.
 
 - Grey class (alias for Flutter's grey swatch)
-  - Grey() ≡ (default) Colors.grey.shade500;
-  - Grey.ultraLight() ≡ Colors.grey.shade50;
-  - Grey.veryLight() ≡ Colors.grey.shade100;
-  - Grey.light() ≡ Colors.grey.shade200;
-  - Grey.lighter() ≡ Colors.grey.shade300;
-  - Grey.pressedLight() ≡ Colors.grey[350];
-  - Grey.bitLighter() ≡ Colors.grey.shade400;
-  - Grey.bitDarker() ≡ Colors.grey.shade600;
-  - Grey.darker() ≡ Colors.grey.shade700;
-  - Grey.dark() ≡ Colors.grey.shade800;
-  - Grey.bgDark() ≡ Colors.grey[850];
+  - Grey() ≡ (default) Colors.grey.shade500.
+  - Grey.ultraLight() ≡ Colors.grey.shade50.
+  - Grey.veryLight() ≡ Colors.grey.shade100.
+  - Grey.light() ≡ Colors.grey.shade200.
+  - Grey.lighter() ≡ Colors.grey.shade300.
+  - Grey.pressedLight() ≡ Colors.grey[350].
+  - Grey.bitLighter() ≡ Colors.grey.shade400.
+  - Grey.bitDarker() ≡ Colors.grey.shade600.
+  - Grey.darker() ≡ Colors.grey.shade700.
+  - Grey.dark() ≡ Colors.grey.shade800.
+  - Grey.bgDark() ≡ Colors.grey[850].
   - Grey.veryDark() ≡ Colors.grey.shade900.
 
 ## [0.0.9] - 2021-04-07
@@ -174,13 +174,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.7] - 2021-04-07
 ### Added
 - Color palettes: [#7](https://github.com/rafamizes/flutter_brand_palettes/issues/7)
-  - Android;
-  - Apple;
-  - Iphone11;
-  - Iphone11Pro;
-  - Iphone7;
-  - Iphone8;
-  - IphoneXR;
+  - Android.
+  - Apple.
+  - Iphone11.
+  - Iphone11Pro.
+  - Iphone7.
+  - Iphone8.
+  - IphoneXR.
   - IphoneXS.
 
 ## [0.0.6] - 2021-04-06
