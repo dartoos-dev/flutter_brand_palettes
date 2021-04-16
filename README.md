@@ -13,8 +13,8 @@ an obscure command like `Grey.colors[200]`(why 200 and not, say, 130 or 440?!)
 represents a light, medium or dark shade of grey. (actually it means
 `Grey.light()`, in declarative programming).
 
-This is a declarative and object-oriented package for the official color
-palettes of popular brands and companies and of the [Material
+This a fully tested (100% coverage), declarative and object-oriented package for
+the official color palettes of popular brands and companies and of the [Material
 Design](https://material.io/design/color/) standard.
 
 ## Getting Started
@@ -62,22 +62,23 @@ brand colors will be implemented as soon as possible.
 
 ### Material Design Color Classes
 
-- Amber, AmberAccent.
+- Red, RedAccent, Pink, PinkAccent, Purple, PurpleAccent, DeepPurple, DeepPurpleAccent.
+- Blue, BlueAccent, LightBlue, LightBlueAccent, Cyan, CyanAccent, Indigo,
+  IndigoAccent.
+- Green, GreenAccent, LightGreen, LightGreenAccent, Lime, LimeAccent,
+  Teal,TealAccent.
+- Yellow, YellowAccent, Amber, AmberAccent, Orange, OrangeAccent, DeepOrange,
+  Brown.
+- Grey, BlueGrey.
 - Black, Black.opacity87, Black.opacity54, Black.opacity45, Black.opacity38,
   Black.opacity26, Black.opacity12.
-- Blue, BlueAccent, BlueGrey, LightBlue, LightBlueAccent, Cyan, CyanAccent,
-  Indigo, IndigoAccent.
-- Brown.
-- Green, GreenAccent, LightGreen, LightGreenAccent, Lime, LimeAccent, Teal, TealAccent.
-- Grey.
-- Orange, OrangeAccent, DeepOrange, DeepOrangeAccent.
-- Pink, PinkAccent.
-- Purple, PurpleAccent, DeepPurple, DeepPurpleAccent.
-- Red, RedAccent.
-- Transparent.
 - White, White.opacity70, White.opacity60, White.opacity54, White.opacity38,
   White.opacity30, White.opacity24, White.opacity12, White.opacity10.
-- Yellow, YellowAccent.
+- Transparent.
+
+#### Color Swatches
+
+- Primaries.
 
 See also: [material design's color
 palette](https://material.io/archive/guidelines/style/color.html#color-color-palette).
