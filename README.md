@@ -97,6 +97,10 @@ palette](https://material.io/archive/guidelines/style/color.html#color-color-pal
   - grey, orange, white.
 - **Facebook**
   - black, blue, grey, white.
+- **FedEx**
+  - orange, purple.
+  - Old Palette
+    - black, blue, green, grey, red, yellow, white.
 - **Flutter**
   - blue, dark blue, dark grey, light blue, light grey, grey, white.
 - **Google**
@@ -122,14 +126,25 @@ palette](https://material.io/archive/guidelines/style/color.html#color-color-pal
   - blue, white.
 - **Mastercard**
   - black, orange, red, yellow.
+- **Messenger**
+  - primaries
+    - black, blue, cool white, coral, pink, purple.
+  - neutrals (cool grey tones)
+    - daylight, midnight, twilight.
 - **Microsoft**
   - blue, green, grey, orange-red, yellow.
+- **Netflix**
+  - black, red, white.
 - **PayPal**
   - black, pal blue, pay blue, white.
+- **Reddit**
+  - black, orange, white.
 - **Slack**
   - aubergine (eggplant), black, blue, green, red, yellow.
 - **Spotify**
   - black, green, white.
+- **Swift**
+  - black, sunset orange.
 - **TikTok**
   - black, red, turqoise, white.
 - **Tinder**

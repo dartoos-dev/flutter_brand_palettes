@@ -8,8 +8,11 @@ import 'package:flutter_test/flutter_test.dart';
 class AnyBrand extends PaletteRGB {
   const AnyBrand({required int alpha, required int rgb})
       : super(alpha: alpha, rgb: rgb);
-  const AnyBrand.black() : super.opaque(0x000000);
-  const AnyBrand.white() : super.opaque(0xFFFFFF);
+  const AnyBrand.red() : super.opaque(0xFF0000);
+  const AnyBrand.blue() : super.opaque(0x0000FF);
+  const AnyBrand.green() : super.opaque(0x00FF00);
+  const AnyBrand.black() : super.black();
+  const AnyBrand.white() : super.white();
 
   /// Custom opacity.
   const AnyBrand.black87() : super(alpha: 0xDD, rgb: 0x000000);
@@ -21,6 +24,9 @@ class AnyBrand extends PaletteRGB {
 void main() {
   group('PaletteRGB base class', () {
     test('fully opaque', () {
+      expect(const AnyBrand.red().color, const Color(0xFFFF0000));
+      expect(const AnyBrand.green().color, const Color(0xFF00FF00));
+      expect(const AnyBrand.blue().color, const Color(0xFF0000FF));
       expect(const AnyBrand.black().color, Colors.black);
       expect(const AnyBrand.white().color, Colors.white);
     });
