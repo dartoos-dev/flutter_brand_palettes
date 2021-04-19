@@ -7,7 +7,8 @@ import '../palette_rgb.dart';
 /// - Yellow;
 /// - Green.
 ///
-/// See also: - [google colors](https://usbrandcolors.com/google-colors/)
+/// See also:
+/// - [google colors](https://usbrandcolors.com/google-colors/)
 class Google extends PaletteRGB {
   /// Blue #4285F4.
   const Google.blue() : super.opaque(0x4285F4);

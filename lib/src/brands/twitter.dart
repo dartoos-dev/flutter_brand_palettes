@@ -30,6 +30,6 @@ class Twitter extends PaletteRGB {
   /// Extra Extra Light Grey #F5F8FA.
   const Twitter.extraExtraLightGrey() : super.opaque(0xF5F8FA);
 
-  /// White #FFFFFF
-  const Twitter.white() : super.opaque(0xFFFFFF);
+  /// White #FFFFFF.
+  const Twitter.white() : super.white();
 }

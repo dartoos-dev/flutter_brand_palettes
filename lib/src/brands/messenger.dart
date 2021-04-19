@@ -6,7 +6,7 @@ import '../palette_rgb.dart';
 /// - Neutral (cool grey tones): Daylight, Midnight, Twilight.
 ///
 /// See also
-/// - [messenger](https://en.facebookbrand.com/facebookapp/assets/messenger/)
+/// - [messenger colors](https://en.facebookbrand.com/facebookapp/assets/messenger/)
 class Messenger extends PaletteRGB {
   /// Black #000000.
   const Messenger.black() : super.black();

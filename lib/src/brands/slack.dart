@@ -16,7 +16,7 @@ class Slack extends PaletteRGB {
   const Slack.aubergine() : super.opaque(0x4A154B);
 
   /// Black #000000.
-  const Slack.black() : super.opaque(0x000000);
+  const Slack.black() : super.black();
 
   /// Blue #36C5F0.
   const Slack.blue() : super.opaque(0x36C5F0);

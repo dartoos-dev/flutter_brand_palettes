@@ -12,5 +12,5 @@ class Amazon extends PaletteRGB {
   const Amazon.orange() : super.opaque(0xFF9900);
 
   /// Black #000000.
-  const Amazon.black() : super.opaque(0x000000);
+  const Amazon.black() : super.black();
 }

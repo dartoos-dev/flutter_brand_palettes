@@ -7,7 +7,7 @@ import '../palette_rgb.dart';
 /// - White.
 ///
 /// See also:
-/// - [netflix](https://brandpalettes.com/netflix-color-codes/)
+/// - [netflix colors](https://brandpalettes.com/netflix-color-codes/)
 class Netflix extends PaletteRGB {
   /// Black #000000.
   const Netflix.black() : super.black();

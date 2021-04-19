@@ -10,7 +10,7 @@ import '../palette_rgb.dart';
 /// - [apple colors](https://brandpalettes.com/apple-color-codes/)
 class Apple extends PaletteRGB {
   /// Black #000000.
-  const Apple.black() : super.opaque(0x000000);
+  const Apple.black() : super.black();
 
   /// Silver #A3AAAE.
   const Apple.silver() : super.opaque(0xA3AAAE);

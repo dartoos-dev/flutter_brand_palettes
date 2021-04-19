@@ -13,7 +13,8 @@ import '../palette_rgb.dart';
 /// - Yellow;
 /// - Light Yellow.
 ///
-/// See also: - [instagram colors](https://usbrandcolors.com/instagram-colors/)
+/// See also:
+/// - [instagram colors](https://usbrandcolors.com/instagram-colors/)
 class Instagram extends PaletteRGB {
   /// Royal Blue #405DE6.
   const Instagram.royalBlue() : super.opaque(0x405DE6);

@@ -16,21 +16,21 @@ class Whatsapp extends PaletteRGB {
   /// Teal Green Dark #075E54.
   const Whatsapp.tealGreenDark() : super.opaque(0x075E54);
 
-  /// Teal Green #128C7E
+  /// Teal Green #128C7E.
   const Whatsapp.tealGreen() : super.opaque(0x128C7E);
 
-  /// Light Green #25D366
+  /// Light Green #25D366.
   const Whatsapp.lightGreen() : super.opaque(0x25D366);
 
-  /// Outgoing Chat Bubble - Tea Green #DCF8C6
+  /// Outgoing Chat Bubble - Tea Green #DCF8C6.
   const Whatsapp.teaGreen() : super.opaque(0xDCF8C6);
 
   /// Checkmark - Picton Blue #34B7F1.
   const Whatsapp.blue() : super.opaque(0x34B7F1);
 
-  /// Chat Background - White Chocolate #ECE5DD
+  /// Chat Background - White Chocolate #ECE5DD.
   const Whatsapp.whiteChocolate() : super.opaque(0xECE5DD);
 
-  /// White #FFFFFF
-  const Whatsapp.white() : super.opaque(0xFFFFFF);
+  /// White #FFFFFF.
+  const Whatsapp.white() : super.white();
 }

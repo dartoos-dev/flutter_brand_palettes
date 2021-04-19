@@ -20,11 +20,15 @@ abstract class PaletteRGB implements Palette {
   /// [rgb] red, green, blue values.
   const PaletteRGB.opaque(int rgb) : this(alpha: 0xFF, rgb: rgb);
 
-  /// Fully opaque white #FFFFFF.
-  const PaletteRGB.white() : this.opaque(0xFFFFFF);
+  /// Convenience white #FFFFFF.
+  ///
+  /// [o] opacity value; defaults to 0xFF (fully opaque).
+  const PaletteRGB.white([int o = 0xFF]) : this(alpha: o, rgb: 0xFFFFFF);
 
-  /// Fully opaque black #000000.
-  const PaletteRGB.black() : this.opaque(0x000000);
+  /// Convenience black #000000.
+  ///
+  /// [o] opacity value; defaults to 0xFF (fully opaque).
+  const PaletteRGB.black([int o = 0xFF]) : this(alpha: o, rgb: 0x000000);
 
   /// color's 32 bits integer value.
   final int _value;

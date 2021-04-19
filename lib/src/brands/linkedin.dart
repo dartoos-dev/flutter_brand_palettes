@@ -12,5 +12,5 @@ class Linkedin extends PaletteRGB {
   const Linkedin.blue() : super.opaque(0x2867B2);
 
   /// White #FFFFFF.
-  const Linkedin.white() : super.opaque(0xFFFFFF);
+  const Linkedin.white() : super.white();
 }

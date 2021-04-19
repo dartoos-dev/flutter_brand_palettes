@@ -4,7 +4,7 @@ import '../../palette_rgb.dart';
 ///
 /// - Black;
 /// - Gold;
-/// - Silver;
+/// - Silver.
 ///
 /// See also:
 /// - [iphone colors](https://brandpalettes.com/iphone-colors/)

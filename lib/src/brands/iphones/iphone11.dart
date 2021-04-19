@@ -13,7 +13,7 @@ import '../../palette_rgb.dart';
 /// - [iphone colors](https://brandpalettes.com/apple-iphone-colors/)
 /// - [iphone compare](https://www.apple.com/iphone/compare/)
 class Iphone11 extends PaletteRGB {
-  /// Light Purple #D1CDDA
+  /// Light Purple #D1CDDA.
   const Iphone11.lightPurple() : super.opaque(0xD1CDDA);
 
   /// Light Yellow #FFE681.
@@ -22,7 +22,7 @@ class Iphone11 extends PaletteRGB {
   /// Light Green # AEE1CD.
   const Iphone11.lightGreen() : super.opaque(0xAEE1CD);
 
-  /// Black #1F2020
+  /// Black #1F2020.
   const Iphone11.black() : super.opaque(0x1F2020);
 
   /// White #F9F6EF.

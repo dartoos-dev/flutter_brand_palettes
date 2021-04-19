@@ -16,5 +16,5 @@ class Bitcoin extends PaletteRGB {
   const Bitcoin.orange() : super.opaque(0xF7931A);
 
   /// White #FFFFFF.
-  const Bitcoin.white() : super.opaque(0xFFFFFF);
+  const Bitcoin.white() : super.white();
 }

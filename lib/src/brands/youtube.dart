@@ -15,5 +15,5 @@ class Youtube extends PaletteRGB {
   const Youtube.red() : super.opaque(0xFF0000);
 
   /// White #FFFFFF.
-  const Youtube.white() : super.opaque(0xFFFFFF);
+  const Youtube.white() : super.white();
 }

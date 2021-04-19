@@ -12,9 +12,9 @@ class Spotify extends PaletteRGB {
   /// Black #191414.
   const Spotify.black() : super.opaque(0x191414);
 
-  /// Green #1DB954
+  /// Green #1DB954.
   const Spotify.green() : super.opaque(0x1DB954);
 
-  /// White #FFFFFF
-  const Spotify.white() : super.opaque(0xFFFFFF);
+  /// White #FFFFFF.
+  const Spotify.white() : super.white();
 }

@@ -5,9 +5,9 @@ import '../../palette_rgb.dart';
 /// - Black;
 /// - Blue;
 /// - Coral;
-/// - Red.
+/// - Red;
 /// - White;
-/// - Yellow;
+/// - Yellow.
 ///
 /// See also:
 /// - [iphone colors](https://brandpalettes.com/iphone-colors/)

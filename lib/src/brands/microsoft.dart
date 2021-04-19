@@ -8,7 +8,8 @@ import '../palette_rgb.dart';
 /// - Orange-Red;
 /// - Yellow.
 ///
-/// See also: - [microsoft colors](https://usbrandcolors.com/microsoft-colors/)
+/// See also:
+/// - [microsoft colors](https://usbrandcolors.com/microsoft-colors/)
 class Microsoft extends PaletteRGB {
   /// Blue #00A4EF.
   const Microsoft.blue() : super.opaque(0x00A4EF);

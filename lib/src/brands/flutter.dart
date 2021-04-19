@@ -33,5 +33,5 @@ class Flutter extends PaletteRGB {
   const Flutter.lightGrey() : super.opaque(0xD5D7DA);
 
   /// White #FFFFFF
-  const Flutter.white() : super.opaque(0xFFFFFF);
+  const Flutter.white() : super.white();
 }

@@ -14,26 +14,24 @@ import '../palette_rgb.dart';
 /// See also:
 /// - [black](https://api.flutter.dev/flutter/material/Colors/black-constant.html)
 class Black extends PaletteRGB {
-  static const int _rgb = 0x000000;
-
   /// Fully opaque ≡ Colors.black.
-  const Black() : super.opaque(_rgb);
+  const Black() : super.black();
 
   /// 87% opacity ≡ Colors.black87.
-  const Black.opacity87() : super(alpha: 0xDD, rgb: _rgb);
+  const Black.opacity87() : super.black(0xDD);
 
   /// 54% opacity ≡ Colors.black54.
-  const Black.opacity54() : super(alpha: 0x8A, rgb: _rgb);
+  const Black.opacity54() : super.black(0x8A);
 
   /// 45% opacity ≡ Colors.black45.
-  const Black.opacity45() : super(alpha: 0x73, rgb: _rgb);
+  const Black.opacity45() : super.black(0x73);
 
   /// 38% opacity ≡ Colors.black38.
-  const Black.opacity38() : super(alpha: 0x61, rgb: _rgb);
+  const Black.opacity38() : super.black(0x61);
 
   /// 26% opacity ≡ Colors.black26.
-  const Black.opacity26() : super(alpha: 0x42, rgb: _rgb);
+  const Black.opacity26() : super.black(0x42);
 
   /// 12% opacity ≡ Colors.black12.
-  const Black.opacity12() : super(alpha: 0x1F, rgb: _rgb);
+  const Black.opacity12() : super.black(0x1F);
 }
