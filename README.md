@@ -105,6 +105,8 @@ palette](https://material.io/archive/guidelines/style/color.html#color-color-pal
   - blue, dark blue, dark grey, light blue, light grey, grey, white.
 - **Google**
   - blue, green, red, yellow.
+- **Ibm**
+  - black, blue, white.
 - **Instagram**
   - blue, dark orange, dark pink, light yellow, orange, purple, purple-red, red,
     royal blue, yellow.
@@ -135,6 +137,8 @@ palette](https://material.io/archive/guidelines/style/color.html#color-color-pal
   - blue, green, grey, orange-red, yellow.
 - **Netflix**
   - black, red, white.
+- **Oracle**
+  - black, grey, red, white.
 - **PayPal**
   - black, pal blue, pay blue, white.
 - **Reddit**
@@ -152,6 +156,13 @@ palette](https://material.io/archive/guidelines/style/color.html#color-color-pal
 - **Twitter**
   - black, blue, dark grey, extra extra light grey, extra light grey, light,
     grey, white.
+- **Uber**
+  - primary
+    - black, white.
+  - safety
+    - blue.
+  - secondary
+    - brown, green, orange, purple, red, yellow.
 - **Visa**
   - blue, gold.
 - **Whatsapp**

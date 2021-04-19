@@ -9,8 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - List of colors representing the brand's gradients.
 - The brands' official logos and icons downloaded from their official web sites.
 
+## [0.1.13] - 2021-04-19 [#31](https://github.com/rafamizes/flutter_brand_palettes/issues/31)
+### Added
+- Color palettes: Ibm, Oracle, Uber.
+
 ### Fixed
 - Release date of version 0.1.12 in changelog.
+- Punctuation in doc comments.
 
 ## [0.1.12] - 2021-04-17 [#29](https://github.com/rafamizes/flutter_brand_palettes/issues/29)
 ### Added
