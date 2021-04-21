@@ -9,6 +9,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - List of colors representing the brand's gradients.
 - The brands' official logos and icons downloaded from their official web sites.
 
+## [0.2.0] - 2021-04-21 (Breaking Changes)
+### Added
+- SwatchBase abstract class that eases the creation of Swatch color classes.
+
+### Changed (Breaking)
+- The return type of the Swatch interface 'color' property changed from
+  `List<Color>` to `Iterable<Color>`.
+
+### Fixed
+- README typos.
+
 ## [0.1.13] - 2021-04-19 [#31](https://github.com/rafamizes/flutter_brand_palettes/issues/31)
 ### Added
 - Color palettes: Ibm, Oracle, Uber.

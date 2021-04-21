@@ -5,11 +5,12 @@ import 'package:flutter_test/flutter_test.dart';
 /// [primaries](https://api.flutter.dev/flutter/material/Colors/primaries-constant.html)
 void main() {
   group('Primaries Swatch', () {
+    const primaries = Primaries();
     test('Default', () {
-      final myPrimaries = const Primaries().colors;
-      expect(myPrimaries.length, Colors.primaries.length);
-      for (var i = 0; i < myPrimaries.length; i++) {
-        expect(myPrimaries[i], Colors.primaries[i].shade500);
+      final colors = primaries.colors.toList();
+      expect(colors.length, Colors.primaries.length);
+      for (var i = 0; i < colors.length; i++) {
+        expect(colors[i], Colors.primaries[i].shade500);
       }
     });
   });
