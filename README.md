@@ -13,24 +13,24 @@ an obscure command like `Grey.colors[200]`(why 200 and not, say, 130 or 440?!)
 represents a light, medium or dark shade of grey. (actually it means
 `Grey.light()`, in declarative programming).
 
-This a fully tested (100% coverage), declarative and object-oriented package for
-the official color palettes of popular brands and companies and of the [Material
-Design](https://material.io/design/color/) standard.
+This is a fully tested (100% coverage), declarative and object-oriented package
+for the official color palettes of popular brands and companies and of the
+[Material Design](https://material.io/design/color/) standard.
 
 ## Getting Started
 
 Instead of a constant integer value, each color is represented by a named
 constructor of its corresponding brand class. In this way, the source code
-becomes more object-oriented, readable and maintainable. For instance,
-`Instagram.red().color` retrieves the Instagram's red color #FD1D1D;
+becomes more object-oriented, readable and maintainable. For instance, the
+command `Instagram.red().color` retrieves the Instagram's red color #FD1D1D;
 `Google.red().color`, Google's red #DB4437; `Facebook.blue().color`, Facebook's
 blue #4267B2; and so on.
 
 ### Material Design color classes
 
-These are classes whose names are the colors they represent, like "Grey".  E.g:
-`Grey()` represents the primary grey color, equivalent to the Flutter's cryptic
-`Colors.grey.shade500`; `Grey.light()` ≡ `Colors.grey.shade200`;
+These are classes whose names are the colors they represent, such as "Grey". For
+example: `Grey()` represents the primary grey color, equivalent to the Flutter's
+cryptic `Colors.grey.shade500`; `Grey.light()` ≡ `Colors.grey.shade200`;
 `Grey.veryDark()` ≡ `Colors.grey.shade900`; and so on.
 
 For more details: [api
@@ -60,7 +60,7 @@ Just open an
 brand name and a reference link for the (hexadecimal) values of the colors.  The
 brand colors will be implemented as soon as possible.
 
-### Material Design Color Classes
+### Material Design Colors Classes
 
 - Red, RedAccent, Pink, PinkAccent, Purple, PurpleAccent, DeepPurple, DeepPurpleAccent.
 - Blue, BlueAccent, LightBlue, LightBlueAccent, Cyan, CyanAccent, Indigo,
