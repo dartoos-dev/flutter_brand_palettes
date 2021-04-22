@@ -26,6 +26,18 @@ class Shades {
   /// Ten shades of indigo.
   const Shades.ofIndigo() : this(Colors.indigo);
 
+  /// Ten shades of red.
+  const Shades.ofRed() : this(Colors.red);
+
+  /// Ten shades of pink.
+  const Shades.ofPink() : this(Colors.pink);
+
+  /// Ten shades of orange.
+  const Shades.ofOrange() : this(Colors.orange);
+
+  /// Ten shades of deep orange.
+  const Shades.ofDeepOrange() : this(Colors.deepOrange);
+
   // The 'root' color.
   final MaterialColor _color;
 

@@ -90,6 +90,7 @@ brand colors will be implemented as soon as possible.
 
 - Bluish, BluishLight, Cyanish, Indigoish.
 - Greyish, BluishGrey, Brownish.
+- Reddish, Pinkish, Orangish, OrangishDeep.
 - Primaries (primary colors, excluding grey).
 
 See also: [material design's color
