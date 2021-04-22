@@ -20,6 +20,7 @@ class Indigoish extends SwatchBase {
   /// - 8, dark ≡ 800.
   /// - 9, very dark ≡ 900.
   const Indigoish()
+      // coverage:ignore-start
       : super(
           const [
             Indigo.ultraLight(),
@@ -34,4 +35,5 @@ class Indigoish extends SwatchBase {
             Indigo.veryDark(),
           ],
         );
+  // coverage:ignore-end
 }

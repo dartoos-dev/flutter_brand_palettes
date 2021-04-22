@@ -13,7 +13,8 @@ abstract class PaletteRGB implements Palette {
   const PaletteRGB({
     required int alpha,
     required int rgb,
-  }) : _value = alpha << 24 | rgb;
+  })
+  : _value = alpha << 24 | rgb; // coverage:ignore-line
 
   /// Fully opaque color.
   ///

@@ -20,6 +20,7 @@ class Cyanish extends SwatchBase {
   /// - 8, dark ≡ 800.
   /// - 9, very dark ≡ 900.
   const Cyanish()
+      // coverage:ignore-start
       : super(
           const [
             Cyan.ultraLight(),
@@ -34,4 +35,5 @@ class Cyanish extends SwatchBase {
             Cyan.veryDark(),
           ],
         );
+  // coverage:ignore-end
 }

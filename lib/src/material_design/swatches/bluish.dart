@@ -20,6 +20,7 @@ class Bluish extends SwatchBase {
   /// - 8, dark ≡ 800.
   /// - 9, very dark ≡ 900.
   const Bluish()
+      // coverage:ignore-start
       : super(
           const [
             Blue.ultraLight(),
@@ -34,4 +35,5 @@ class Bluish extends SwatchBase {
             Blue.veryDark(),
           ],
         );
+  // coverage:ignore-end
 }

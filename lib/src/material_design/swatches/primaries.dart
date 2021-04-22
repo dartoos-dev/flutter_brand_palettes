@@ -13,6 +13,7 @@ class Primaries extends SwatchBase {
   ///   green, light green, lime, yellow, amber, orange, deep orange, brown,
   ///   blue-grey.
   const Primaries()
+      // coverage:ignore-start
       : super(
           const [
             Red(),
@@ -35,4 +36,5 @@ class Primaries extends SwatchBase {
             BlueGrey(),
           ],
         );
+  // coverage:ignore-end
 }
