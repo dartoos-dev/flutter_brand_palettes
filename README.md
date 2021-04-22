@@ -8,13 +8,13 @@
 [![Hits-of-Code](https://hitsofcode.com/github/rafamizes/flutter_brand_palettes?branch=main)](https://hitsofcode.com/github/rafamizes/flutter_brand_palettes/view?branch=main)
 [![EO principles respected here](https://www.elegantobjects.org/badge.svg)](https://www.elegantobjects.org)
 
-Stop searching the internet for brand colors hex codes!  Stop wondering whether
-an obscure command like `Grey.colors[200]`(why 200 and not, say, 130 or 440?!)
-represents a light, medium or dark shade of grey.
+Stop searching the internet for color hex codes!  Stop wondering whether an
+obscure command like `Grey.colors[200]` generates a light, medium or dark shade
+of grey. (By the way, why '200' and not, say, '130' or '440'?)
 
-This is a highly tested, declarative and object-oriented package of official
-color palettes of popular brands and companies, and of the [Material
-Design](https://material.io/design/color/) standard.
+This is a highly tested, declarative and object-oriented package for the
+official color palettes of popular brands and companies, as well as for the
+[Material Design](https://material.io/design/color/) standard.
 
 ## Getting Started
 
@@ -34,8 +34,8 @@ cryptic `Colors.grey.shade500`; `Grey.light()` ≡ `Colors.grey.shade200`;
 
 ### Color Swatches - Several colors at once
 
-Each color swatch class represents a group of related colors, such as the colors
-of the rainbow, shades of grey, the colors of the gradient of a logo, etc.
+Each color swatch class is a collection of related colors, such as the colors of
+the rainbow, shades of grey, the colors of the gradient of a logo, etc.
 
 #### 'Ish' classes
 

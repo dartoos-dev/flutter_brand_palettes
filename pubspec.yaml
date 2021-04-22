@@ -1,5 +1,5 @@
 name: flutter_brand_palettes
-description: Set of declarative classes for the official color palettes of popular brands and companies and of the Material Design standard.
+description: Set of declarative classes for the official color palettes of popular brands and companies, as well as for the Material Design standard.
 version: 0.2.1
 homepage: https://github.com/rafamizes/flutter_brand_palettes
 
