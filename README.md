@@ -88,8 +88,9 @@ brand colors will be implemented as soon as possible.
 
 ### Color Swatches
 
-- Primaries (primary colors, excluding grey).
+- Bluish, BluishLight, Cyanish, Indigoish.
 - Greyish, BluishGrey, Brownish.
+- Primaries (primary colors, excluding grey).
 
 See also: [material design's color
 palette](https://material.io/archive/guidelines/style/color.html#color-color-palette).
