@@ -1,3 +1,4 @@
+export 'src/material_design/swatches/amberish.dart';
 export 'src/material_design/swatches/bluish.dart';
 export 'src/material_design/swatches/bluish_grey.dart';
 export 'src/material_design/swatches/bluish_light.dart';
@@ -12,7 +13,10 @@ export 'src/material_design/swatches/orangish.dart';
 export 'src/material_design/swatches/orangish_deep.dart';
 export 'src/material_design/swatches/pinkish.dart';
 export 'src/material_design/swatches/primaries.dart';
+export 'src/material_design/swatches/purplish.dart';
+export 'src/material_design/swatches/purplish_deep.dart';
 export 'src/material_design/swatches/reddish.dart';
 export 'src/material_design/swatches/tealish.dart';
+export 'src/material_design/swatches/yellowish.dart';
 export 'src/swatch.dart';
 export 'src/swatch_base.dart';

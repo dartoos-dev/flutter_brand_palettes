@@ -5,6 +5,18 @@ class Shades {
   /// Ten shades of the given color.
   const Shades(this._color);
 
+  /// Ten shades of purple.
+  const Shades.ofPurple() : this(Colors.purple);
+
+  /// Ten shades of deep purple.
+  const Shades.ofDeepPurple() : this(Colors.deepPurple);
+
+  /// Ten shades of amber.
+  const Shades.ofAmber() : this(Colors.amber);
+
+  /// Ten shades of yellow.
+  const Shades.ofYellow() : this(Colors.yellow);
+
   /// Ten shades of lime.
   const Shades.ofLime() : this(Colors.lime);
 

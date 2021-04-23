@@ -73,13 +73,13 @@ brand colors will be implemented as soon as possible.
 
 ### Color Palettes Classes
 
-- Red, RedAccent, Pink, PinkAccent, Purple, PurpleAccent, DeepPurple, DeepPurpleAccent.
 - Blue, BlueAccent, LightBlue, LightBlueAccent, Cyan, CyanAccent, Indigo,
   IndigoAccent.
 - Green, GreenAccent, LightGreen, LightGreenAccent, Lime, LimeAccent,
   Teal,TealAccent.
-- Yellow, YellowAccent, Amber, AmberAccent, Orange, OrangeAccent, DeepOrange,
 - Grey, BlueGrey, Brown.
+- Red, RedAccent, Pink, PinkAccent, Purple, PurpleAccent, DeepPurple, DeepPurpleAccent.
+- Yellow, YellowAccent, Amber, AmberAccent, Orange, OrangeAccent, DeepOrange,
 - Black, Black.opacity87, Black.opacity54, Black.opacity45, Black.opacity38,
   Black.opacity26, Black.opacity12.
 - White, White.opacity70, White.opacity60, White.opacity54, White.opacity38,
@@ -91,7 +91,8 @@ brand colors will be implemented as soon as possible.
 - Bluish, BluishLight, Cyanish, Indigoish.
 - Greenish, GreenishLight, Limish, Tealish.
 - Greyish, BluishGrey, Brownish.
-- Reddish, Pinkish, Orangish, OrangishDeep.
+- Reddish, Pinkish, Purplish, PurplishDeep.
+- Yellowish, Amberish, Orangish, OrangishDeep.
 - Primaries (primary colors, excluding grey).
 
 See also: [material design's color
