@@ -12,7 +12,7 @@ Stop searching the internet for color hex codes!  Stop wondering whether an
 obscure command like `Grey.colors[200]` generates a light, medium or dark shade
 of grey. (By the way, why '200' and not, say, '130' or '440'?)
 
-This is a highly tested, declarative and object-oriented package for the
+This package is a collection of declarative and object-oriented classes for the
 official color palettes of popular brands and companies, as well as for the
 [Material Design](https://material.io/design/color/) standard.
 
