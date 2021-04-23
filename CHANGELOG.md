@@ -5,9 +5,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+- Split this project into two smaller ones (Breaking)
+  - Keep this project having just brand palettes colors.
+  - Another one for the Material Design colors.
 - More brand color palettes.
 - List of colors representing the brand's gradients.
 - The brands' official logos and icons downloaded from their official web sites.
+
+## [0.2.4] - 2021-04-23 [#34](https://github.com/rafamizes/flutter_brand_palettes/issues/34)
+- Color Swatches: Greenish, GreenishLight, Limish, Tealish.
 
 ## [0.2.3] - 2021-04-22 [#33](https://github.com/rafamizes/flutter_brand_palettes/issues/33)
 - Color Swatches: Reddish, Pinkish, Orangish, OrangishDeep.

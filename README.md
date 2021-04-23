@@ -89,6 +89,7 @@ brand colors will be implemented as soon as possible.
 ### Color Swatches
 
 - Bluish, BluishLight, Cyanish, Indigoish.
+- Greenish, GreenishLight, Limish, Tealish.
 - Greyish, BluishGrey, Brownish.
 - Reddish, Pinkish, Orangish, OrangishDeep.
 - Primaries (primary colors, excluding grey).
