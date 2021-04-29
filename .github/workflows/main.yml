@@ -33,10 +33,10 @@ jobs:
         with:
           channel: 'stable'
           
-      - name: Dart Full Coverage
-        uses: stelynx/dart-full-coverage@v1.0.5
-        with:
-          package: flutter_brand_palettes
+      # - name: Dart Full Coverage
+      #  uses: stelynx/dart-full-coverage@v1.0.5
+      #  with:
+      #    package: flutter_brand_palettes
      
       # Get flutter dependencies.
       - run: flutter pub get
