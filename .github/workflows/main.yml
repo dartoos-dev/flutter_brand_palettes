@@ -1,6 +1,6 @@
 # Automates the process of testing, analyzing, checking the code format,
 # building, and deploying using Github Actions.
-name: Brand Palettes CI
+name: Build
 
 # Controls when the action will run. 
 on:
@@ -33,11 +33,6 @@ jobs:
         with:
           channel: 'stable'
           
-      # - name: Dart Full Coverage
-      #  uses: stelynx/dart-full-coverage@v1.0.5
-      #  with:
-      #    package: flutter_brand_palettes
-     
       # Get flutter dependencies.
       - run: flutter pub get
     
@@ -49,9 +44,6 @@ jobs:
     
       # Run widget tests for our flutter project.
       - run: flutter test --coverage
-      
-      # Validate but do not publish the package.
-      - run: flutter packages pub publish --dry-run
       
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v1

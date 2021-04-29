@@ -12,13 +12,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - List of colors representing the brand's gradients.
 - The brands' official logos and icons downloaded from their official web sites.
 
+### Changed
+- CI to github actions.
+- Test coverage report to codecov.
+
 ## [0.2.5] - 2021-04-23 [#35](https://github.com/rafamizes/flutter_brand_palettes/issues/35) [#36](https://github.com/rafamizes/flutter_brand_palettes/issues/36)
+### Added
 - Color Swatches: Yellowish, Amberish, Purplish, PurplishDeep.
 
 ## [0.2.4] - 2021-04-23 [#34](https://github.com/rafamizes/flutter_brand_palettes/issues/34)
+### Added
 - Color Swatches: Greenish, GreenishLight, Limish, Tealish.
 
 ## [0.2.3] - 2021-04-22 [#33](https://github.com/rafamizes/flutter_brand_palettes/issues/33)
+### Added
 - Color Swatches: Reddish, Pinkish, Orangish, OrangishDeep.
 
 ## [0.2.2] - 2021-04-21 [#32](https://github.com/rafamizes/flutter_brand_palettes/issues/32)
