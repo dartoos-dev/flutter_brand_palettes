@@ -17,33 +17,41 @@ class MyApp extends StatelessWidget {
 }
 
 class InstagramPalettePage extends StatelessWidget {
-  const InstagramPalettePage({Key? key, required String title})
+  const InstagramPalettePage({required String title, Key? key})
       : _title = title,
         super(key: key);
 
   final String _title;
 
-  static final List<Color> _gradient = List.unmodifiable([
-    const Instagram.lightYellow().color,
-    const Instagram.yellow().color,
-    const Instagram.orange().color,
-    const Instagram.darkOrange().color,
-    const Instagram.red().color,
-    const Instagram.purpleRed().color,
-    const Instagram.darkPink().color,
-    const Instagram.purple().color,
-    const Instagram.blue().color,
-    const Instagram.royalBlue().color,
-  ]);
+  /// The 'late' modifier ensures the lazy initialization of [_gradient]. In
+  /// other words, the _gradient's initializer expression runs only the first
+  /// time the variable is used.
+  static late final _gradient = _toGradient();
 
   // Application's bar backgroud color.
-  static const _greyish = Grey.veryLight();
+  static const _bgAppBar = Grey.veryLight();
+
+  /// Builds the Instagram's gradient color scheme.
+  static List<Color> _toGradient() {
+    return const [
+      Instagram.lightYellow(),
+      Instagram.yellow(),
+      Instagram.orange(),
+      Instagram.darkOrange(),
+      Instagram.red(),
+      Instagram.purpleRed(),
+      Instagram.darkPink(),
+      Instagram.purple(),
+      Instagram.blue(),
+      Instagram.royalBlue(),
+    ].map((picked) => picked.color).toList(growable: false);
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: _greyish(), // could have been '_greyish.color'
+        backgroundColor: _bgAppBar.color,
         elevation: 2.0,
         title: GradientTitle(_title, _gradient),
       ),
@@ -113,12 +121,21 @@ class _ColorItem extends StatelessWidget {
   final String _label;
   final BoxDecoration Function() _boxDecoration;
 
+  // Normal font color.
+  static const _normal = Grey.dark();
+
   @override
   Widget build(BuildContext context) {
     return Card(
       child: Row(
         children: [
-          Expanded(child: Text(_label, textAlign: TextAlign.center)),
+          Expanded(
+            child: Text(
+              _label,
+              textAlign: TextAlign.center,
+              style: TextStyle(color: _normal()), // or _normal.color
+            ),
+          ),
           Expanded(
             flex: 5,
             child: Container(

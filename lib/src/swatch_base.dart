@@ -7,8 +7,7 @@ import 'swatch.dart';
 abstract class SwatchBase implements Swatch {
   /// Swatch colors from palettes.
   ///
-  /// Upon [colors] request, it will retrieve a new lazy [Iterable] with [Color]
-  /// elements.
+  /// Upon [colors] request, it retrieves a new lazy [Iterable] of [Color].
   const SwatchBase(this._palettes);
 
   // Source of picked colors.
