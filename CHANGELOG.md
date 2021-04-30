@@ -12,6 +12,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - List of colors representing the brand's gradients.
 - The brands' official logos and icons downloaded from their official web sites.
 
+## [0.2.5+2] - 2021-04-29
+### Fixed
+- Flutter dependency in pubspec
+
 ## [0.2.5+1] - 2021-04-29
 ### Fixed
 - rename PurplishDeep test file to purplish_deep_test.dart.
