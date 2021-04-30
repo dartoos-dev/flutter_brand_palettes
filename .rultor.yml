@@ -5,22 +5,9 @@ architect:
   - rafamizes
 merge:
   script:
-    echo "testing..."
-    echo "building..."
-    echo "packaging..."
+    - echo "testing..."
+    - flutter clean
+    - flutter pub get
+    - flutter test
   squash: true
   fast-forward: default
-# docker:
-#   image: ubuntu:latest
-# install:
-#   - cd ..
-#   - git clone https://github.com/flutter/flutter.git -b stable
-#   - export PATH=`pwd`/flutter/bin:`pwd`/flutter/bin/cache/dart-sdk/bin:$PATH
-#   - flutter doctor
-#   - cd -
-# merge:
-#   script:
-#     - flutter pub clean
-#     - flutter pub get
-#     - flutter test
-#     - flutter pub publish --dry-run
