@@ -1,13 +1,10 @@
 docker:
   image: cirrusci/flutter:stable
-  as_root: true
 architect:
   - rafamizes
 merge:
   script:
-    - echo "testing..."
-    - flutter clean
-    - flutter pub get
+    - flutter clean --verbose
+    - flutter pub get --verbose
     - flutter test
   squash: true
-  fast-forward: default
