@@ -1,0 +1,16 @@
+architect:
+  - rafamizes
+docker:
+  image: "ubuntu:latest"
+install:
+  - git clone https://github.com/flutter/flutter.git -b stable
+  - export PATH=`pwd`/flutter/bin:`pwd`/flutter/bin/cache/dart-sdk/bin:$PATH
+  - flutter doctor
+merge:
+  script: |-
+    flutter pub clean
+    flutter pub get
+    flutter test
+    # flutter test --coverage
+    flutter pub publish --dry-run
+    # bash <(curl -s https://codecov.io/bash)
