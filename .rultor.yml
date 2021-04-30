@@ -4,7 +4,6 @@ architect:
   - rafamizes
 merge:
   script:
-    - flutter clean --verbose
-    - flutter pub get --verbose
+    - flutter clean
+    - flutter pub get
     - flutter test
-  squash: true
