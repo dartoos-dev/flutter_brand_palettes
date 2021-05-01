@@ -8,4 +8,5 @@ merge:
     - flutter clean
     - flutter pub get
     - flutter test --no-pub
+    - flutter pub publish --dry-run
   squash: true
