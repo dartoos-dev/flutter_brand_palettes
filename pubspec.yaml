@@ -2,6 +2,7 @@ name: flutter_brand_palettes
 description: Collection of declarative classes for the color palettes of popular brands and companies, as well as for the Material Design standard.
 version: 0.2.5+2
 homepage: https://dartoos.dev
+repository: https://github.com/rafamizes/flutter_brand_palettes
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
