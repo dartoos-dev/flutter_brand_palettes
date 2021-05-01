@@ -7,4 +7,4 @@ merge:
   script:
     - flutter clean
     - flutter pub get
-    - flutter test
+    - flutter test --no-pub
