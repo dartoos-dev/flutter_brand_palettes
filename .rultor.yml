@@ -22,7 +22,10 @@ release:
   script: |-
     sed -i "s/^\(version:\).*/\1 $tag/" pubspec.yaml
     sed -i "/\[Unreleased\]/a\\\n## [$tag] - $(date '+%F')" CHANGELOG.md
-    git commit -am "version $tag"
     mkdir -p ~/.pub-cache
     mv ../credentials.json ~/.pub-cache/credentials.json
     flutter pub publish -f
+    git commit -am "version $tag"
+    git checkout master
+    git merge __rultor
+    git checkout __rultor
