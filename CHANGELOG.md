@@ -5,12 +5,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-- Split this project into two smaller ones (Breaking)
-  - Keep this project having just brand palettes colors.
-  - Another one for the Material Design colors.
-- More brand color palettes.
-- List of colors representing the brand's gradients.
-- The brands' official logos and icons downloaded from their official web sites.
+### Added
+- read-only master branch with [rultor](http://www.rultor.com/)
 
 ## [0.2.5+2] - 2021-04-29
 ### Fixed
