@@ -37,13 +37,13 @@ jobs:
       - run: flutter pub get
     
       # Check for any formatting issues in the code.
-      - run: flutter format --set-exit-if-changed .
+      - run: flutter format --set-exit-if-changed lib/ test/ example/
     
       # Statically analyze the Dart code for any errors.
-      - run: flutter analyze .
+      - run: flutter analyze --no-current-package lib/ test/ example/
     
       # Run widget tests for our flutter project.
-      - run: flutter test --coverage
+      - run: flutter test --no-pub --coverage
       
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v1
