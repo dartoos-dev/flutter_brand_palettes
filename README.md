@@ -1,12 +1,14 @@
 # Flutter Brand Palettes
 
+[![EO principles respected here](https://www.elegantobjects.org/badge.svg)](https://www.elegantobjects.org)
+[![DevOps By Rultor.com](http://www.rultor.com/b/rafamizes/flutter_brand_palettes)](http://www.rultor.com/p/rafamizes/flutter_brand_palettes)
+
 [![pub](https://img.shields.io/pub/v/flutter_brand_palettes)](https://pub.dev/packages/flutter_brand_palettes)
 [![license](https://img.shields.io/badge/license-mit-green.svg)](https://github.com/rafamizes/flutter_brand_palettes/blob/main/LICENSE)
 [![style: lint](https://img.shields.io/badge/style-lint-4BC0F5.svg)](https://pub.dev/packages/lint)
-[![build](https://github.com/rafamizes/flutter_brand_palettes/actions/workflows/main.yml/badge.svg)](https://github.com/rafamizes/flutter_brand_palettes/actions/)
+[![build](https://github.com/rafamizes/flutter_brand_palettes/actions/workflows/build.yml/badge.svg)](https://github.com/rafamizes/flutter_brand_palettes/actions/)
 [![codecov](https://codecov.io/gh/rafamizes/flutter_brand_palettes/branch/main/graph/badge.svg)](https://codecov.io/gh/rafamizes/flutter_brand_palettes)
 [![Hits-of-Code](https://hitsofcode.com/github/rafamizes/flutter_brand_palettes?branch=main)](https://hitsofcode.com/github/rafamizes/flutter_brand_palettes/view?branch=main)
-[![EO principles respected here](https://www.elegantobjects.org/badge.svg)](https://www.elegantobjects.org)
 
 Stop searching the internet for color hex codes!  Stop wondering whether an
 obscure command like `Grey.colors[200]` generates a light, medium or dark shade
