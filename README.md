@@ -1,7 +1,7 @@
 # Flutter Brand Palettes
 
 [![EO principles respected here](https://www.elegantobjects.org/badge.svg)](https://www.elegantobjects.org)
-[![DevOps By Rultor.com](http://www.rultor.com/b/rafamizes/flutter_brand_palettes)](http://www.rultor.com/p/rafamizes/flutter_brand_palettes)
+[![DevOps By Rultor.com](https://www.rultor.com/b/rafamizes/flutter_brand_palettes)](https://www.rultor.com/p/rafamizes/flutter_brand_palettes)
 
 [![pub](https://img.shields.io/pub/v/flutter_brand_palettes)](https://pub.dev/packages/flutter_brand_palettes)
 [![license](https://img.shields.io/badge/license-mit-green.svg)](https://github.com/rafamizes/flutter_brand_palettes/blob/main/LICENSE)
