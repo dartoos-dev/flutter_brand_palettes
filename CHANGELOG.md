@@ -6,13 +6,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.6+2] - 2021-05-01
+### Fixed
+- all rultor urls to https in this changelog.
+
 ## [0.2.6+1] - 2021-05-01
 ### Fixed
 - Readme rultor's badge url.
 
 ## [0.2.6] - 2021-05-01
 ### Changed
-- read-only master branch with [rultor](http://www.rultor.com/).
+- read-only master branch with [rultor](https://www.rultor.com/).
 - automate releasing with rultor.
 
 ## [0.2.5+2] - 2021-04-29
