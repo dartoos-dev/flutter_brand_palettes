@@ -1,6 +1,6 @@
 # Automates the process of testing, analyzing, checking the code format,
 # building, and deploying using Github Actions.
-name: build
+name: Flutter CI
 
 # Controls when the action will run. 
 on:
