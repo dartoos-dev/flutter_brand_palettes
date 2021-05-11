@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.7+1] - 2021-05-10
+### Fixed
+- pdd badge links.
+
 ## [0.2.7] - 2021-05-10
 ### Changed
 - adhere to [PDD](https://www.yegor256.com/2010/03/04/pdd.html) (Puzzle Driven Development) 
