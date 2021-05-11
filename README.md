@@ -9,7 +9,7 @@
 [![PDD status](https://www.0pdd.com/svg?name=rafamizes/flutter_brand_palettes)](https://www.0pdd.com/p?name=rafamizes/flutter_brand_palettes)
 [![build](https://github.com/rafamizes/flutter_brand_palettes/actions/workflows/build.yml/badge.svg)](https://github.com/rafamizes/flutter_brand_palettes/actions/)
 [![codecov](https://codecov.io/gh/rafamizes/flutter_brand_palettes/branch/master/graph/badge.svg)](https://codecov.io/gh/rafamizes/flutter_brand_palettes)
-[![Hits-of-Code](https://hitsofcode.com/github/rafamizes/flutter_brand_palettes?branch=main)](https://hitsofcode.com/github/rafamizes/flutter_brand_palettes/view?branch=master)
+[![Hits-of-Code](https://hitsofcode.com/github/rafamizes/flutter_brand_palettes?branch=master)](https://hitsofcode.com/github/rafamizes/flutter_brand_palettes/view?branch=master)
 
 Stop searching the internet for color hex codes!  Stop wondering whether an
 obscure command like `Grey.colors[200]` generates a light, medium or dark shade
