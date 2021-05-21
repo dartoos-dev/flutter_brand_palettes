@@ -1,4 +1,4 @@
-import '../palette_rgb.dart';
+import 'package:eo_color/eo_color.dart';
 
 /// Google's official brand colors:
 ///

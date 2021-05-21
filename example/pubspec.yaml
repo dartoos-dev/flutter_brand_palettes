@@ -9,6 +9,7 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
+  eo_color: ^0.0.9
   flutter:
     sdk: flutter
 

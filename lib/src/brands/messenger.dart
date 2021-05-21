@@ -1,4 +1,4 @@
-import '../palette_rgb.dart';
+import 'package:eo_color/eo_color.dart';
 
 /// Facebook Messenger's official brand colors
 ///
