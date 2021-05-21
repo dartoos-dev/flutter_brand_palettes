@@ -5,6 +5,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Changed - BREAKING CHANGES
+- Huge refactoring - [57](https://github.com/dartoos-dev/flutter_brand_palettes/issues/57)
+  - Drop support for the Material Design colors; use them via [eo_color](https://pub.dev/packages/eo_color).
+  - Drop support for the Palette and Swatch interfaces, as well as for the
+    PaletteRGB and SwtchBase abstract classes; from now on, theses classes are
+    provided by the [eo_color](https://pub.dev/packages/eo_color) package.
+- Use the [eo_color](https://pub.dev/packages/eo_color) color package as a
+  base framework.
+
+### Added
+- Googleish color palette as the project logo.
 
 ## [0.2.7+1] - 2021-05-10
 ### Fixed

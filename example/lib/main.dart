@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_brand_palettes/flutter_brand_palettes.dart';
+import 'package:flutter_brand_palettes/palettes.dart';
+import 'package:eo_color/eo_color.dart';
 
 void main() {
   runApp(MyApp());
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Brand Palette Demo',
-      home: InstagramPalettePage(title: 'Instagram Palette Demo'),
+      home: InstagramPalettePage(title: 'Instagram Color Palette'),
     );
   }
 }
@@ -133,7 +134,10 @@ class _ColorItem extends StatelessWidget {
             child: Text(
               _label,
               textAlign: TextAlign.center,
-              style: TextStyle(color: _normal()), // or _normal.color
+              style: TextStyle(
+                color: _normal(), // or _normal.color
+                fontWeight: FontWeight.bold,
+              ),
             ),
           ),
           Expanded(

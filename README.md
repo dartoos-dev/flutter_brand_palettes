@@ -1,4 +1,8 @@
-# Flutter Brand Palettes
+### Stop searching the internet for color hex codes!
+
+<img
+src="https://user-images.githubusercontent.com/24878574/119202536-61caa380-ba67-11eb-8f29-1bfa92f28143.png"
+alt="EO-Color logo" width="207" height="96"/>
 
 [![EO principles respected here](https://www.elegantobjects.org/badge.svg)](https://www.elegantobjects.org)
 [![DevOps By Rultor.com](https://www.rultor.com/b/rafamizes/flutter_brand_palettes)](https://www.rultor.com/p/rafamizes/flutter_brand_palettes)
@@ -11,13 +15,9 @@
 [![codecov](https://codecov.io/gh/rafamizes/flutter_brand_palettes/branch/master/graph/badge.svg)](https://codecov.io/gh/rafamizes/flutter_brand_palettes)
 [![Hits-of-Code](https://hitsofcode.com/github/rafamizes/flutter_brand_palettes?branch=master)](https://hitsofcode.com/github/rafamizes/flutter_brand_palettes/view?branch=master)
 
-Stop searching the internet for color hex codes!  Stop wondering whether an
-obscure command like `Grey.colors[200]` generates a light, medium or dark shade
-of grey. (By the way, why '200' and not, say, '130' or '440'?)
-
-This package is a collection of declarative and object-oriented classes for the
-official color palettes of popular brands and companies, as well as for the
-[Material Design](https://material.io/design/color/) standard.
+**Flutter Brand Palettes** is a collection of declarative and object-oriented
+classes for the color palettes and official logos of popular brands and
+companies.
 
 ## Getting Started
 
@@ -28,29 +28,7 @@ command `Instagram.red().color` retrieves the Instagram's red color #FD1D1D;
 `Google.red().color`, Google's red #DB4437; `Facebook.blue().color`, Facebook's
 blue #4267B2; and so on.
 
-### Material Design color classes
-
-These are classes whose names are the colors they represent, such as "Grey". For
-example: `Grey()` represents the primary grey color, equivalent to the Flutter's
-cryptic `Colors.grey.shade500`; `Grey.light()` ≡ `Colors.grey.shade200`;
-`Grey.veryDark()` ≡ `Colors.grey.shade900`; and so on.
-
-### Color Swatches - Several colors at once
-
-Each color swatch class is a collection of related colors, such as the colors of
-the rainbow, shades of grey, the colors of the gradient of a logo, etc.
-
-#### 'Ish' classes
-
-Any class whose name is a color with the 'ish' suffix represents some shades
-thereof.  The `Greyish` class is an example for 10 shades of grey.  The command
-`Greyish().colors` retrieves an `Iterable<Color>` of 10 shades of grey; the
-greater the color index, the darker the grey.
-
-For more details: [api
-reference](https://pub.dev/documentation/flutter_brand_palettes/latest/flutter_brand_palettes/flutter_brand_palettes-library.html).
-
-## Usage example
+## Color Palettes in action
 
 ```dart
 import 'package:brand_colors/flutter_brand_colors.dart';
@@ -67,39 +45,25 @@ class FacebookIsh extends StatelessWidget {
 }
 ```
 
+### Showcase application
+
+To run the showcase application:
+
+```shell
+cd example/
+flutter run -d chrome
+
+```
+
+This should start the showcase application in Chrome browser.
+
+![Brand-Palettes-Showcase](https://user-images.githubusercontent.com/24878574/119206037-6a73a780-ba70-11eb-8194-384ff5c22d20.png)
+
 ### Do you need any brand that has not yet been implemented?
 
 Just open an
-[issue](https://github.com/rafamizes/flutter_brand_palettes/issues), enter the
-brand name and a reference link for the (hexadecimal) values of the colors.  The
-brand colors will be implemented as soon as possible.
-
-### Color Palettes Classes
-
-- Blue, BlueAccent, LightBlue, LightBlueAccent, Cyan, CyanAccent, Indigo,
-  IndigoAccent.
-- Green, GreenAccent, LightGreen, LightGreenAccent, Lime, LimeAccent,
-  Teal,TealAccent.
-- Grey, BlueGrey, Brown.
-- Red, RedAccent, Pink, PinkAccent, Purple, PurpleAccent, DeepPurple, DeepPurpleAccent.
-- Yellow, YellowAccent, Amber, AmberAccent, Orange, OrangeAccent, DeepOrange,
-- Black, Black.opacity87, Black.opacity54, Black.opacity45, Black.opacity38,
-  Black.opacity26, Black.opacity12.
-- White, White.opacity70, White.opacity60, White.opacity54, White.opacity38,
-  White.opacity30, White.opacity24, White.opacity12, White.opacity10.
-- Transparent.
-
-### Color Swatches
-
-- Bluish, BluishLight, Cyanish, Indigoish.
-- Greenish, GreenishLight, Limish, Tealish.
-- Greyish, BluishGrey, Brownish.
-- Reddish, Pinkish, Purplish, PurplishDeep.
-- Yellowish, Amberish, Orangish, OrangishDeep.
-- Primaries (primary colors, excluding grey).
-
-See also: [material design's color
-palette](https://material.io/archive/guidelines/style/color.html#color-color-palette).
+[issue](https://github.com/dartoos-dev/flutter_brand_palettes/issues), enter the
+brand name and a reference link for the colors.
 
 ### Brand Palettes Classes (A-Z)
 
