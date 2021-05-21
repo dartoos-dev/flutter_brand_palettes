@@ -9,11 +9,11 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
+  eo_color: ^0.0.9
   flutter:
     sdk: flutter
 
 dev_dependencies:
-  eo_color: ^0.0.9
   flutter_test:
     sdk: flutter
   lint: ^1.5.3

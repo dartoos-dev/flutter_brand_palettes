@@ -44,7 +44,7 @@ packages:
     source: hosted
     version: "1.15.0"
   eo_color:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: eo_color
       url: "https://pub.dartlang.org"
