@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [0.3.0] - 2021-05-22
 ### Changed - BREAKING CHANGES
 - Huge refactoring - [57](https://github.com/dartoos-dev/flutter_brand_palettes/issues/57)
   - Drop support for the Material Design colors; use them via [eo_color](https://pub.dev/packages/eo_color).
