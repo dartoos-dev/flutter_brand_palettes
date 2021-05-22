@@ -62,8 +62,7 @@ This should start the showcase application in Chrome browser.
 ### Do you need any brand that has not yet been implemented?
 
 Just open an
-[issue](https://github.com/dartoos-dev/flutter_brand_palettes/issues), enter the
-brand name and a reference link for the colors.
+[issue](https://github.com/dartoos-dev/flutter_brand_palettes/issues), enter the brand name and color reference link.
 
 ### Brand Palettes Classes (A-Z)
 
