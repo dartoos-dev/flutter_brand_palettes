@@ -1,3 +1,5 @@
+## flutter_brand_palettes
+
 <img
 src="https://user-images.githubusercontent.com/24878574/119202536-61caa380-ba67-11eb-8f29-1bfa92f28143.png"
 alt="EO-Color logo" width="207" height="96"/>
@@ -50,7 +52,9 @@ class FacebookIsh extends StatelessWidget {
 To run the showcase application:
 
 ```shell
-cd example/
+
+git clone https://github.com/dartoos-dev/flutter_brand_palettes.git
+cd flutter_brand_palettes/example/
 flutter run -d chrome
 
 ```
@@ -62,7 +66,8 @@ This should start the showcase application in Chrome browser.
 ### Do you need any brand that has not yet been implemented?
 
 Just open an
-[issue](https://github.com/dartoos-dev/flutter_brand_palettes/issues), enter the brand name and color reference link.
+[issue](https://github.com/dartoos-dev/flutter_brand_palettes/issues), enter the
+brand name and color reference link.
 
 ### Brand Palettes Classes (A-Z)
 
@@ -122,6 +127,8 @@ Just open an
   - black, grey, red, white.
 - **PayPal**
   - black, pal blue, pay blue, white.
+- **Pinterest**
+  - red, white.
 - **Reddit**
   - black, orange, white.
 - **Slack**

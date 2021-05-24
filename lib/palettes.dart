@@ -18,6 +18,7 @@ export 'src/brands/microsoft.dart';
 export 'src/brands/netflix.dart';
 export 'src/brands/oracle.dart';
 export 'src/brands/paypal.dart';
+export 'src/brands/pinterest.dart';
 export 'src/brands/reddit.dart';
 export 'src/brands/slack.dart';
 export 'src/brands/spotify.dart';
