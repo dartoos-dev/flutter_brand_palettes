@@ -8,7 +8,7 @@ alt="EO-Color logo" width="207" height="96"/>
 [![DevOps By Rultor.com](https://www.rultor.com/b/dartoos-dev/flutter_brand_palettes)](https://www.rultor.com/p/dartoos-dev/flutter_brand_palettes)
 
 [![pub](https://img.shields.io/pub/v/flutter_brand_palettes)](https://pub.dev/packages/flutter_brand_palettes)
-[![license](https://img.shields.io/badge/license-mit-green.svg)](https://github.com/dartoos-dev/flutter_brand_palettes/blob/main/LICENSE)
+[![license](https://img.shields.io/badge/license-mit-green.svg)](https://github.com/dartoos-dev/flutter_brand_palettes/blob/master/LICENSE)
 [![style: lint](https://img.shields.io/badge/style-lint-4BC0F5.svg)](https://pub.dev/packages/lint)
 [![PDD status](https://www.0pdd.com/svg?name=dartoos-dev/flutter_brand_palettes)](https://www.0pdd.com/p?name=dartoos-dev/flutter_brand_palettes)
 [![build](https://github.com/dartoos-dev/flutter_brand_palettes/actions/workflows/build.yml/badge.svg)](https://github.com/dartoos-dev/flutter_brand_palettes/actions/)
