@@ -49,6 +49,9 @@ class FacebookIsh extends StatelessWidget {
 
 ### Showcase application
 
+It provides a fully working example, focused on demonstrating exactly one brand
+in action. You can take the code in this showcase and experiment with it.
+
 To run the showcase application:
 
 ```shell
@@ -59,7 +62,7 @@ flutter run -d chrome
 
 ```
 
-This should start the showcase application in Chrome browser.
+This should launch the showcase application on Chrome in debug mode.
 
 ![Brand-Palettes-Showcase](https://user-images.githubusercontent.com/24878574/119206037-6a73a780-ba70-11eb-8194-384ff5c22d20.png)
 
