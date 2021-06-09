@@ -15,7 +15,7 @@ alt="EO-Color logo" width="207" height="96"/>
 [![codecov](https://codecov.io/gh/dartoos-dev/flutter_brand_palettes/branch/master/graph/badge.svg?token=Hvpu48mfx1)](https://codecov.io/gh/dartoos-dev/flutter_brand_palettes)
 [![Hits-of-Code](https://hitsofcode.com/github/dartoos-dev/flutter_brand_palettes?branch=master)](https://hitsofcode.com/github/dartoos-dev/flutter_brand_palettes/view?branch=master)
 
-#### Stop searching the internet for color hex codes!
+### Stop searching the internet for color hex codes!
 
 **Flutter Brand Palettes** is a collection of declarative and object-oriented
 classes for the color palettes and official logos of popular brands and
@@ -26,9 +26,9 @@ companies.
 Instead of a constant integer value, each color is represented by a named
 constructor of its corresponding brand class. In this way, the source code
 becomes more object-oriented, readable and maintainable. For instance, the
-command `Instagram.red().color` retrieves the Instagram's red color #FD1D1D;
-`Google.red().color`, Google's red #DB4437; `Facebook.blue().color`, Facebook's
-blue #4267B2; and so on.
+command `Instagram.red().color` retrieves the Instagram's red color _#FD1D1D_;
+`Google.red().color`, Google's red _#DB4437_; `Facebook.blue().color`, Facebook's
+blue _#4267B2_; and so on.
 
 ## Color Palettes in action
 
@@ -49,8 +49,9 @@ class FacebookIsh extends StatelessWidget {
 
 ### Showcase application
 
-It provides a fully working example, focused on demonstrating exactly one brand
-in action. You can take the code in this showcase and experiment with it.
+The showcase application provides a fully working example, focused on
+demonstrating exactly one brand in action - Instagram. You can take the code in
+this showcase and experiment with it.
 
 To run the showcase application:
 
@@ -70,7 +71,7 @@ This should launch the showcase application on Chrome in debug mode.
 
 Just open an
 [issue](https://github.com/dartoos-dev/flutter_brand_palettes/issues), enter the
-brand name and color reference link.
+brand or company.
 
 ### Brand Palettes Classes (A-Z)
 
