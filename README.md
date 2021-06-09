@@ -70,8 +70,8 @@ This should launch the showcase application on Chrome in debug mode.
 ### Do you need any brand that has not yet been implemented?
 
 Just open an
-[issue](https://github.com/dartoos-dev/flutter_brand_palettes/issues), enter the
-brand or company.
+[issue](https://github.com/dartoos-dev/flutter_brand_palettes/issues) and enter the
+brand or company name.
 
 ### Brand Palettes Classes (A-Z)
 
