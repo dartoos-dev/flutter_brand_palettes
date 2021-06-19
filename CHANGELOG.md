@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.4] - 2021-06-19
+
 ### Changed
 
 - bump eo_color dependency to 1.0.0
