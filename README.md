@@ -23,12 +23,12 @@ companies.
 
 ## Getting Started
 
-Instead of a constant integer value, each color is represented by a named
+Instead of a constant integer value, a color is represented by a named
 constructor of its corresponding brand class. In this way, the source code
 becomes more object-oriented, readable and maintainable. For instance, the
 command `Instagram.red().color` retrieves the Instagram's red color _#FD1D1D_;
-`Google.red().color`, Google's red _#DB4437_; `Facebook.blue().color`, Facebook's
-blue _#4267B2_; and so on.
+`Google.red().color`, Google's red _#DB4437_; `Facebook.blue().color`,
+Facebook's blue _#4267B2_; and so on.
 
 ## Color Palettes in action
 
@@ -47,31 +47,30 @@ class FacebookIsh extends StatelessWidget {
 }
 ```
 
-### Showcase application
+### Demo application
 
-The showcase application provides a fully working example, focused on
-demonstrating exactly one brand in action - Instagram. You can take the code in
-this showcase and experiment with it.
+The demo application provides a fully working example, focused on demonstrating
+exactly one brand in action - Instagram. You can take the code in this demo and
+experiment with it.
 
-To run the showcase application:
+To run the demo application:
 
 ```shell
-
 git clone https://github.com/dartoos-dev/flutter_brand_palettes.git
 cd flutter_brand_palettes/example/
 flutter run -d chrome
 
 ```
 
-This should launch the showcase application on Chrome in debug mode.
+This should launch the demo application on Chrome in debug mode.
 
-![Brand-Palettes-Showcase](https://user-images.githubusercontent.com/24878574/119206037-6a73a780-ba70-11eb-8194-384ff5c22d20.png)
+![Demo-App](https://user-images.githubusercontent.com/24878574/122657224-de6ca280-d137-11eb-9eb1-fc5169872d64.png)
 
 ### Do you need any brand that has not yet been implemented?
 
 Just open an
-[issue](https://github.com/dartoos-dev/flutter_brand_palettes/issues) and enter the
-brand or company name.
+[issue](https://github.com/dartoos-dev/flutter_brand_palettes/issues) and enter
+the brand or company name.
 
 ### Brand Palettes Classes (A-Z)
 
