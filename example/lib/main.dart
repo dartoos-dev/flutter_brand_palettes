@@ -143,7 +143,7 @@ class _ColorItem extends StatelessWidget {
           Expanded(
             flex: 5,
             child: Container(
-                height: kToolbarHeight / 2, decoration: _boxDecoration()),
+                height: kToolbarHeight / 1.5, decoration: _boxDecoration()),
           ),
         ],
       ),
