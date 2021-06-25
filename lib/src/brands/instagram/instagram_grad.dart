@@ -22,8 +22,9 @@ class InstagramGrad extends SwatchBase {
   ///
   /// [instagram-colors](https://usbrandcolors.com/instagram-colors/)
   const InstagramGrad()
+      // coverage:ignore-start
       : super(const [
-          Instagram.royalBlue(),
+        Instagram.royalBlue(),
           Instagram.blue(),
           Instagram.purple(),
           Instagram.darkPink(),
@@ -34,6 +35,7 @@ class InstagramGrad extends SwatchBase {
           Instagram.yellow(),
           Instagram.lightYellow(),
         ]);
+  // coverage:ignore-end
 
   @override
   List<Color> get colors => List.unmodifiable(super.colors);
