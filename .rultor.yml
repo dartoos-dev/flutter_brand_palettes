@@ -7,7 +7,7 @@ assets:
   credentials.json: rafamizes/secret#assets/publishing/flutter/credentials.json
 merge:
   # squash: true
-  # rebase: true
+  rebase: true
   script: |
     flutter clean
     flutter pub get
