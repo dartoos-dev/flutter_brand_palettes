@@ -34,8 +34,8 @@ documented, and goes through a CI pipeline with rigorous quality gates.
 - [Getting Started](#getting-started)
 - [Color Palettes in action](#color-palettes-in-action)
 - [Demo application](#demo-application)
-- [I need the 'X' color palettes](#i-need-the-‘x’-brand-color-palette)
-- [List of Color Palettes](<#list-of-color-palettes-(a-z)>)
+- [I need the 'X' color palettes](#i-need-the-x-brand-color-palette)
+- [List of Color Palettes](#list-of-color-palettes-a-z)
 - [References](#hex-color-values-references)
 
 ## Getting Started
