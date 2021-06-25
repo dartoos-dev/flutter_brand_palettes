@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- add code quality badge and TOC to README
+
 ## [0.3.4] - 2021-06-19
 
 ### Changed

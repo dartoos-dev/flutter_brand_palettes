@@ -1,25 +1,42 @@
-## flutter_brand_palettes
+# flutter_brand_palettes
 
 <img
 src="https://user-images.githubusercontent.com/24878574/119202536-61caa380-ba67-11eb-8f29-1bfa92f28143.png"
-alt="EO-Color logo" width="207" height="96"/>
+alt="EO-Color logo" width="176" height="82"/>
 
-[![EO principles respected here](https://www.elegantobjects.org/badge.svg)](https://www.elegantobjects.org)
-[![DevOps By Rultor.com](https://www.rultor.com/b/dartoos-dev/flutter_brand_palettes)](https://www.rultor.com/p/dartoos-dev/flutter_brand_palettes)
+[![EO principles respected
+here](https://www.elegantobjects.org/badge.svg)](https://www.elegantobjects.org)
+[![DevOps By
+Rultor.com](https://www.rultor.com/b/dartoos-dev/flutter_brand_palettes)](https://www.rultor.com/p/dartoos-dev/flutter_brand_palettes)
 
 [![pub](https://img.shields.io/pub/v/flutter_brand_palettes)](https://pub.dev/packages/flutter_brand_palettes)
 [![license](https://img.shields.io/badge/license-mit-green.svg)](https://github.com/dartoos-dev/flutter_brand_palettes/blob/master/LICENSE)
-[![style: lint](https://img.shields.io/badge/style-lint-4BC0F5.svg)](https://pub.dev/packages/lint)
-[![PDD status](https://www.0pdd.com/svg?name=dartoos-dev/flutter_brand_palettes)](https://www.0pdd.com/p?name=dartoos-dev/flutter_brand_palettes)
+[![style:
+lint](https://img.shields.io/badge/style-lint-4BC0F5.svg)](https://pub.dev/packages/lint)
+[![PDD
+status](https://www.0pdd.com/svg?name=dartoos-dev/flutter_brand_palettes)](https://www.0pdd.com/p?name=dartoos-dev/flutter_brand_palettes)
 [![build](https://github.com/dartoos-dev/flutter_brand_palettes/actions/workflows/build.yml/badge.svg)](https://github.com/dartoos-dev/flutter_brand_palettes/actions/)
 [![codecov](https://codecov.io/gh/dartoos-dev/flutter_brand_palettes/branch/master/graph/badge.svg?token=Hvpu48mfx1)](https://codecov.io/gh/dartoos-dev/flutter_brand_palettes)
+[![code quality](https://www.codefactor.io/repository/github/dartoos-dev/flutter_brand_palettes/badge)](https://www.codefactor.io/repository/github/dartoos-dev/flutter_brand_palettes?style=flat-square)
 [![Hits-of-Code](https://hitsofcode.com/github/dartoos-dev/flutter_brand_palettes?branch=master)](https://hitsofcode.com/github/dartoos-dev/flutter_brand_palettes/view?branch=master)
 
-### Stop searching the internet for color hex codes!
+## Overview
 
 **Flutter Brand Palettes** is a collection of declarative and object-oriented
-classes for the color palettes and official logos of popular brands and
-companies.
+classes for the color palettes of popular brands and companies.
+
+In addition, this package is fully tested — 100% code coverage —, well
+documented, and goes through a CI pipeline with rigorous quality gates.
+
+## Contents
+
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+- [Color Palettes in action](#color-palettes-in-action)
+- [Demo application](#demo-application)
+- [I need the 'X' color palettes](#i-need-the-‘x’-brand-color-palette)
+- [List of Color Palettes](<#list-of-color-palettes-(a-z)>)
+- [References](#hex-color-values-references)
 
 ## Getting Started
 
@@ -30,7 +47,7 @@ command `Instagram.red().color` retrieves the Instagram's red color _#FD1D1D_;
 `Google.red().color`, Google's red _#DB4437_; `Facebook.blue().color`,
 Facebook's blue _#4267B2_; and so on.
 
-## Color Palettes in action
+## Color Palettes in Action
 
 ```dart
 import 'package:brand_colors/flutter_brand_colors.dart';
@@ -47,10 +64,10 @@ class FacebookIsh extends StatelessWidget {
 }
 ```
 
-### Demo application
+## Demo application
 
 The demo application provides a fully working example, focused on demonstrating
-exactly one brand in action - Instagram. You can take the code in this demo and
+exactly one brand in action — Instagram. You can take the code in this demo and
 experiment with it.
 
 To run the demo application:
@@ -66,13 +83,19 @@ This should launch the demo application on Chrome in debug mode.
 
 ![Demo-App](https://user-images.githubusercontent.com/24878574/122657224-de6ca280-d137-11eb-9eb1-fc5169872d64.png)
 
-### Do you need any brand that has not yet been implemented?
+## I need the 'X' brand color palette
 
-Just open an
-[issue](https://github.com/dartoos-dev/flutter_brand_palettes/issues) and enter
-the brand or company name.
+Do you need any brand that has not yet been implemented?
 
-### Brand Palettes Classes (A-Z)
+- Just open an
+  [issue](https://github.com/dartoos-dev/flutter_brand_palettes/issues), enter
+  the brand or company name, and it will be implemented as soon as possible.
+
+## List of Color Palettes (A-Z)
+
+For more in-depth details — the colors hex codes, classes, etc. —, check the
+[color-palettes](https://pub.dev/documentation/flutter_brand_palettes/latest/palettes/palettes-library.html)
+API documentation.
 
 - **Amazon**
   - black, orange.
@@ -161,7 +184,7 @@ the brand or company name.
 - **Youtube**
   - almost black, red, white.
 
-#### Hex color values references
+## Hex color values references
 
 - [us brand colors](https://usbrandcolors.com/)
 - [brand palettes](https://brandpalettes.com/)
