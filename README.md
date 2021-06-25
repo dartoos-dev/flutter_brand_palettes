@@ -15,7 +15,7 @@ lint](https://img.shields.io/badge/style-lint-4BC0F5.svg)](https://pub.dev/packa
 status](https://www.0pdd.com/svg?name=dartoos-dev/flutter_brand_palettes)](https://www.0pdd.com/p?name=dartoos-dev/flutter_brand_palettes)
 [![build](https://github.com/dartoos-dev/flutter_brand_palettes/actions/workflows/build.yml/badge.svg)](https://github.com/dartoos-dev/flutter_brand_palettes/actions/)
 [![codecov](https://codecov.io/gh/dartoos-dev/flutter_brand_palettes/branch/master/graph/badge.svg?token=Hvpu48mfx1)](https://codecov.io/gh/dartoos-dev/flutter_brand_palettes)
-[![code quality](https://www.codefactor.io/repository/github/dartoos-dev/flutter_brand_palettes/badge)](https://www.codefactor.io/repository/github/dartoos-dev/flutter_brand_palettes?style=flat-square)
+![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/dartoos-dev/flutter_brand_palettes)
 [![Hits-of-Code](https://hitsofcode.com/github/dartoos-dev/flutter_brand_palettes?branch=master)](https://hitsofcode.com/github/dartoos-dev/flutter_brand_palettes/view?branch=master)
 
 ## Overview
