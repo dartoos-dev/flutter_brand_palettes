@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Instagram and Google gradient classes GoogleGrad and InstagramGrad —
+  [79](https://github.com/dartoos-dev/flutter_brand_palettes/issues/79).
+
 ## [0.3.5] - 2021-06-25
 
 ### Changed
