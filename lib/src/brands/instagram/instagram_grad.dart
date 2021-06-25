@@ -24,7 +24,7 @@ class InstagramGrad extends SwatchBase {
   const InstagramGrad()
       // coverage:ignore-start
       : super(const [
-        Instagram.royalBlue(),
+          Instagram.royalBlue(),
           Instagram.blue(),
           Instagram.purple(),
           Instagram.darkPink(),
