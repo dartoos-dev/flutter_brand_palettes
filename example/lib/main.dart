@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_brand_palettes/palettes.dart';
+import 'package:flutter_brand_palettes/flutter_brand_palettes.dart';
 import 'package:eo_color/eo_color.dart';
 
-void main() {
-  runApp(MyApp());
-}
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
@@ -23,53 +21,30 @@ class InstagramPalettePage extends StatelessWidget {
         super(key: key);
 
   final String _title;
-
-  /// The 'late' modifier ensures the lazy initialization of [_gradient]. In
-  /// other words, the _gradient's initializer expression runs only the first
-  /// time the variable is used.
-  static late final _gradient = _toGradient();
-
-  // Application's bar backgroud color.
-  static const _bgAppBar = Grey.veryLight();
-
-  /// Builds the Instagram's gradient color scheme.
-  static List<Color> _toGradient() {
-    return const [
-      Instagram.lightYellow(),
-      Instagram.yellow(),
-      Instagram.orange(),
-      Instagram.darkOrange(),
-      Instagram.red(),
-      Instagram.purpleRed(),
-      Instagram.darkPink(),
-      Instagram.purple(),
-      Instagram.blue(),
-      Instagram.royalBlue(),
-    ].map((picked) => picked.color).toList(growable: false);
-  }
+  static final _gradient = const InstagramGrad().colors;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: _bgAppBar.color,
+        backgroundColor: const Grey.veryLight().color,
         elevation: 2.0,
         title: GradientTitle(_title, _gradient),
       ),
       body: ListView(
-        padding: const EdgeInsets.all(12),
+        padding: const EdgeInsets.all(16),
         children: [
           _ColorItem.gradient('Gradient', colors: _gradient),
-          _ColorItem('Light Yellow', _gradient[0]),
-          _ColorItem('Yellow', _gradient[1]),
-          _ColorItem('Orange', _gradient[2]),
-          _ColorItem('Dark Orange', _gradient[3]),
-          _ColorItem('Red', _gradient[4]),
-          _ColorItem('Purple-Red', _gradient[5]),
-          _ColorItem('Dark Pink', _gradient[6]),
-          _ColorItem('Purple', _gradient[7]),
-          _ColorItem('Blue', _gradient[8]),
-          _ColorItem('Royal Blue', _gradient[9]),
+          _ColorItem('Light Yellow', _gradient[9]),
+          _ColorItem('Yellow', _gradient[8]),
+          _ColorItem('Orange', _gradient[7]),
+          _ColorItem('Dark Orange', _gradient[6]),
+          _ColorItem('Red', _gradient[5]),
+          _ColorItem('Purple-Red', _gradient[4]),
+          _ColorItem('Dark Pink', _gradient[3]),
+          _ColorItem('Purple', _gradient[2]),
+          _ColorItem('Blue', _gradient[1]),
+          _ColorItem('Royal Blue', _gradient[0]),
         ],
       ),
     );
@@ -92,6 +67,8 @@ class GradientTitle extends StatelessWidget {
           fontStyle: FontStyle.italic,
           foreground: Paint()
             ..shader = LinearGradient(
+              begin: Alignment.topRight,
+              end: Alignment.bottomLeft,
               colors: _colors,
             ).createShader(const Rect.fromLTRB(0.0, 0.0, 200.0, 70.0)),
         ),
@@ -101,29 +78,27 @@ class GradientTitle extends StatelessWidget {
 }
 
 class _ColorItem extends StatelessWidget {
-  /// Ctor. Color rectangle.
+  /// A rectangle filled with a solid color.
   _ColorItem(String label, Color color)
-      : this.decoration(label, () => BoxDecoration(color: color));
+      : this.deco(label, () => BoxDecoration(color: color));
 
-  /// Ctor. Gradient rectangle.
+  /// A rectangle with linear gradient background.
   _ColorItem.gradient(String label, {required List<Color> colors})
-      : this.decoration(
+      : this.deco(
           label,
           () => BoxDecoration(
             gradient: LinearGradient(
-              // begin: Alignment.topRight,
-              // end: Alignment.bottomLeft,
+              begin: Alignment.topRight,
+              end: Alignment.bottomLeft,
               colors: colors,
             ),
           ),
         );
-  const _ColorItem.decoration(this._label, this._boxDecoration);
+
+  const _ColorItem.deco(this._label, this._deco);
 
   final String _label;
-  final BoxDecoration Function() _boxDecoration;
-
-  // Normal font color.
-  static const _normal = Grey.dark();
+  final BoxDecoration Function() _deco;
 
   @override
   Widget build(BuildContext context) {
@@ -134,16 +109,12 @@ class _ColorItem extends StatelessWidget {
             child: Text(
               _label,
               textAlign: TextAlign.center,
-              style: TextStyle(
-                color: _normal(), // or _normal.color
-                fontWeight: FontWeight.bold,
-              ),
+              style: TextStyle(color: const Grey.veryDark().color),
             ),
           ),
           Expanded(
             flex: 5,
-            child: Container(
-                height: kToolbarHeight / 1.5, decoration: _boxDecoration()),
+            child: Container(height: kToolbarHeight / 1.5, decoration: _deco()),
           ),
         ],
       ),

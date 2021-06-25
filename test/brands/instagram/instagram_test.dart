@@ -36,7 +36,7 @@ void main() {
     test('light yellow', () {
       expect(const Instagram.lightYellow().color, const Color(0xFFFFDC80));
     });
-    test('function operator call operator', () {
+    test('call method', () {
       const instagram = Instagram.lightYellow();
       expect(instagram(), instagram.color);
     });
