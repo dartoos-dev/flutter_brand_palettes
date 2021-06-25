@@ -1,5 +1,3 @@
-# flutter_brand_palettes
-
 <img
 src="https://user-images.githubusercontent.com/24878574/119202536-61caa380-ba67-11eb-8f29-1bfa92f28143.png"
 alt="EO-Color logo" width="176" height="82"/>
