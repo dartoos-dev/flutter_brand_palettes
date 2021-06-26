@@ -37,6 +37,7 @@ class InstagramGrad extends SwatchBase {
         ]);
   // coverage:ignore-end
 
+  /// color gradient as an immutable list
   @override
   List<Color> get colors => List.unmodifiable(super.colors);
 }
