@@ -9,13 +9,12 @@ Rultor.com](https://www.rultor.com/b/dartoos-dev/flutter_brand_palettes)](https:
 
 [![pub](https://img.shields.io/pub/v/flutter_brand_palettes)](https://pub.dev/packages/flutter_brand_palettes)
 [![license](https://img.shields.io/badge/license-mit-green.svg)](https://github.com/dartoos-dev/flutter_brand_palettes/blob/master/LICENSE)
-[![style:
-lint](https://img.shields.io/badge/style-lint-4BC0F5.svg)](https://pub.dev/packages/lint)
-[![PDD
-status](https://www.0pdd.com/svg?name=dartoos-dev/flutter_brand_palettes)](https://www.0pdd.com/p?name=dartoos-dev/flutter_brand_palettes)
+[![PDD status](https://www.0pdd.com/svg?name=dartoos-dev/flutter_brand_palettes)](https://www.0pdd.com/p?name=dartoos-dev/flutter_brand_palettes)
+
 [![build](https://github.com/dartoos-dev/flutter_brand_palettes/actions/workflows/build.yml/badge.svg)](https://github.com/dartoos-dev/flutter_brand_palettes/actions/)
 [![codecov](https://codecov.io/gh/dartoos-dev/flutter_brand_palettes/branch/master/graph/badge.svg?token=Hvpu48mfx1)](https://codecov.io/gh/dartoos-dev/flutter_brand_palettes)
 ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/rafamizes/flutter_brand_palettes)
+[![style: lint](https://img.shields.io/badge/style-lint-4BC0F5.svg)](https://pub.dev/packages/lint)
 [![Hits-of-Code](https://hitsofcode.com/github/dartoos-dev/flutter_brand_palettes?branch=master)](https://hitsofcode.com/github/dartoos-dev/flutter_brand_palettes/view?branch=master)
 
 ## Overview
@@ -23,14 +22,25 @@ status](https://www.0pdd.com/svg?name=dartoos-dev/flutter_brand_palettes)](https
 **Flutter Brand Palettes** is a collection of declarative and object-oriented
 classes for the color palettes of popular brands and companies.
 
-In addition, this package is fully tested — 100% code coverage —, well
-documented, and goes through a CI pipeline with rigorous quality gates.
+For example, to get all the Instagram's colors at once as a `List<Color>`
+object, simply declare `InstagramGrad.colors` — the 'Grad' suffix is short for
+_Gradient_.
+
+To get a single color, you just state which of the brand's colors you want. E.g.
+`Instagram.royalBlue` retrieves the Instagram's royal blue color;
+`Instagram.yellow`, the Instagram's yellow color; and so on.
+
+In addition, each class is well-documented and fully unit-tested — this package
+has achieved 100% code coverage and goes through a CI pipeline with rigorous
+quality gates.
 
 ## Contents
 
 - [Overview](#overview)
 - [Getting Started](#getting-started)
 - [Color Palettes in action](#color-palettes-in-action)
+- [Color Gradient in action](#color-gradient-in-action)
+- [Color Gradients](#color-palettes-in-action)
 - [Demo application](#demo-application)
 - [I need the 'X' color palettes](#i-need-the-x-brand-color-palette)
 - [List of Color Palettes](#list-of-color-palettes-a-z)
@@ -62,6 +72,27 @@ class FacebookIsh extends StatelessWidget {
 }
 ```
 
+## Color Gradient in Action
+
+```dart
+
+/// Rectangle filled with Google logo color gradient.
+class Googleish extends StatelessWidget {
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      height: kToolbarHeight / 2,
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          colors: GoogleGrad().colors,
+        ),
+      ),
+    );
+  }
+
+```
+
 ## Demo application
 
 The demo application provides a fully working example, focused on demonstrating
@@ -87,11 +118,15 @@ Do you need any brand that has not yet been implemented?
 
 - Just open an
   [issue](https://github.com/dartoos-dev/flutter_brand_palettes/issues), enter
-  the brand or company name, and it will be implemented as soon as possible.
+  the brand or company name, and the brand colors will be implemented as soon as
+  possible.
+
+**Note:** It doesn't matter the size or relevance of the company, not even if it
+is a tech company.
 
 ## List of Color Palettes (A-Z)
 
-For more in-depth details — the colors hex codes, classes, etc. —, check the
+For more in-depth details — such as the hex codes, classes, etc. —, check the
 [color-palettes](https://pub.dev/documentation/flutter_brand_palettes/latest/palettes/palettes-library.html)
 API documentation.
 
