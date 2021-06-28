@@ -1,11 +1,9 @@
-import 'dart:ui';
-
-import 'package:eo_color/swatches.dart';
+import 'package:eo_color/gradients.dart';
 
 import 'instagram.dart';
 
 /// Instagram gradient.
-class InstagramGrad extends SwatchBase {
+class InstagramGrad extends GradientImmu {
   /// Instagram's official color sequence
   ///
   /// There are 10 valid indexes
@@ -36,8 +34,4 @@ class InstagramGrad extends SwatchBase {
           Instagram.lightYellow(),
         ]);
   // coverage:ignore-end
-
-  /// color gradient as an immutable list
-  @override
-  List<Color> get colors => List.unmodifiable(super.colors);
 }
