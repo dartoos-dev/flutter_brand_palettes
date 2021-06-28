@@ -1,11 +1,9 @@
-import 'dart:ui';
-
-import 'package:eo_color/swatches.dart';
+import 'package:eo_color/gradients.dart';
 
 import 'google.dart';
 
 /// Google gradient.
-class GoogleGrad extends SwatchBase {
+class GoogleGrad extends GradientImmu {
   /// Google's official color sequence
   ///
   /// There are 4 valid indexes
@@ -24,8 +22,4 @@ class GoogleGrad extends SwatchBase {
           Google.green(),
         ]);
   // coverage:ignore-end
-
-  /// color gradient as an immutable list
-  @override
-  List<Color> get colors => List.unmodifiable(super.colors);
 }
