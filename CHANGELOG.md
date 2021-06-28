@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- bump up eo_color dependency —
+  [90](https://github.com/dartoos-dev/flutter_brand_palettes/issues/90).
+- fix types and add minor improvements to README —
+  [89](https://github.com/dartoos-dev/flutter_brand_palettes/issues/89).
+
 ## [0.3.6] - 2021-06-26
 
 ### Added
