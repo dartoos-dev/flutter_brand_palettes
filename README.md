@@ -27,7 +27,7 @@ simply declare `InstagramGrad().colors` — the 'Grad' suffix is short for
 _Gradient_.
 
 To get a single color, declare `Instagram.royalBlue().color` for Instagram
-royal blue; `Instagram.yellow().color`, for Instagram yellow, and so on.
+royal blue; `Instagram.yellow().color` for Instagram yellow, and so on.
 
 In addition, each class is well-documented and fully unit-tested — this package
 has achieved 100% code coverage and goes through a CI pipeline with rigorous
