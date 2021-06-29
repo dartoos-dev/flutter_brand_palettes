@@ -14,21 +14,20 @@ Rultor.com](https://www.rultor.com/b/dartoos-dev/flutter_brand_palettes)](https:
 [![build](https://github.com/dartoos-dev/flutter_brand_palettes/actions/workflows/build.yml/badge.svg)](https://github.com/dartoos-dev/flutter_brand_palettes/actions/)
 [![codecov](https://codecov.io/gh/dartoos-dev/flutter_brand_palettes/branch/master/graph/badge.svg?token=Hvpu48mfx1)](https://codecov.io/gh/dartoos-dev/flutter_brand_palettes)
 ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/rafamizes/flutter_brand_palettes)
-[![style: lint](https://img.shields.io/badge/style-lint-4BC0F5.svg)](https://pub.dev/packages/lint)
 [![Hits-of-Code](https://hitsofcode.com/github/dartoos-dev/flutter_brand_palettes?branch=master)](https://hitsofcode.com/github/dartoos-dev/flutter_brand_palettes/view?branch=master)
+[![style: lint](https://img.shields.io/badge/style-lint-4BC0F5.svg)](https://pub.dev/packages/lint)
 
 ## Overview
 
 **Flutter Brand Palettes** is a collection of declarative and object-oriented
 classes for the color palettes of popular brands and companies.
 
-For example, to get all the Instagram's colors at once as a `List<Color>`
-object, simply declare `InstagramGrad.colors` — the 'Grad' suffix is short for
+For example, to get Instagram colors as a `List<Color>`object,
+simply declare `InstagramGrad().colors` — the 'Grad' suffix is short for
 _Gradient_.
 
-To get a single color, you just state which of the brand's colors you want. E.g.
-`Instagram.royalBlue` retrieves the Instagram's royal blue color;
-`Instagram.yellow`, the Instagram's yellow color; and so on.
+To get a single color: `Instagram.royalBlue().color`, for Instagram
+royal blue;`Instagram.yellow().color`, for Instagram yellow.
 
 In addition, each class is well-documented and fully unit-tested — this package
 has achieved 100% code coverage and goes through a CI pipeline with rigorous
@@ -116,17 +115,15 @@ This should launch the demo application on Chrome in debug mode.
 
 Do you need any brand that has not yet been implemented?
 
-- Just open an
-  [issue](https://github.com/dartoos-dev/flutter_brand_palettes/issues), enter
-  the brand or company name, and the brand colors will be implemented as soon as
-  possible.
+It doesn't matter the size and relevance of the company, not even if it's a
+tech company.
 
-**Note:** It doesn't matter the size or relevance of the company, not even if it
-is a tech company.
+Just open an [issue](https://github.com/dartoos-dev/flutter_brand_palettes/issues)
+and enter the brand or company name — the colors will be implemented as soon as possible. 
 
 ## List of Color Palettes (A-Z)
 
-For more in-depth details — such as the hex codes, classes, etc. —, check the
+For more in-depth details — hex codes, brand colors, etc. —, check the
 [color-palettes](https://pub.dev/documentation/flutter_brand_palettes/latest/palettes/palettes-library.html)
 API documentation.
 
