@@ -1,6 +1,6 @@
+import 'package:eo_color/eo_color.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_brand_palettes/flutter_brand_palettes.dart';
-import 'package:eo_color/eo_color.dart';
 
 void main() => runApp(MyApp());
 
@@ -25,30 +25,29 @@ class InstagramPalettePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(child: Googleish());
-    // return Scaffold(
-    //   appBar: AppBar(
-    //     backgroundColor: const Grey.veryLight().color,
-    //     elevation: 2.0,
-    //     title: GradientTitle(_title, _gradient),
-    //   ),
-    //   body: ListView(
-    //     padding: const EdgeInsets.all(16),
-    //     children: [
-    //       _ColorItem.gradient('Gradient', colors: _gradient),
-    //       _ColorItem('Light Yellow', _gradient[9]),
-    //       _ColorItem('Yellow', _gradient[8]),
-    //       _ColorItem('Orange', _gradient[7]),
-    //       _ColorItem('Dark Orange', _gradient[6]),
-    //       _ColorItem('Red', _gradient[5]),
-    //       _ColorItem('Purple-Red', _gradient[4]),
-    //       _ColorItem('Dark Pink', _gradient[3]),
-    //       _ColorItem('Purple', _gradient[2]),
-    //       _ColorItem('Blue', _gradient[1]),
-    //       _ColorItem('Royal Blue', _gradient[0]),
-    //     ],
-    //   ),
-    // );
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: const Grey.veryLight().color,
+        elevation: 2.0,
+        title: GradientTitle(_title, _gradient),
+      ),
+      body: ListView(
+        padding: const EdgeInsets.all(16),
+        children: [
+          _ColorItem.gradient('Gradient', colors: _gradient),
+          _ColorItem('Light Yellow', _gradient[9]),
+          _ColorItem('Yellow', _gradient[8]),
+          _ColorItem('Orange', _gradient[7]),
+          _ColorItem('Dark Orange', _gradient[6]),
+          _ColorItem('Red', _gradient[5]),
+          _ColorItem('Purple-Red', _gradient[4]),
+          _ColorItem('Dark Pink', _gradient[3]),
+          _ColorItem('Purple', _gradient[2]),
+          _ColorItem('Blue', _gradient[1]),
+          _ColorItem('Royal Blue', _gradient[0]),
+        ],
+      ),
+    );
   }
 }
 
@@ -118,23 +117,6 @@ class _ColorItem extends StatelessWidget {
             child: Container(height: kToolbarHeight / 1.5, decoration: _deco()),
           ),
         ],
-      ),
-    );
-  }
-}
-
-/// Rectangle filled with Google logo color gradient.
-class Googleish extends StatelessWidget {
-  static final _googleGrad = const GoogleGrad().colors;
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      // height: kToolbarHeight / 2,
-      // height: 500,
-      decoration: BoxDecoration(
-        gradient: LinearGradient(
-          colors: _googleGrad,
-        ),
       ),
     );
   }
