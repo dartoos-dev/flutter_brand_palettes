@@ -1,6 +1,6 @@
+import 'package:eo_color/eo_color.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_brand_palettes/flutter_brand_palettes.dart';
-import 'package:eo_color/eo_color.dart';
 
 void main() => runApp(MyApp());
 

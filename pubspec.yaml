@@ -1,5 +1,5 @@
 name: flutter_brand_palettes
-description: A collection of elegant and declarative classes for the color palettes of popular brands and companies.
+description: A collection of elegant, declarative classes for the color palettes of popular brands and companies.
 version: 0.3.8
 homepage: https://dartoos.dev
 repository: https://github.com/dartoos-dev/flutter_brand_palettes
@@ -9,7 +9,7 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
-  eo_color: ^1.1.3
+  eo_color: ^1.1.5
   flutter:
     sdk: flutter
 
