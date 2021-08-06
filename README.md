@@ -36,11 +36,11 @@ Rultor.com](https://www.rultor.com/b/dartoos-dev/flutter_brand_palettes)](https:
 **Flutter Brand Palettes** is a collection of declarative, object-oriented
 classes for the color palettes of popular brands and companies.
 
-For example, to retrieve Instagram's colors at once, as a `List<Color>` object,
-simply declare `InstagramGrad().colors` — the 'Grad' suffix is short for
+For example, to retrieve the Instagram colors at once, as a `List<Color>`
+object, simply declare `InstagramGrad().colors` — the 'Grad' suffix is short for
 _Gradient_.
 
-For a single color, simply select it from the brand-related color palette class.
+For a single color, simply select it from the color palette class it belongs to.
 For example, the command `Instagram.royalBlue()` retrieves the royal blue color
 from the Instagram color palette; `Instagram.yellow()` retrieves the yellow
 color; and so on.
