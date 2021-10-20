@@ -3,7 +3,7 @@ import 'package:eo_color/gradients.dart';
 import 'instagram.dart';
 
 /// Instagram gradient.
-class InstagramGrad extends GradientImmu {
+class InstagramGrad extends GradientImmut {
   /// Instagram's official color sequence
   ///
   /// There are 10 valid indexes

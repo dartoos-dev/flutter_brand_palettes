@@ -28,9 +28,5 @@ void main() {
     test('white', () {
       expect(const Whatsapp.white().color, const Color(0xFFFFFFFF));
     });
-    test('call method', () {
-      const whatsapp = Whatsapp.white();
-      expect(whatsapp(), whatsapp.color);
-    });
   });
 }

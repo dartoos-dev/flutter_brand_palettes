@@ -12,9 +12,5 @@ void main() {
     test('gold', () {
       expect(const Visa.gold().color, const Color(0xFFF7B600));
     });
-    test('call method', () {
-      const visa = Visa.gold();
-      expect(visa(), visa.color);
-    });
   });
 }

@@ -12,9 +12,5 @@ void main() {
     test('white', () {
       expect(const Pinterest.white().color, const Color(0xFFFFFFFF));
     });
-    test('call method', () {
-      const pinterest = Pinterest.white();
-      expect(pinterest(), pinterest.color);
-    });
   });
 }

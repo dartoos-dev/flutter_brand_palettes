@@ -19,7 +19,6 @@ void main() {
       ].map((picked) => picked.color).toList(growable: false);
       const instaGrad = InstagramGrad();
       expect(instaGrad.colors, testGrad);
-      expect(instaGrad(), testGrad);
     });
   });
 }

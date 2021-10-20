@@ -12,9 +12,5 @@ void main() {
     test('sunset orange', () {
       expect(const Swift.sunsetOrange().color, const Color(0xFFF05138));
     });
-    test('call method', () {
-      const swift = Swift.sunsetOrange();
-      expect(swift(), swift.color);
-    });
   });
 }

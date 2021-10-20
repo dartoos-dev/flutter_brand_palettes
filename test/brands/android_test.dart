@@ -9,9 +9,5 @@ void main() {
     test('green', () {
       expect(const Android.green().color, const Color(0xFF78C257));
     });
-    test('function operator call operator', () {
-      const android = Android.green();
-      expect(android(), android.color);
-    });
   });
 }

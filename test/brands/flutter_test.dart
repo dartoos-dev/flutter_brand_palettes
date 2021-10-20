@@ -24,9 +24,5 @@ void main() {
     test('light grey', () {
       expect(const Flutter.lightGrey().color, const Color(0xFFD5D7DA));
     });
-    test('function operator call operator', () {
-      const flutter = Flutter.white();
-      expect(flutter(), flutter.color);
-    });
   });
 }

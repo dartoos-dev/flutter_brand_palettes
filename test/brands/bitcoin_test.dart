@@ -15,9 +15,5 @@ void main() {
     test('white', () {
       expect(const Bitcoin.white().color, const Color(0xFFFFFFFF));
     });
-    test('call method', () {
-      const bitcoin = Bitcoin.white();
-      expect(bitcoin(), bitcoin.color);
-    });
   });
 }

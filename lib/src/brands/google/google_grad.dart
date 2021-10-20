@@ -3,7 +3,7 @@ import 'package:eo_color/gradients.dart';
 import 'google.dart';
 
 /// Google gradient.
-class GoogleGrad extends GradientImmu {
+class GoogleGrad extends GradientImmut {
   /// Google's official color sequence
   ///
   /// There are 4 valid indexes

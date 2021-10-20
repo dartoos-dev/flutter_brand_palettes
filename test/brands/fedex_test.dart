@@ -33,9 +33,5 @@ void main() {
     test('white', () {
       expect(const FeDex.white().color, const Color(0xFFFFFFFF));
     });
-    test('call method', () {
-      const fedex = FeDex.orange();
-      expect(fedex(), fedex.color);
-    });
   });
 }

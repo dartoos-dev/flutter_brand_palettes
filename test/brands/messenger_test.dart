@@ -33,9 +33,5 @@ void main() {
     test('twilight', () {
       expect(const Messenger.twilight().color, const Color(0xFF606273));
     });
-    test('call method', () {
-      const messenger = Messenger.twilight();
-      expect(messenger(), messenger.color);
-    });
   });
 }

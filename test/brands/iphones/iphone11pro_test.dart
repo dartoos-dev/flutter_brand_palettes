@@ -18,9 +18,5 @@ void main() {
     test('rose gold', () {
       expect(const Iphone11Pro.roseGold().color, const Color(0xFFFAD7BD));
     });
-    test('call method', () {
-      const iphone = Iphone11Pro.roseGold();
-      expect(iphone(), iphone.color);
-    });
   });
 }

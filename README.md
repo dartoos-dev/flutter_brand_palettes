@@ -11,8 +11,7 @@ Rultor.com](https://www.rultor.com/b/dartoos-dev/flutter_brand_palettes)](https:
 
 [![pub](https://img.shields.io/pub/v/flutter_brand_palettes)](https://pub.dev/packages/flutter_brand_palettes)
 [![license](https://img.shields.io/badge/license-mit-green.svg)](https://github.com/dartoos-dev/flutter_brand_palettes/blob/master/LICENSE)
-[![PDD status](https://www.0pdd.com/svg?name=dartoos-dev/flutter_brand_palettes)](https://www.0pdd.com/p?name=dartoos-dev/flutter_brand_palettes)
-
+<!-- >[![PDD status](https://www.0pdd.com/svg?name=dartoos-dev/flutter_brand_palettes)](https://www.0pdd.com/p?name=dartoos-dev/flutter_brand_palettes) -->
 [![build](https://github.com/dartoos-dev/flutter_brand_palettes/actions/workflows/build.yml/badge.svg)](https://github.com/dartoos-dev/flutter_brand_palettes/actions/)
 [![codecov](https://codecov.io/gh/dartoos-dev/flutter_brand_palettes/branch/master/graph/badge.svg?token=Hvpu48mfx1)](https://codecov.io/gh/dartoos-dev/flutter_brand_palettes)
 [![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/rafamizes/flutter_brand_palettes)](https://www.codefactor.io/repository/github/rafamizes/flutter_brand_palettes)
@@ -42,8 +41,8 @@ _Gradient_.
 
 For a single color, simply select it from the color palette class it belongs to.
 For example, the command `Instagram.royalBlue()` retrieves the royal blue color
-from the Instagram color palette; `Instagram.yellow()` retrieves the yellow
-color; and so on.
+from the Instagram color palette; likewise, `Instagram.yellow()` retrieves the
+yellow color; and so on.
 
 In addition, all classes are well-documented and fully unit-tested, passing
 through a CI pipeline with rigorous quality ports.
@@ -55,8 +54,9 @@ constructor of its corresponding brand class. In this way, the source code
 becomes more object-oriented, readable and maintainable.
 
 For example, the command `Facebook.blue().color` returns Facebook's blue color
-_#4267B2_. Likewise, the command `Instagram.red().color` returns Instagram's red
-color _#FD1D1D_; `Google.red().color`, Google's red color _#DB4437_.
+_#4267B2_. Similarly, the command `Instagram.red().color` returns Instagram's
+red color _#FD1D1D_; `Google.red().color`, Google's red color _#DB4437_.
+Therefore, the command pattern for any brand is: _'Brand.colorName().color'_.
 
 ## Color Palettes in Action
 
@@ -106,7 +106,7 @@ The result of the previous code in full screen
 ## Demo application
 
 The demo application provides a fully working example, focused on demonstrating
-exactly one brand in action — Instagram. You can take the code in this demo and
+exactly one brand in action: _Instagram_. You can take the code in this demo and
 experiment with it.
 
 To run the demo application:

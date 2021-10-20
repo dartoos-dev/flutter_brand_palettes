@@ -12,9 +12,5 @@ void main() {
     test('pink', () {
       expect(const Tinder.pink().color, const Color(0xFFFE3C72));
     });
-    test('call method', () {
-      const tinder = Tinder.pink();
-      expect(tinder(), tinder.color);
-    });
   });
 }

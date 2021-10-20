@@ -21,9 +21,5 @@ void main() {
     test('yellow', () {
       expect(const Microsoft.yellow().color, const Color(0xFFFFB900));
     });
-    test('call method', () {
-      const microsoft = Microsoft.yellow();
-      expect(microsoft(), microsoft.color);
-    });
   });
 }

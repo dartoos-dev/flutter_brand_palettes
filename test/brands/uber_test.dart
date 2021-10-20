@@ -33,9 +33,5 @@ void main() {
     test('yellow', () {
       expect(const Uber.yellow().color, const Color(0xFFFFC043));
     });
-    test('call method', () {
-      const uber = Uber.blue();
-      expect(uber(), uber.color);
-    });
   });
 }

@@ -15,9 +15,5 @@ void main() {
     test('white', () {
       expect(const Netflix.white().color, const Color(0xFFFFFFFF));
     });
-    test('call method', () {
-      const netflix = Netflix.white();
-      expect(netflix(), netflix.color);
-    });
   });
 }

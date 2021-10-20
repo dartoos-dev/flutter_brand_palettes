@@ -15,9 +15,5 @@ void main() {
     test('space grey', () {
       expect(const Iphone8.spaceGrey().color, const Color(0xFF25282A));
     });
-    test('call method', () {
-      const iphone = Iphone8.spaceGrey();
-      expect(iphone(), iphone.color);
-    });
   });
 }
