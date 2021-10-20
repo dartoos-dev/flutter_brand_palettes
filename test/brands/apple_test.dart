@@ -15,9 +15,5 @@ void main() {
     test('white', () {
       expect(const Apple.white().color, const Color(0xFFF9F6EF));
     });
-    test('call method', () {
-      const apple = Apple.white();
-      expect(apple(), apple.color);
-    });
   });
 }

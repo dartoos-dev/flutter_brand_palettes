@@ -18,9 +18,5 @@ void main() {
     test('white', () {
       expect(const Oracle.white().color, const Color(0xFFFFFFFF));
     });
-    test('call method', () {
-      const oracle = Oracle.red();
-      expect(oracle(), oracle.color);
-    });
   });
 }

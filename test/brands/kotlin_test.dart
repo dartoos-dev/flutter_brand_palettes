@@ -18,9 +18,5 @@ void main() {
     test('violet', () {
       expect(const Kotlin.violet().color, const Color(0xFFB75EA4));
     });
-    test('call method', () {
-      const kotlin = Kotlin.violet();
-      expect(kotlin(), kotlin.color);
-    });
   });
 }

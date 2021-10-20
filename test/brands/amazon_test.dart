@@ -12,9 +12,5 @@ void main() {
     test('orange', () {
       expect(const Amazon.orange().color, const Color(0xFFFF9900));
     });
-    test('call method', () {
-      const amazon = Amazon.orange();
-      expect(amazon(), amazon.color);
-    });
   });
 }

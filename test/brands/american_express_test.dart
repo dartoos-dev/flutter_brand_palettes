@@ -18,9 +18,5 @@ void main() {
     test('neutral2', () {
       expect(const AmericanExpress.neutral2().color, const Color(0xFF323031));
     });
-    test('call method', () {
-      const americanExpress = AmericanExpress.neutral2();
-      expect(americanExpress(), americanExpress.color);
-    });
   });
 }

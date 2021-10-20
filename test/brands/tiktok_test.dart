@@ -18,9 +18,5 @@ void main() {
     test('white', () {
       expect(const TikTok.white().color, const Color(0xFFFFFFFF));
     });
-    test('call method', () {
-      const tiktok = TikTok.white();
-      expect(tiktok(), tiktok.color);
-    });
   });
 }

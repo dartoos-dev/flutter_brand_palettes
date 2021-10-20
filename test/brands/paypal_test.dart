@@ -18,9 +18,5 @@ void main() {
     test('white', () {
       expect(const PayPal.white().color, const Color(0xFFFFFFFF));
     });
-    test('call method', () {
-      const paypal = PayPal.white();
-      expect(paypal(), paypal.color);
-    });
   });
 }

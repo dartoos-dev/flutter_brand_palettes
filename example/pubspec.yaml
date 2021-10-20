@@ -9,18 +9,17 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
-  eo_color: ^1.1.5
+  eo_color: ^2.0.0
   flutter:
     sdk: flutter
+  flutter_brand_palettes:
+    # will always depend on the cutting-edge version of the package.
+    path: ../
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  lint: ^1.5.3
-
-dependency_overrides:
-  flutter_brand_palettes:
-    path: ../
+  lint: ^1.7.2
 
 flutter:
   uses-material-design: true

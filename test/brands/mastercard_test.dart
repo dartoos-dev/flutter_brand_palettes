@@ -18,9 +18,5 @@ void main() {
     test('yellow', () {
       expect(const Mastercard.yellow().color, const Color(0xFFF79E1B));
     });
-    test('call method', () {
-      const mastercard = Mastercard.yellow();
-      expect(mastercard(), mastercard.color);
-    });
   });
 }

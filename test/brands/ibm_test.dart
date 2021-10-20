@@ -15,9 +15,5 @@ void main() {
     test('white', () {
       expect(const Ibm.white().color, const Color(0xFFFFFFFF));
     });
-    test('call method', () {
-      const ibm = Ibm.blue();
-      expect(ibm(), ibm.color);
-    });
   });
 }

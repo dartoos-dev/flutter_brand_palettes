@@ -18,9 +18,5 @@ void main() {
     test('white', () {
       expect(const Facebook.white().color, const Color(0xFFFFFFFF));
     });
-    test('function operator call operator', () {
-      const facebook = Facebook.white();
-      expect(facebook(), facebook.color);
-    });
   });
 }

@@ -24,9 +24,5 @@ void main() {
     test('yellow', () {
       expect(const IphoneXR.yellow().color, const Color(0xFFF3D060));
     });
-    test('call method', () {
-      const iphone = IphoneXR.yellow();
-      expect(iphone(), iphone.color);
-    });
   });
 }

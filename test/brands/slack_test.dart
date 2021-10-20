@@ -24,9 +24,5 @@ void main() {
     test('yellow', () {
       expect(const Slack.yellow().color, const Color(0xFFECB22E));
     });
-    test('call method', () {
-      const slack = Slack.yellow();
-      expect(slack(), slack.color);
-    });
   });
 }

@@ -15,9 +15,5 @@ void main() {
     test('white', () {
       expect(const Spotify.white().color, const Color(0xFFFFFFFF));
     });
-    test('call method', () {
-      const spotify = Spotify.white();
-      expect(spotify(), spotify.color);
-    });
   });
 }

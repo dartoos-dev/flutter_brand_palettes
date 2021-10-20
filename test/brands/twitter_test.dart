@@ -23,11 +23,9 @@ void main() {
     });
     test('extra extra light grey', () {
       expect(
-          const Twitter.extraExtraLightGrey().color, const Color(0xFFF5F8FA));
-    });
-    test('function operator call operator', () {
-      const twitter = Twitter.white();
-      expect(twitter(), twitter.color);
+        const Twitter.extraExtraLightGrey().color,
+        const Color(0xFFF5F8FA),
+      );
     });
   });
 }

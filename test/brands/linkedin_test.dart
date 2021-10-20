@@ -12,9 +12,5 @@ void main() {
     test('white', () {
       expect(const Linkedin.white().color, const Color(0xFFFFFFFF));
     });
-    test('call method', () {
-      const linkedin = Linkedin.white();
-      expect(linkedin(), linkedin.color);
-    });
   });
 }

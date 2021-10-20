@@ -15,9 +15,5 @@ void main() {
     test('white', () {
       expect(const Reddint.white().color, const Color(0xFFFFFFFF));
     });
-    test('call method', () {
-      const reddint = Reddint.orange();
-      expect(reddint(), reddint.color);
-    });
   });
 }

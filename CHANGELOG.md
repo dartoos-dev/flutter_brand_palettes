@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- improvements to README.
+
+### Changed
+
+- bump up eo_color dependency to 2.0.0.
+- stricter lint rules.
+
+### Removed
+
+- support for the function `call` operator (the eo_color package stopped
+  supporting it from version 2.0.0 onwards) — **BREAKING CHANGE**.
+
 ## [0.3.10] - 2021-08-06
 
 ### Changed

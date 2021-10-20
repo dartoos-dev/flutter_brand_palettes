@@ -18,9 +18,5 @@ void main() {
     test('green', () {
       expect(const Google.green().color, const Color(0xFF0F9D58));
     });
-    test('function operator call operator', () {
-      const google = Google.green();
-      expect(google(), google.color);
-    });
   });
 }

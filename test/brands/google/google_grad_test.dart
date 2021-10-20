@@ -13,7 +13,6 @@ void main() {
       ].map((picked) => picked.color).toList(growable: false);
       const googleGrad = GoogleGrad();
       expect(googleGrad.colors, testGrad);
-      expect(googleGrad(), testGrad);
     });
   });
 }
