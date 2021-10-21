@@ -7,7 +7,6 @@ assets:
   credentials.json: rafamizes/secret#assets/publishing/flutter/credentials.json
 merge:
   squash: true
-  rebase: true
   script: |
     flutter clean
     flutter pub get
@@ -21,7 +20,7 @@ release:
   # repository.
   script: |-
     sed -i "s/^\(version:\).*/\1 $tag/" pubspec.yaml
-    sed -i "/\[Unreleased\]/a\\\n## [$tag] - $(date '+%F')" CHANGELOG.md
+    sed -i "/\[[Uu]nreleased\]/a\\\n## [$tag] - $(date '+%F')" CHANGELOG.md
     mkdir -p ~/.pub-cache
     mv ../credentials.json ~/.pub-cache/credentials.json
     flutter pub publish -f
