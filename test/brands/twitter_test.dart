@@ -27,5 +27,8 @@ void main() {
         const Color(0xFFF5F8FA),
       );
     });
+    test('white', () {
+      expect(const Twitter.white().color, const Color(0xFFFFFFFF));
+    });
   });
 }

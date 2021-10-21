@@ -24,5 +24,8 @@ void main() {
     test('light grey', () {
       expect(const Flutter.lightGrey().color, const Color(0xFFD5D7DA));
     });
+    test('white', () {
+      expect(const Flutter.white().color, const Color(0xFFFFFFFF));
+    });
   });
 }
