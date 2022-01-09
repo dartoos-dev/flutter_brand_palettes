@@ -27,6 +27,7 @@ Rultor.com](https://www.rultor.com/b/dartoos-dev/flutter_brand_palettes)](https:
 - [Color Gradients](#color-palettes-in-action)
 - [Demo application](#demo-application)
 - [I need the 'X' color palettes](#i-need-the-x-color-palette)
+- [Contribute](#contribute)
 - [List of Color Palettes](#list-of-color-palettes-a-z)
 - [References](#hex-color-values-references)
 
@@ -133,6 +134,22 @@ Just open an
 [issue](https://github.com/dartoos-dev/flutter_brand_palettes/issues) and enter
 the brand or company name; the color palette will be implemented as soon as
 possible.
+
+## Contribute
+
+Contributors are welcome!
+
+1. Open an issue regarding an improvement, a bug you noticed, or ask to be
+   assigned to an existing one.
+2. If the issue is confirmed, fork the repository, do the changes on a separate
+   branch and make a _Pull Request_.
+3. After review and acceptance, the _Pull Request_ is merged and closed.
+
+Make sure the commands below **passes** before making a Pull Request.
+
+```shell
+  flutter analyze && flutter test
+```
 
 ## List of Color Palettes (A-Z)
 
