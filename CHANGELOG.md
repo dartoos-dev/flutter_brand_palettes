@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - _'Contribute'_ section to README — [104](https://github.com/dartoos-dev/flutter_brand_palettes/issues/104).
 
+### Changed
+
+- bump up dependencies — [105](https://github.com/dartoos-dev/flutter_brand_palettes/issues/105).
+
 ## [0.4.0] - 2021-10-21
 
 ### Added
