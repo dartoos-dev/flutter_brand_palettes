@@ -145,7 +145,7 @@ Contributors are welcome!
    branch and make a _Pull Request_.
 3. After review and acceptance, the _Pull Request_ is merged and closed.
 
-Make sure the commands below **passes** before making a Pull Request.
+Make sure the command below **passes** before making a Pull Request.
 
 ```shell
   flutter analyze && flutter test
