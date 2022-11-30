@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.5.0] - 2022-11-30
+
 ### Fixed
 
 - renaming of the misspelled class 'Reddint' to its correct name 'Reddit' —
