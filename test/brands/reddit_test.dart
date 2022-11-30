@@ -5,15 +5,15 @@ import 'package:flutter_test/flutter_test.dart';
 
 /// [reddint](https://brandpalettes.com/reddit-color-codes/)
 void main() {
-  group('Reddint Palette', () {
+  group('Reddit Palette', () {
     test('black', () {
-      expect(const Reddint.black().color, const Color(0xFF000000));
+      expect(const Reddit.black().color, const Color(0xFF000000));
     });
     test('orange', () {
-      expect(const Reddint.orange().color, const Color(0xFFFF4500));
+      expect(const Reddit.orange().color, const Color(0xFFFF4500));
     });
     test('white', () {
-      expect(const Reddint.white().color, const Color(0xFFFFFFFF));
+      expect(const Reddit.white().color, const Color(0xFFFFFFFF));
     });
   });
 }

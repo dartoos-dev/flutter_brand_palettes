@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- renaming of the misspelled class 'Reddint' to its correct name 'Reddit' —
+  **BREAKING CHANGE** —
+  [109](https://github.com/dartoos-dev/flutter_brand_palettes/issues/109).
+
 ## [0.4.1] - 2022-01-09
 
 ### Added
