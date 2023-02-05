@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.5.1] - 2023-02-05
+
 ### Changed
 
 - bump up dependencies — [112](https://github.com/dartoos-dev/flutter_brand_palettes/issues/112).
