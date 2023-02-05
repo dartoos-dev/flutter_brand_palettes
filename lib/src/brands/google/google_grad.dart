@@ -1,6 +1,5 @@
 import 'package:eo_color/gradients.dart';
-
-import 'google.dart';
+import 'package:flutter_brand_palettes/src/brands/google/google.dart';
 
 /// Google gradient.
 class GoogleGrad extends GradientImmut {
