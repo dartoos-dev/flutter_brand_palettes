@@ -1,6 +1,5 @@
 import 'package:eo_color/gradients.dart';
-
-import 'instagram.dart';
+import 'package:flutter_brand_palettes/src/brands/instagram/instagram.dart';
 
 /// Instagram gradient.
 class InstagramGrad extends GradientImmut {
