@@ -1,12 +1,12 @@
 docker:
-  image: cirrusci/flutter:stable
+  image: ghcr.io/cirruslabs/flutter:stable
   as_root: true
 architect:
   - rafamizes
 assets:
   credentials.json: rafamizes/secret#assets/publishing/flutter/credentials.json
 merge:
-  squash: true
+  rebase: true
   script: |
     flutter clean
     flutter pub get
@@ -23,6 +23,8 @@ release:
     sed -i "/\[[Uu]nreleased\]/a\\\n## [$tag] - $(date '+%F')" CHANGELOG.md
     mkdir -p ~/.pub-cache
     mv ../credentials.json ~/.pub-cache/credentials.json
+    flutter clean
+    flutter pub get
     flutter pub publish -f
     git commit -am "version $tag"
     git checkout master
