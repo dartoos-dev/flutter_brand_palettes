@@ -10,7 +10,7 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
-  eo_color: ^2.2.0
+  eo_color: ^2.2.2
   flutter:
     sdk: flutter
   flutter_brand_palettes:

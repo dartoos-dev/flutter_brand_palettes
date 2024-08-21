@@ -7,8 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- stricter linting rules.
-- update ci-related scripts.
+- bump up dependencies — [119](https://github.com/dartoos-dev/flutter_brand_palettes/issues/119).
+- stricter linting rules — [117](https://github.com/dartoos-dev/flutter_brand_palettes/issues/117).
+- update ci-related scripts — [115](https://github.com/dartoos-dev/flutter_brand_palettes/issues/115).
 
 ## [0.5.1] - 2023-02-05
 
