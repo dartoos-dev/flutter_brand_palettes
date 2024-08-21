@@ -45,10 +45,10 @@ packages:
     dependency: "direct main"
     description:
       name: eo_color
-      sha256: ac7210d3d77b896203c6bd895aaa05af4830b9429ffe466b1da79a3e007371a9
+      sha256: c8797b2a3223af2d79e8f636805ea65d1083be7df79c033beedfc6f3bf05efe2
       url: "https://pub.dev"
     source: hosted
-    version: "2.2.1"
+    version: "2.2.2"
   fake_async:
     dependency: transitive
     description:
