@@ -1,10 +1,14 @@
+// ignore_for_file: public_member_api_docs
+
 import 'package:eo_color/eo_color.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_brand_palettes/flutter_brand_palettes.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
@@ -16,9 +20,8 @@ class MyApp extends StatelessWidget {
 }
 
 class InstagramPalettePage extends StatelessWidget {
-  const InstagramPalettePage({required String title, Key? key})
-      : _title = title,
-        super(key: key);
+  const InstagramPalettePage({required String title, super.key})
+      : _title = title;
 
   final String _title;
   static final _gradient = const InstagramGrad().colors;
@@ -54,7 +57,7 @@ class InstagramPalettePage extends StatelessWidget {
 /// Gradient colored text.
 class GradientTitle extends StatelessWidget {
   /// Ctor.
-  const GradientTitle(this._title, this._colors);
+  const GradientTitle(this._title, this._colors, {super.key});
   final String _title;
   final List<Color> _colors;
 

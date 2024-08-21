@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- stricter linting rules.
+- update ci-related scripts.
+
 ## [0.5.1] - 2023-02-05
 
 ### Changed
